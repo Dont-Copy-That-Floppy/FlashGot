@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Линк">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Селекция">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot Всички">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Табове">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot Опции">
+<!ENTITY includeImages.label "Включи намерените изображения в дадената страница">
+<!ENTITY hideDisabledCmds.label "Скрии непозволените команди">
+<!ENTITY flashgotBuildGallery "Изгради Галерия…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Изграждане на Галерия">
+<!ENTITY flashgotGBVariableURLs "Променливи URL-та">
+<!ENTITY flashgotGBSample "Променливите обсеци трябва да бъдат точни във формата [start-end;step] или [function_name(…)], например:">
+<!ENTITY flashgotGBPreview "Предварителен преглед:">
+<!ENTITY flashgotGBContent "Съдържание:">
+<!ENTITY flashgotGBReferrer "Отнасящи се URL-та:">
+<!ENTITY flashgotGBSync "Синхронизирай обсега">
+<!ENTITY flashgotGBRanges "Обсеци">
+<!ENTITY flashgotGBExpressions "JavaScript функции">
+<!ENTITY flashgotGeneral "Главен">
+<!ENTITY flashgotMenu "Меню">
+<!ENTITY flashgotDownloadManager "Даунлоуд Мениджър">
+<!ENTITY flashgotMoreOpts "Други опции…">
+<!ENTITY flashgotExtensions "Файлови разширения (примерно jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Добави">
+<!ENTITY flashgotRemove "Махни">
+<!ENTITY flashgotPrivacy "Поверителност">
+<!ENTITY flashgotReferrer "Отностни">
+<!ENTITY flashgotAutodetectReferrer "Изпрати автоматично-прихванатите отнасящи се адреси">
+<!ENTITY flashgotFakeReferrer "Винаги използвай този отнасящ се адрес:">
+<!ENTITY flashgotSendCookies "Изпрати Бисквитки (виж &apos;cookies&apos;)">
+<!ENTITY flashgotAdvanced "Настройки за напреднали">
+<!ENTITY flashgotBGProcessing "Обработи линковете в заден план">
+<!ENTITY flashgotShowLog "Покажи Лог-а">
+<!ENTITY flashgotClearLog "Изчисти Лог-а">
+<!ENTITY flashgotAbout "За FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Пропусни потвърдителните прозорци">
+<!ENTITY flashgotGetRightQuick "Използвай togetright.exe когато е възможно">
+<!ENTITY flashgotAutostart "Автостарт на Даунлоадите">
+<!ENTITY flashgotNoDMS "??? НЕ Е ЗАСЕЧЕН ДАУНЛОАД МЕНИДЖЪР ???">
+<!ENTITY flashgotNoDMS.tip "Покажи поддържаните Даунлоуд Мениджъри">
+<!ENTITY flashgotGetRightOld "Стария GetRight ( преди версия 5.2b )">
+<!ENTITY flashgotEncodeURLs "Изпращай декодирани адреси">
+<!ENTITY flashgotEnable "Позволи">
+<!ENTITY flashgotDisable "Забрани">
+<!ENTITY flashgotTmpDir "Временна Директория">
+<!ENTITY flashgotBrowse "Преразгледай…">
+<!ENTITY flashgotReset "Махни промените.">
+<!ENTITY flashgotRebootChange "Тази промяна ще има ефект при следващото стартиране на браузъра">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = Маха FlashGot">
+<!ENTITY flashgotDownloads "Даунлоуди">
+<!ENTITY flashgotInterceptAll "Прекъсни всички Даунлоуди">
+<!ENTITY flashgotLog "Лог">
+<!ENTITY flashgotShowFilter "Покажи филтриращия прозорец">
+<!ENTITY flashgotFilter "Филтър">
+<!ENTITY flashgotHost "Хост">
+<!ENTITY flashgotRegExp "Правилен израз">
+<!ENTITY flashgotGlob "Глобален пример">
+<!ENTITY flashgotSelAll "Избери всичко">
+<!ENTITY flashgotSelInv "Преобърни селекцията">
+<!ENTITY flashgotSelect "Избери">
+<!ENTITY flashgotUnselect "Премахни">
+<!ENTITY hideIcons "Скрий Иконите">
+<!ENTITY nestedMenu "Компактно контекстно меню (използвай подменю-то ако е нужно)">
+<!ENTITY flashgotExecutable "Изпълняем път:">
+<!ENTITY flashgotArguments "Аргументен Темплейт:">
+<!ENTITY flashgotAutodetect "Автоматично засичане на Даунлоуд Мениджър-а">
+<!ENTITY flashgotDetect "Засечи Сега">
+<!ENTITY flashgotPlaceHolders "Placeholders">
+<!ENTITY flashgotQuoteWarn1 "Не можеш да използваш &apos;quotes&apos; във аргументния темплейт.">
+<!ENTITY flashgotQuoteWarn2 "Ако ти трябват, помисли върху написването на &apos;batch&apos; скрипт.">
+<!ENTITY flashgotBadInstall "Компонент от ядрото на FlashGot липсва или е пълен с грешки. Моля реинсталирайте FlashGot.">
+<!ENTITY flashgotWellGetPath "WellGet път:">
+<!ENTITY flashgotExtFilter "Приложи файл филтриращата добавка към партидните даунлоуди също">
+<!ENTITY flashgotHTTPAuth "HTTP Автентичност">
+<!ENTITY flashgotAppearance "Външен вид">
+<!ENTITY flashgotDownloadDropdown "Показвай Flashgot">
+<!ENTITY flashgotVisitHomepage "Посети сайта на добавката">
+<!ENTITY flashgotShownInContextMenu "Се показва в контекстното меню">
+<!ENTITY flashgotCustomEntries "Потребителски Записи">
+<!ENTITY flashgotDigGallery "Dig Галерия">
+<!ENTITY flashgotOverwrite "Надпиши">
+<!ENTITY flashgotMedia "FlashGot Медия">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

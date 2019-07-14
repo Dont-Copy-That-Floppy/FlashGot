@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot - Odkaz">
+<!ENTITY flashgotLink.accesskey "O">
+<!ENTITY flashgotSel "FlashGot - Výběr">
+<!ENTITY flashgotSel.accesskey "V">
+<!ENTITY flashgotAll "FlashGot - Vše">
+<!ENTITY flashgotAll.accesskey "e">
+<!ENTITY flashgotTabs "FlashGot - Panely">
+<!ENTITY flashgotTabs.accesskey "P">
+<!ENTITY flashgotOptions "FlashGot - Možnosti">
+<!ENTITY includeImages.label "Zahrnout obrázky z aktuální stránky">
+<!ENTITY hideDisabledCmds.label "Skrýt neaktivní příkazy">
+<!ENTITY flashgotBuildGallery "Sestavit galerii">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Sestavit galerii">
+<!ENTITY flashgotGBVariableURLs "Proměnlivé URL odkazy">
+<!ENTITY flashgotGBSample "Proměnlivé rozsahy jsou vyjádřeny dle vzoru [začátek-konec;krok] nebo [název_funkce(…)], například:">
+<!ENTITY flashgotGBPreview "Náhled:">
+<!ENTITY flashgotGBContent "Obsah:">
+<!ENTITY flashgotGBReferrer "Odkazující URL:">
+<!ENTITY flashgotGBSync "Synchronizace rozsahů">
+<!ENTITY flashgotGBRanges "Rozsahy">
+<!ENTITY flashgotGBExpressions "Funkce JavaScriptu">
+<!ENTITY flashgotGeneral "Obecné">
+<!ENTITY flashgotMenu "Nabídka">
+<!ENTITY flashgotDownloadManager "Správce stahování">
+<!ENTITY flashgotMoreOpts "Rozšířené možnosti…">
+<!ENTITY flashgotExtensions "Přípony souborů (např. jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Přidat">
+<!ENTITY flashgotRemove "Odstranit">
+<!ENTITY flashgotPrivacy "Soukromí">
+<!ENTITY flashgotReferrer "Odkazující URL">
+<!ENTITY flashgotAutodetectReferrer "Používat automatické odkazující URL">
+<!ENTITY flashgotFakeReferrer "Vždy používat toto odkazující URL:">
+<!ENTITY flashgotSendCookies "Posílat Cookies">
+<!ENTITY flashgotAdvanced "Rozšířené">
+<!ENTITY flashgotBGProcessing "Zpracovávat odkazy na pozadí">
+<!ENTITY flashgotShowLog "Zobrazit záznam">
+<!ENTITY flashgotClearLog "Smazat záznam">
+<!ENTITY flashgotAbout "O rozšíření FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Přeskočit dotazy s potvrzením">
+<!ENTITY flashgotGetRightQuick "Používat togetright.exe vždy, když je to možné">
+<!ENTITY flashgotAutostart "Automatické stahování">
+<!ENTITY flashgotNoDMS "??? Nebyl nalezen žádný správce stahování ???">
+<!ENTITY flashgotNoDMS.tip "Zobrazit seznam podporovaných spravců stahování">
+<!ENTITY flashgotGetRightOld "STARÝ GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Posílat URL v kódovaném formátu">
+<!ENTITY flashgotEnable "Povolit">
+<!ENTITY flashgotDisable "Zakázat">
+<!ENTITY flashgotTmpDir "Adresář pro dočasné soubory">
+<!ENTITY flashgotBrowse "Procházet…">
+<!ENTITY flashgotReset "Reset">
+<!ENTITY flashgotRebootChange "Změna se projeví při dalším spuštění prohlížeče">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = Bez FlashGotu">
+<!ENTITY flashgotDownloads "Stahování">
+<!ENTITY flashgotInterceptAll "Zachytávat všechna stahování">
+<!ENTITY flashgotLog "Záznam">
+<!ENTITY flashgotShowFilter "Zobrazit dialog filtru">
+<!ENTITY flashgotFilter "Filtr">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Regulární výraz">
+<!ENTITY flashgotGlob "Glob Pattern">
+<!ENTITY flashgotSelAll "Vybrat vše">
+<!ENTITY flashgotSelInv "Obrátit výběr">
+<!ENTITY flashgotSelect "Vybrat">
+<!ENTITY flashgotUnselect "Odebrat">
+<!ENTITY hideIcons "Skrýt ikony">
+<!ENTITY nestedMenu "Kompaktní místní nabídka (v případě potřeby použít podnabídku)">
+<!ENTITY flashgotExecutable "Umístění správce stahování:">
+<!ENTITY flashgotArguments "Šablona parametrů:">
+<!ENTITY flashgotAutodetect "Automaticky zjišťovat správce stahování">
+<!ENTITY flashgotDetect "Zjistit nyní">
+<!ENTITY flashgotPlaceHolders "Parametry">
+<!ENTITY flashgotQuoteWarn1 "Uvozovky nelze použít uvnitř šablony parametrů.">
+<!ENTITY flashgotQuoteWarn2 "Pokud je potřebujete použít, zvažte napsaní dávkového skriptu.">
+<!ENTITY flashgotBadInstall "Jádro rozšíření FlashGot chybí nebo je poškozeno. Prosím přeinstalujte FlashGot.">
+<!ENTITY flashgotWellGetPath "Cesta k WellGet:">
+<!ENTITY flashgotExtFilter "Použít filtr přípon i pro dávkové stahování">
+<!ENTITY flashgotHTTPAuth "HTTP Autentifikace">
+<!ENTITY flashgotAppearance "Vzhled">
+<!ENTITY flashgotDownloadDropdown "Zobrazit FlashGot nabídku uvnitř standardního dialogu pro stahování">
+<!ENTITY flashgotVisitHomepage "Navštívit domovskou stránku rožšíření">
+<!ENTITY flashgotShownInContextMenu "Zobrazit v místní nabídce">
+<!ENTITY flashgotCustomEntries "Uživatelské položky">
+<!ENTITY flashgotDigGallery "Dig gallery">
+<!ENTITY flashgotOverwrite "Přepsat">
+<!ENTITY flashgotMedia "FlashGot - Média">
+<!ENTITY flashgotShowReleaseNotes "Zobrazit seznam změn po aktualizaci">
+<!ENTITY flashgotUninstall "Odinstalovat">
+<!ENTITY flashgotClear.label "Vymazat">
+<!ENTITY flashgotClear.accesskey "C">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

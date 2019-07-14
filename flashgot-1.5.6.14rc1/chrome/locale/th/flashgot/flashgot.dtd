@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot ลิงค์นี้">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot ลิงค์ที่เลือก">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot ทั้งเว็บ">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotOptions "ตัวเลือกต่างๆ ของ FlashGot">
+<!ENTITY includeImages.label "รวมถึงรูปภาพที่พบในหน้าปัจจุบัน">
+<!ENTITY hideDisabledCmds.label "ซ่อนคำสั่งที่ไม่ใช้งาน">
+<!ENTITY flashgotBuildGallery "สร้างแกลลอรี่">
+<!ENTITY flashgotBuildGallery.title "FlashGot - สร้างแกลลอรี่">
+<!ENTITY flashgotGBVariableURLs "URL ที่เปลี่ยนค่าได้">
+<!ENTITY flashgotGBSample "กำหนดช่วงของการเปลี่ยนแปลง URL โดยใช้ [start-end;step] หรือ [function_name(…)]:">
+<!ENTITY flashgotGBPreview "แสดงตัวอย่าง:">
+<!ENTITY flashgotGBContent "เนื้อหา:">
+<!ENTITY flashgotGBReferrer "URL อ้างอิง:">
+<!ENTITY flashgotGBSync "Synchronize ranges">
+<!ENTITY flashgotGBRanges "ช่วง">
+<!ENTITY flashgotGBExpressions "ฟังก์ชัน JavaScript">
+<!ENTITY flashgotGeneral "ทั่วไป">
+<!ENTITY flashgotMenu "เมนู">
+<!ENTITY flashgotDownloadManager "ตัวจัดการดาวน์โหลด">
+<!ENTITY flashgotMoreOpts "ตัวเลือกเพิ่มเติม">
+<!ENTITY flashgotExtensions "ส่วนขยายไฟล์">
+<!ENTITY flashgotAdd "เพิ่ม">
+<!ENTITY flashgotRemove "เอาออก">
+<!ENTITY flashgotPrivacy "ความเป็นส่วนตัว">
+<!ENTITY flashgotReferrer "ตัวอ้างอิง">
+<!ENTITY flashgotAutodetectReferrer "ส่ง URL อ้างอิงที่ถูกตรวจพบโดยอัตโนมัติ">
+<!ENTITY flashgotFakeReferrer "ใช้ URL อ้างอิงนี้เสมอ:">
+<!ENTITY flashgotSendCookies "ส่งคุ๊กกี้">
+<!ENTITY flashgotAdvanced "ขั้นสูง">
+<!ENTITY flashgotBGProcessing "ประมวลผลลิงค์แบบ Background">
+<!ENTITY flashgotShowLog "แสดงล็อก">
+<!ENTITY flashgotClearLog "ล้างล็อก">
+<!ENTITY flashgotAbout "เกี่ยวกับ FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "ข้ามขั้นตอนการยืนยัน">
+<!ENTITY flashgotGetRightQuick "ใช้ togetright.exe เมื่อเป็นไปได้">
+<!ENTITY flashgotAutostart "เริ่มดาวน์โหลดอัตโนมัติ">
+<!ENTITY flashgotNoDMS "??? ไม่พบโปรแกรมช่วยดาวน์โหลด ???">
+<!ENTITY flashgotGetRightOld "GetRight เวอร์ชั่นเก่า ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "ส่ง URL ที่ถูกเข้ารหัส">
+<!ENTITY flashgotEnable "ใช้งาน">
+<!ENTITY flashgotDisable "ยกเลิกใช้งาน">
+<!ENTITY flashgotTmpDir "ไดเรกทอรี่ชั่วคราว">
+<!ENTITY flashgotBrowse "เลือก…">
+<!ENTITY flashgotRebootChange "การเปลี่ยนแปลงครั้งนี้จะมีผลในการเปิดใช้งานเบราว์เซอร์ครั้งต่อไป">
+<!ENTITY flashgotAltClick "Alt+Click = ใช้ FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = ไม่ใช้ FlashGot">
+<!ENTITY flashgotDownloads "ดาวน์โหลด">
+<!ENTITY flashgotInterceptAll "ตรวจจับการดาวน์โหลดทั้งหมด">
+<!ENTITY flashgotLog "ล็อก">
+<!ENTITY flashgotShowFilter "แสดงข้อความที่กรอง">
+<!ENTITY flashgotFilter "กรอง">
+<!ENTITY flashgotHost "โฮสต์">
+<!ENTITY flashgotRegExp "Regular Expression">
+<!ENTITY flashgotGlob "Glob Pattern">
+<!ENTITY flashgotSelAll "เลือกทั้งหมด">
+<!ENTITY flashgotSelInv "สลับการเลือก">
+<!ENTITY flashgotSelect "เลือก">
+<!ENTITY flashgotUnselect "ยกเลิกการเลือก">
+<!ENTITY hideIcons "ซ่อนไอคอน">
+<!ENTITY flashgotVisitHomepage "เยี่ยมโฮมเพจของ Flashgot">
+<!ENTITY flashgotTabs "FlashGot Tabs">
+<!ENTITY flashgotTabs.accesskey "b">
+<!ENTITY flashgotNoDMS.tip "Show supported Download Managers">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotReset "Reset">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY nestedMenu "Compact context menu (use submenu if needed)">
+<!ENTITY flashgotExecutable "Executable path:">
+<!ENTITY flashgotArguments "Command line arguments template:">
+<!ENTITY flashgotAutodetect "Automatic download manager detection">
+<!ENTITY flashgotDetect "Detect Now">
+<!ENTITY flashgotPlaceHolders "Placeholders">
+<!ENTITY flashgotQuoteWarn1 "You cannot use quotes within the arguments template.">
+<!ENTITY flashgotQuoteWarn2 "If you need them, consider writing a batch script.">
+<!ENTITY flashgotBadInstall "A core FlashGot component is missing or corrupted. Please reinstall FlashGot.">
+<!ENTITY flashgotWellGetPath "WellGet path:">
+<!ENTITY flashgotExtFilter "Apply file extension filter to batch downloads too">
+<!ENTITY flashgotHTTPAuth "HTTP Authentication">
+<!ENTITY flashgotAppearance "Appearance">
+<!ENTITY flashgotDownloadDropdown "Show FlashGot drop-down inside the default download dialog">
+<!ENTITY flashgotShownInContextMenu "Shown in context menu">
+<!ENTITY flashgotCustomEntries "Custom Entries">
+<!ENTITY flashgotDigGallery "Dig Gallery">
+<!ENTITY flashgotOverwrite "Overwrite">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

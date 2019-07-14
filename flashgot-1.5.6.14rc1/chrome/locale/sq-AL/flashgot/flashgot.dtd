@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot linkun">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot zgjedhjen">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot gjithçka">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot tabelën">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "Mundësi">
+<!ENTITY includeImages.label "Bashkë me figurat e gjetura në faqe">
+<!ENTITY hideDisabledCmds.label "Fshehi komandat e pamundësuara">
+<!ENTITY flashgotBuildGallery "Ndërto një Galeri…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Ndërtoni një Galeri">
+<!ENTITY flashgotGBVariableURLs "URL-të Ndryshore">
+<!ENTITY flashgotGBSample "Kufijtë e ndryshoreve shprehen sipas formës [start-end;step] ose [function_name(…)], për shembull:">
+<!ENTITY flashgotGBPreview "Parashikimi:">
+<!ENTITY flashgotGBContent "Përmbajtje:">
+<!ENTITY flashgotGBReferrer "URL Referuese:">
+<!ENTITY flashgotGBSync "Sinkronizo kufijtë">
+<!ENTITY flashgotGBRanges "Kufijtë">
+<!ENTITY flashgotGBExpressions "Funksione JavaScript">
+<!ENTITY flashgotGeneral "Kryesore">
+<!ENTITY flashgotMenu "Meny">
+<!ENTITY flashgotDownloadManager "Menaxheri Shkarkues">
+<!ENTITY flashgotMoreOpts "Më tepër mundësi…">
+<!ENTITY flashgotExtensions "Me shtojcë (p.sh. jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Shto">
+<!ENTITY flashgotRemove "Fshije">
+<!ENTITY flashgotPrivacy "Privatësi">
+<!ENTITY flashgotReferrer "Referuesi">
+<!ENTITY flashgotAutodetectReferrer "Dërgo URL-në e autodiktuar nga Referuesi">
+<!ENTITY flashgotFakeReferrer "Përdore gjithmonë këtë URL për Referues:">
+<!ENTITY flashgotSendCookies "Dërgo biskotat">
+<!ENTITY flashgotAdvanced "Avancuar">
+<!ENTITY flashgotBGProcessing "Proceso linket në sfond">
+<!ENTITY flashgotShowLog "Trego">
+<!ENTITY flashgotClearLog "Pastro">
+<!ENTITY flashgotAbout "Informacion mbi FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Kapërceji Nxitjet për Konfirmim">
+<!ENTITY flashgotGetRightQuick "Përdore togetright.exe sa herë të jetë e mundur">
+<!ENTITY flashgotAutostart "Vetënisi shkarkimet">
+<!ENTITY flashgotNoDMS "??? NUK DIKTOHET ASNJË MENAXHER SHKARKIMI ???">
+<!ENTITY flashgotNoDMS.tip "Trego Menaxherët Shkarkues të përkrahur">
+<!ENTITY flashgotGetRightOld "GetRight i VJETËR ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Dërgo URL-të e koduara">
+<!ENTITY flashgotEnable "Lejo">
+<!ENTITY flashgotDisable "Mos e lejo">
+<!ENTITY flashgotTmpDir "Direktori Kohëshkurtër">
+<!ENTITY flashgotBrowse "Shfleto…">
+<!ENTITY flashgotReset "Rivendose">
+<!ENTITY flashgotRebootChange "Ndryshimi do të vërehet me rinisjen e shfletuesit">
+<!ENTITY flashgotAltClick "Alt+Klikim = ME FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Klikim = PA FlashGot">
+<!ENTITY flashgotDownloads "Shkarkime">
+<!ENTITY flashgotInterceptAll "Ndërkapi gjithë shkarkesat">
+<!ENTITY flashgotLog "Ditari">
+<!ENTITY flashgotShowFilter "Trego Dialogun e Filtrit">
+<!ENTITY flashgotFilter "Filtër">
+<!ENTITY flashgotHost "Pronari">
+<!ENTITY flashgotRegExp "Shprehje e Rregullt">
+<!ENTITY flashgotGlob "Model Globi">
+<!ENTITY flashgotSelAll "Zgjidhe gjithçka">
+<!ENTITY flashgotSelInv "Përmbyse zgjedhjen">
+<!ENTITY flashgotSelect "Zgjidhe">
+<!ENTITY flashgotUnselect "Lëshoje">
+<!ENTITY hideIcons "Fshehi ikonat">
+<!ENTITY nestedMenu "Ngjeshe menynë e kontekstit (po mundët, përdorni nënmenynë)">
+<!ENTITY flashgotExecutable "Shtegu i skedës së ekzekutueshme:">
+<!ENTITY flashgotArguments "Tempujka e argumenteve:">
+<!ENTITY flashgotAutodetect "Dikto automatikisht menaxherin shkarkues">
+<!ENTITY flashgotDetect "Menjëherë">
+<!ENTITY flashgotPlaceHolders "Zero">
+<!ENTITY flashgotQuoteWarn1 "Brenda tempujkës së argumenteve nuk mund të përdoren thonjëzat.">
+<!ENTITY flashgotQuoteWarn2 "Nëse ju duhen, mendoni të shkruani një tufë-shkrim.">
+<!ENTITY flashgotBadInstall "Një përbërës bërthamë i FlashGot po mungon ose është i korruptuar! Ju lutemi riinstalojeni atë.">
+<!ENTITY flashgotWellGetPath "Shtegu i WellGet:">
+<!ENTITY flashgotExtFilter "Zbato filtrin e shtojcës së skedës edhe për tufat e shkarkesave">
+<!ENTITY flashgotHTTPAuth "Certifikim HTTP">
+<!ENTITY flashgotAppearance "Pamje">
+<!ENTITY flashgotDownloadDropdown "Trego FlashGot brenda dialogut tipik të shkarkimit">
+<!ENTITY flashgotVisitHomepage "Vizitoni faqen zyrtare të shtojcave">
+<!ENTITY flashgotShownInContextMenu "Trego në kontekstin e menysë">
+<!ENTITY flashgotCustomEntries "Hyrje me Porosi">
+<!ENTITY flashgotDigGallery "Gërmo Galerinë">
+<!ENTITY flashgotOverwrite "Mbishkruaje">
+<!ENTITY flashgotMedia "FlashGot Mediat">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

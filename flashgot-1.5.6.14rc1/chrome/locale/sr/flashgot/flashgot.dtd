@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot веза">
+<!ENTITY flashgotLink.accesskey "в">
+<!ENTITY flashgotSel "FlashGot изабраног">
+<!ENTITY flashgotSel.accesskey "о">
+<!ENTITY flashgotAll "FlashGot све">
+<!ENTITY flashgotAll.accesskey "с">
+<!ENTITY flashgotTabs "FlashGot листова">
+<!ENTITY flashgotTabs.accesskey "ј">
+<!ENTITY flashgotOptions "Подешавања FlashGot-а">
+<!ENTITY includeImages.label "Укључујући слике нађене на текућој страници">
+<!ENTITY hideDisabledCmds.label "Сакриј недоступне наредбе">
+<!ENTITY flashgotBuildGallery "Направи галерију…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Направи галерију">
+<!ENTITY flashgotGBVariableURLs "Променљиви URL-ови">
+<!ENTITY flashgotGBSample "Променљиве опсега су изражене у облику [почетак-крај;корак] или [име_функције(…)], на пример:">
+<!ENTITY flashgotGBPreview "Преглед:">
+<!ENTITY flashgotGBContent "Садржај:">
+<!ENTITY flashgotGBReferrer "Референтна URL адреса:">
+<!ENTITY flashgotGBSync "Усклади опсеге">
+<!ENTITY flashgotGBRanges "Опсези">
+<!ENTITY flashgotGBExpressions "Функције JavaScript-а">
+<!ENTITY flashgotGeneral "Опште">
+<!ENTITY flashgotMenu "Мени">
+<!ENTITY flashgotDownloadManager "Управљач преузимањима">
+<!ENTITY flashgotMoreOpts "Више могућности…">
+<!ENTITY flashgotExtensions "Наставци датотека (на пример: jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Додај">
+<!ENTITY flashgotRemove "Уклони">
+<!ENTITY flashgotPrivacy "Приватност">
+<!ENTITY flashgotReferrer "Референца">
+<!ENTITY flashgotAutodetectReferrer "Пошаљи самооткривену референцу URL">
+<!ENTITY flashgotFakeReferrer "Увек користи ову URL референцу:">
+<!ENTITY flashgotSendCookies "Пошаљи колачиће">
+<!ENTITY flashgotAdvanced "Напредно">
+<!ENTITY flashgotBGProcessing "Обради везе у позадини">
+<!ENTITY flashgotShowLog "Прикажи журнал…">
+<!ENTITY flashgotClearLog "Очисти журнал">
+<!ENTITY flashgotAbout "О FlashGot 1.5.6.14rc1-у">
+<!ENTITY flashgotDMQuiet "Прескочи упите потврда">
+<!ENTITY flashgotGetRightQuick "Користи togetright.exe увек кад је то могуће">
+<!ENTITY flashgotAutostart "Самопокрени преузимања">
+<!ENTITY flashgotNoDMS "??? УПРАВЉАЧ ПРЕУЗИМАЊИМА НИЈЕ ОТКРИВЕН ???">
+<!ENTITY flashgotNoDMS.tip "Прикажи подржане Управљаче преузимањима">
+<!ENTITY flashgotGetRightOld "СТАРИ GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Пошаљи кодиране URL-ове">
+<!ENTITY flashgotEnable "Омогући">
+<!ENTITY flashgotDisable "Онемогући">
+<!ENTITY flashgotTmpDir "Привремени директоријум">
+<!ENTITY flashgotBrowse "Потражи…">
+<!ENTITY flashgotReset "Поништи">
+<!ENTITY flashgotRebootChange "Ова промена ће узети маха тек по поновном покретању прегледача">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = БЕЗ FlashGot-а">
+<!ENTITY flashgotDownloads "Преузимања">
+<!ENTITY flashgotInterceptAll "Пресретни сва преузимања">
+<!ENTITY flashgotLog "Журнал">
+<!ENTITY flashgotShowFilter "Прикажи филтер дијалог">
+<!ENTITY flashgotFilter "Филтер">
+<!ENTITY flashgotHost "Домаћин">
+<!ENTITY flashgotRegExp "Важећи израз">
+<!ENTITY flashgotGlob "Општи образац">
+<!ENTITY flashgotSelAll "Одабери све">
+<!ENTITY flashgotSelInv "Обрни одабир">
+<!ENTITY flashgotSelect "Одабери">
+<!ENTITY flashgotUnselect "Поништи одабир">
+<!ENTITY hideIcons "Сакриј иконице">
+<!ENTITY nestedMenu "Скупи контексни мени (ако је потребно користи и подмени)">
+<!ENTITY flashgotExecutable "Извршна путања:">
+<!ENTITY flashgotArguments "Шаблон аргумената командне линије:">
+<!ENTITY flashgotAutodetect "Одреди самостално управљач преузимањима">
+<!ENTITY flashgotDetect "Одреди сад">
+<!ENTITY flashgotPlaceHolders "Држачи места">
+<!ENTITY flashgotQuoteWarn1 "Не можете користити знаке навода унутар шаблона аргумената.">
+<!ENTITY flashgotQuoteWarn2 "Ако су вам потребни, размислите о писању скрипте наредби.">
+<!ENTITY flashgotBadInstall "Језгро FlashGot компоненте је оштећено или недостаје. Инсталирајте FlashGot поново.">
+<!ENTITY flashgotWellGetPath "Путања до WellGet-а:">
+<!ENTITY flashgotExtFilter "Примени филтер наставка датотеке, такоће и на групна преузимања">
+<!ENTITY flashgotHTTPAuth "HTTP веродостојност">
+<!ENTITY flashgotAppearance "Изглед">
+<!ENTITY flashgotDownloadDropdown "Прикажи FlashGot унутар падајућег списка подразумеваног прозорчета за преузимање">
+<!ENTITY flashgotVisitHomepage "Посетите интернет страницу проширења">
+<!ENTITY flashgotShownInContextMenu "Прикажи у контекстуалном менију">
+<!ENTITY flashgotCustomEntries "Прилагођени улази">
+<!ENTITY flashgotDigGallery "Ишчепркај галерију">
+<!ENTITY flashgotOverwrite "Препиши">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotShowReleaseNotes "Прикажи напомену о издању после доградње">
+<!ENTITY flashgotUninstall "Уклони">
+<!ENTITY flashgotClear.label "Очисти">
+<!ENTITY flashgotClear.accesskey "О">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

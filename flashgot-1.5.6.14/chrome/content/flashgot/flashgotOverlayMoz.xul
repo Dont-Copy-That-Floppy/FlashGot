@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+
+    FlashGot - a Firefox extension for external download managers integration
+    Copyright (C) 2004-2013 Giorgio Maone - g.maone@informaction.com
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+***** END LICENSE BLOCK ***** -->
+
+<?xml-stylesheet href="chrome://flashgot/skin/browser.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://flashgot/locale/flashgot.dtd">
+
+<overlay id="flashgotOverlay" 
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+	<script type="application/x-javascript" src="chrome://communicator/content/XPCNativeWrapper.js"/>
+  <script type="application/x-javascript" src="flashgotCommon.js"/>
+	<script type="application/x-javascript" src="flashgotOverlay.js"/>
+
+  <keyset id="navKeys">
+    <key id="flashgot-link-key" keycode="VK_F1" modifiers="accel" oncommand="gFlashGot.downloadLink()" />
+    <key id="flashgot-sel-key" keycode="VK_F2" modifiers="accel" oncommand="gFlashGot.downloadSel()"/>
+    <key id="flashgot-all-key" keycode="VK_F3" modifiers="accel" oncommand="gFlashGot.downloadAll()"/>
+    <key id="flashgot-tabs-key" keycode="VK_F6" modifiers="accel" oncommand="gFlashGot.downloadTabs()"/>
+    <key id="flashgot-media-key" keycode="VK_F7" modifiers="accel" oncommand="gFlashGot.downloadMedia()"/>
+  </keyset>
+  
+  <menupopup id="taskPopup">
+    <menu id="flashgot-menu"
+      insertafter="downloadmgr" /> 
+  </menupopup>
+
+
+
+  <menu id="flashgot-menu" label="FlashGot" 
+    class="menu-iconic flashgot-icon-lnk"
+   >
+  <menupopup id="flashgot-menu-popup" 
+    onpopupshowing="gFlashGot.prepareToolsMenu(event)"
+    >
+        <menuitem id="flashgot-main-menuitem-sel"
+        label="&flashgotSel;"  
+        accesskey="&flashgotSel.accesskey;"
+        oncommand="gFlashGot.delayCmd('Sel')"
+        key="flashgot-sel-key"
+        class="menuitem-iconic flashgot-icon-sel"
+        disabled="true"
+    />
+    <menuitem id="flashgot-main-menuitem-all"
+        label="&flashgotAll;" 
+        accesskey="&flashgotAll.accesskey;"
+        oncommand="gFlashGot.delayCmd('All')"
+        key="flashgot-all-key"
+        class="menuitem-iconic flashgot-icon-all"
+        disabled="true"
+        />
+    <menuitem id="flashgot-main-menuitem-tabs"
+        label="&flashgotTabs;" 
+        accesskey="&flashgotTabs.accesskey;"
+        oncommand="gFlashGot.delayCmd('Tabs')"
+        key="flashgot-tabs-key"
+        class="menuitem-iconic flashgot-icon-tabs"
+        disabled="true"
+        />
+    <menuitem id="flashgot-main-menuitem-media"
+        label="&flashgotMedia;" 
+        oncommand="gFlashGot.downloadMedia()"
+        key="flashgot-media-key"
+        class="menuitem-iconic flashgot-icon-media"
+        disabled="true"
+        />
+    <menuitem id="flashgot-main-menuitem-buildGallery"
+      label="&flashgotBuildGallery;"
+      class="menuitem-iconic flashgot-icon-buildGallery" 
+      oncommand="gFlashGot.buildGallery()"
+      disabled="true"
+    />
+    <menuseparator id="flashgot-main-sep-buildGallery"  />
+       <menuitem id="flashgot-main-menuitem-opt-autoStart"
+        label="&flashgotAutostart;"
+        type="checkbox"
+        oncommand="gFlashGot.switchOption('autoStart')"
+      />
+      <menuitem id="flashgot-main-menuitem-opt-includeImages"
+        label="&includeImages.label;"
+        type="checkbox"
+        oncommand="gFlashGot.switchOption('includeImages')"
+      />
+      <menuitem id="flashgot-main-menuitem-opts"
+        label="&flashgotMoreOpts;"
+        oncommand="gFlashGot.openOptionsDialog()"
+        class="menuitem-iconic flashgot-icon-opts"
+				onpopupshowing="gFlashGot.prepareOptsMenu(event.target)"
+      />
+      <menuseparator id="flashgot-main-sep-about" />
+      <menuitem id="flashgot-main-about" 
+        label="&flashgotAbout;"
+        oncommand="gFlashGot.openAboutDialog()"
+      />
+  </menupopup>
+  </menu>
+
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="flashgot-tbb-all" 
+      oncommand="event.target != this || window.setTimeout(function() { gFlashGot.downloadSel() || gFlashGot.downloadAll(); },0);"
+      tooltiptext="&flashgotSel; | &flashgotAll;" 
+      class="toolbarbutton-1"
+      label="FlashGot"
+      type="menu-button"
+   >
+    <menupopup id="flashgot-tbb-menupopup-options" onpopupshowing="gFlashGot.prepareOptsMenu(event.target)">
+        <menuitem id="flashgot-tbb-menuitem-nodms" hidden="true"
+          label="&flashgotNoDMS;"
+          oncommand="gFlashGotService.showDMSReference()"
+          />
+        <menuseparator />
+         <menuitem id="flashgot-tbb-menuitem-opt-autoStart"
+          label="&flashgotAutostart;"
+          type="checkbox"
+          oncommand="gFlashGot.switchOption('autoStart')"
+          />
+        <menuitem id="flashgot-tbb-menuitem-opt-includeImages"
+          label="&includeImages.label;"
+          type="checkbox"
+          oncommand="gFlashGot.switchOption('includeImages')"
+          />
+        <menuitem id="flashgot-tbb-menuitem-opts" 
+          label="&flashgotMoreOpts;"
+          oncommand="gFlashGot.openOptionsDialog()"
+          class="menuitem-iconic flashgot-icon-opts"  
+        />
+        <menuseparator />
+        <menuitem  id="flashgot-tbb-about"
+          label="&flashgotAbout;"
+          oncommand="gFlashGot.openAboutDialog()"
+        />
+        <menuitem id="flashgot-tbb-homepage"
+              label="&flashgotVisitHomepage;"
+              oncommand="gFlashGot.browseHomePage()"
+            />
+      </menupopup>
+   </toolbarbutton>
+  </toolbarpalette>
+
+
+  <popup id="contentAreaContextMenu">
+    <menu id="flashgot-submenu" hidden="true" persist="hidden"
+      label="FlashGot" class="menu-iconic flashgot-icon-lnk"
+      accesskey="&flashgotLink.accesskey;"
+      insertbefore="context-sep-selectall,context-sep-stop,context-sep-copylink"
+      >
+      <menupopup>
+         <menuseparator id="flashgot-submenu-anchor" hidden="true" />
+         <menuitem id="flashgot-menuitem-it"
+          label="&flashgotLink;" 
+          accesskey="&flashgotLink.accesskey;"
+          oncommand="gFlashGot.downloadPopupLink()"
+          key="flashgot-link-key"
+          class="menuitem-iconic flashgot-icon-lnk"
+        />
+        <menuitem id="flashgot-menuitem-sel"
+          label="&flashgotSel;"  
+          accesskey="&flashgotSel.accesskey;"
+          oncommand="gFlashGot.delayCmd('Sel')"
+          key="flashgot-sel-key"
+          class="menuitem-iconic flashgot-icon-sel"
+        />
+        <menuitem id="flashgot-menuitem-all" 
+            label="&flashgotAll;" 
+            accesskey="&flashgotAll.accesskey;"
+            oncommand="gFlashGot.delayCmd('All')"
+            key="flashgot-all-key"
+            class="menuitem-iconic flashgot-icon-all"
+          />
+        <menuitem id="flashgot-menuitem-tabs"
+            label="&flashgotTabs;" 
+            accesskey="&flashgotTabs.accesskey;"
+            oncommand="gFlashGot.delayCmd('Tabs')"
+            key="flashgot-tabs-key"
+            class="menuitem-iconic flashgot-icon-tabs"
+          />
+        <menuitem id="flashgot-menuitem-media" 
+            label="&flashgotMedia;" 
+           oncommand="gFlashGot.downloadMedia()"
+            key="flashgot-media-key"
+            class="menuitem-iconic flashgot-icon-media"
+          />
+        
+        <menuitem id="flashgot-menuitem-buildGallery"
+          label="&flashgotBuildGallery;"
+          class="menuitem-iconic flashgot-icon-buildGallery"  
+          oncommand="gFlashGot.buildGallery()"
+        />
+        <menu id="flashgot-menu-options"
+          class="menu-iconic flashgot-icon-opts"  
+          label="&flashgotOptions;" >
+          <menupopup id="flashgot-menupopup-options" onpopupshowing="gFlashGot.prepareOptsMenu(event.target)">
+            <menuitem id="flashgot-ctx-menuitem-nodms" hidden="true"
+              label="&flashgotNoDMS;"
+              oncommand="gFlashGotService.showDMSReference()"
+              />
+            <menuseparator id="flashgot-ctx-sep-nodms" />
+             <menuitem id="flashgot-ctx-menuitem-opt-autoStart"
+              label="&flashgotAutostart;"
+              type="checkbox"
+              oncommand="gFlashGot.switchOption('autoStart')"
+              />
+            <menuitem id="flashgot-ctx-menuitem-opt-includeImages"
+              label="&includeImages.label;"
+              type="checkbox"
+              oncommand="gFlashGot.switchOption('includeImages')"
+              />
+            <menuitem id="flashgot-ctx-menuitem-opts"
+              label="&flashgotMoreOpts;"
+              oncommand="gFlashGot.openOptionsDialog()"
+            />
+            <menuseparator id="flashgot-ctx-sep-about" />
+            <menuitem id="flashgot-ctx-menuitem-about"
+              label="&flashgotAbout;"
+              oncommand="gFlashGot.openAboutDialog()"
+            />
+            <menuitem id="flashgot-ctx-homepage"
+              label="&flashgotVisitHomepage;"
+              oncommand="gFlashGot.browseHomePage()"
+            />
+          </menupopup>
+        </menu>
+      </menupopup>
+    </menu>  
+    
+    <menuseparator id="flashgot-context-separator" hidden="true"
+      insertbefore="context-sep-selectall,context-sep-stop,context-sep-copylink" /> 
+    <menuseparator id="flashgot-context-separator2" hidden="true" 
+      insertbefore="context-sep-selectall,context-sep-stop,context-sep-copylink" />   
+  
+  </popup>
+  
+  <statusbar id="status-bar">
+    <statusbarpanel id="flashgot-progresspanel" insertafter="flashgot-statusbarpanel,statusbar-progresspanel,statusbar-display" 
+      class="statusbarpanel-progress" collapsed="true">
+      <label plain="true" value="FlashGot" />
+      <progressmeter id="flashgot-progressmeter" class="progressmeter-status" mode="normal" value="0" />
+    </statusbarpanel>
+    
+    <statusbarpanel id="flashgot-media-status" insertafter="statusbar-display"
+        class="statusbarpanel-iconic flashgot-icon-media"
+        hidden="true"
+        oncommand="gFlashGot.downloadMedia()"
+        context="flashgot-media-popup"
+        mousethrough="never"
+    />
+   
+    <menupopup id="flashgot-media-popup" onpopupshowing="return gFlashGot.prepareMediaMenu(this, event)" onpopuphiding="gFlashGot.unprepareMediaMenu(this, event);">
+      <menuitem id="flashgot-media-clear"
+                label="&flashgotClear.label;"
+                accesskey="&flashgotClear.accesskey;"
+                oncommand="gFlashGot.clearMedia()"
+                />
+      <menuseparator id="flashgot-media-sep" />
+      <menu id="flashgot-media-parsed-menu" label="&flashgot.media.formats;">
+        <menupopup id="flashgot-media-parsed-popup">
+          <menu id="flashgot-media-parsed-dash-menu" label="&flashgot.media.formats.dash;">
+            <menupopup id="flashgot-media-parsed-dash-popup" />
+          </menu>
+          <menuitem id="flashgot-media-parsed-refresh_signature_func"
+                    label="&flashgot.media.refresh_signature_func.label;"
+                    tooltiptext="&flashgot.media.refresh_signature_func.tooltiptext;"
+                    oncommand="gFlashGot.Youtube_refresh_signature(event, this);" />
+        </menupopup>
+      </menu>
+    </menupopup>
+     
+  </statusbar>
+  
+</overlay>

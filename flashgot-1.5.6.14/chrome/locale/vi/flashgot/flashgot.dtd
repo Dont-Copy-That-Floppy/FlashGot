@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Liên Kết">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Phần Đã Chọn">
+<!ENTITY flashgotSel.accesskey "G">
+<!ENTITY flashgotAll "FlashGot Tất Cả">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Thẻ">
+<!ENTITY flashgotTabs.accesskey "o">
+<!ENTITY flashgotOptions "Tùy chọn FlashGot">
+<!ENTITY includeImages.label "Bao gồm hình ảnh tìm thấy trong trang hiện tại">
+<!ENTITY hideDisabledCmds.label "Ẩn các Lệnh bị Vô hiệu hóa">
+<!ENTITY flashgotBuildGallery "Tạo Trang Trưng Bày…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Tạo Trang Trưng Bày">
+<!ENTITY flashgotGBVariableURLs "Biến URL">
+<!ENTITY flashgotGBSample "Khoảng biến được biểu diễn dưới dạng [start-end;step] hoặc [function_name(…)], thí dụ:">
+<!ENTITY flashgotGBPreview "Xem trước:">
+<!ENTITY flashgotGBContent "Nội dung:">
+<!ENTITY flashgotGBReferrer "URL Referer:">
+<!ENTITY flashgotGBSync "Đồng bộ hóa các khoảng">
+<!ENTITY flashgotGBRanges "Khoảng">
+<!ENTITY flashgotGBExpressions "Chức năng JavaScript">
+<!ENTITY flashgotGeneral "Tổng quát">
+<!ENTITY flashgotMenu "Trình đơn">
+<!ENTITY flashgotDownloadManager "Trình quản lí Tải xuống">
+<!ENTITY flashgotMoreOpts "Tùy chọn Thêm…">
+<!ENTITY flashgotExtensions "Đuôi mở rộng Tập tin (vd. jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Thêm">
+<!ENTITY flashgotRemove "Xóa">
+<!ENTITY flashgotPrivacy "Riêng tư">
+<!ENTITY flashgotReferrer "Referer">
+<!ENTITY flashgotAutodetectReferrer "Gửi URL Referer được dò tìm tự động">
+<!ENTITY flashgotFakeReferrer "Luôn sử dụng URL Referer này:">
+<!ENTITY flashgotSendCookies "Gửi Cookie">
+<!ENTITY flashgotAdvanced "Nâng cao">
+<!ENTITY flashgotBGProcessing "Xử lí các liên kết thuộc hậu cảnh">
+<!ENTITY flashgotShowLog "Hiện lưu kí…">
+<!ENTITY flashgotClearLog "Xóa lưu kí">
+<!ENTITY flashgotAbout "Thông tin về FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Bỏ qua Hộp thoại Xác nhận">
+<!ENTITY flashgotGetRightQuick "Sử dụng togetright.exe bất cứ khi nào có thể">
+<!ENTITY flashgotAutostart "Tự động khởi chạy các tập tin tải xuống">
+<!ENTITY flashgotNoDMS "??? KHÔNG TÌM THẤY TRÌNH QUẢN LÍ TẢI XUỐNG ???">
+<!ENTITY flashgotNoDMS.tip "Hiện các Trình quản lí Tải xuống được hỗ trợ">
+<!ENTITY flashgotGetRightOld "GetRight CŨ ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Gửi URL đã mã hóa">
+<!ENTITY flashgotEnable "Kích hoạt">
+<!ENTITY flashgotDisable "Vô hiệu hóa">
+<!ENTITY flashgotTmpDir "Thư mục tạm">
+<!ENTITY flashgotBrowse "Duyệt">
+<!ENTITY flashgotReset "Đặt lại">
+<!ENTITY flashgotRebootChange "Sự thay đổi này sẽ có hiệu lực trong lần khởi động sau của trình duyệt">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = KHÔNG FlashGot">
+<!ENTITY flashgotDownloads "Tải xuống">
+<!ENTITY flashgotInterceptAll "Chặn tất cả phiên tải xuống">
+<!ENTITY flashgotLog "Lưu kí">
+<!ENTITY flashgotShowFilter "Hiện Hộp thoại Bộ lọc">
+<!ENTITY flashgotFilter "Bộ lọc">
+<!ENTITY flashgotHost "Máy chủ">
+<!ENTITY flashgotRegExp "Biểu thức Quy tắc">
+<!ENTITY flashgotGlob "Mẫu chung">
+<!ENTITY flashgotSelAll "Chọn Tất Cả">
+<!ENTITY flashgotSelInv "Đảo ngược Lựa chọn">
+<!ENTITY flashgotSelect "Chọn">
+<!ENTITY flashgotUnselect "Bỏ chọn">
+<!ENTITY hideIcons "Ẩn biểu tượng">
+<!ENTITY nestedMenu "Tinh giản trình đơn ngữ cảnh (dùng trình đơn con nếu cần)">
+<!ENTITY flashgotExecutable "Đường dẫn thực thi:">
+<!ENTITY flashgotArguments "Mẫu tham chiếu dòng lệnh:">
+<!ENTITY flashgotAutodetect "Tự động dò tìm trình quản lí tải xuống">
+<!ENTITY flashgotDetect "Dò ngay">
+<!ENTITY flashgotPlaceHolders "Placeholder">
+<!ENTITY flashgotQuoteWarn1 "Bạn không thể dùng trích dẫn trong mẫu tham chiếu.">
+<!ENTITY flashgotQuoteWarn2 "Nếu bạn cần, hãy nghĩ đến việc viết mã kịch bản batch.">
+<!ENTITY flashgotBadInstall "Một thành phần cốt lõi của FlashGot bị thiếu hoặc bị hư hỏng. Vui lòng cài đặt lại FlashGot.">
+<!ENTITY flashgotWellGetPath "Đường dẫn WellGet:">
+<!ENTITY flashgotExtFilter "Cũng áp dụng bộ lọc đuôi mở rộng tập tin cho các phần tải xuống hàng loạt">
+<!ENTITY flashgotHTTPAuth "Xác thực HTTP">
+<!ENTITY flashgotAppearance "Giao diện">
+<!ENTITY flashgotDownloadDropdown "Hiện trình đơn thả xuống của FlashGot trong hộp thoại tải xuống mặc định">
+<!ENTITY flashgotVisitHomepage "Vào trang chủ của phần mở rộng">
+<!ENTITY flashgotShownInContextMenu "Hiện trong trình đơn ngữ cảnh">
+<!ENTITY flashgotCustomEntries "Tùy biến Danh mục">
+<!ENTITY flashgotDigGallery "Đào sâu Trang trưng bày">
+<!ENTITY flashgotOverwrite "Ghi đè">
+<!ENTITY flashgotMedia "FlashGot Đa Phương Tiện">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

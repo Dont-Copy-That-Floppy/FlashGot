@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Stiahnuť cieľ odkazu pomocou FlashGot">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "Stiahnuť výber pomocou FlashGot">
+<!ENTITY flashgotSel.accesskey "r">
+<!ENTITY flashgotAll "Stiahnuť všetko pomocou FlashGot">
+<!ENTITY flashgotAll.accesskey "e">
+<!ENTITY flashgotTabs "Karty rozšírenia FlashGot">
+<!ENTITY flashgotTabs.accesskey "t">
+<!ENTITY flashgotOptions "FlashGot - nastavenia">
+<!ENTITY includeImages.label "Zahrnúť obrázky z aktuálnej stránky">
+<!ENTITY hideDisabledCmds.label "Skryť neaktívne príkazy">
+<!ENTITY flashgotBuildGallery "Zostaviť galériu">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Zostaviť galériu">
+<!ENTITY flashgotGBVariableURLs "URL odkazy s premennými">
+<!ENTITY flashgotGBSample "Rozsahy premenných sú vyjadrené podľa vzoru [začiatok-koniec;krok] alebo [názov_funkcie(…)], napríklad:">
+<!ENTITY flashgotGBPreview "Ukážka:">
+<!ENTITY flashgotGBContent "Obsah:">
+<!ENTITY flashgotGBReferrer "Referenčná URL:">
+<!ENTITY flashgotGBSync "Synchronizácia rozsahov">
+<!ENTITY flashgotGBRanges "Rozsahy">
+<!ENTITY flashgotGBExpressions "JavaScriptové funkcie">
+<!ENTITY flashgotGeneral "Všeobecné">
+<!ENTITY flashgotMenu "Ponuka">
+<!ENTITY flashgotDownloadManager "Program na správu sťahovania">
+<!ENTITY flashgotMoreOpts "Ďalšie nastavenia…">
+<!ENTITY flashgotExtensions "Rozšírenia">
+<!ENTITY flashgotAdd "Pridať">
+<!ENTITY flashgotRemove "Odstrániť">
+<!ENTITY flashgotPrivacy "Súkromie">
+<!ENTITY flashgotReferrer "Referenčné URL">
+<!ENTITY flashgotAutodetectReferrer "Používať automatickú detekciu referenčných URL">
+<!ENTITY flashgotFakeReferrer "Vždy používať túto referenčnú URL:">
+<!ENTITY flashgotSendCookies "Posielať Cookies">
+<!ENTITY flashgotAdvanced "Pokročilé">
+<!ENTITY flashgotBGProcessing "Spracovávať odkazy na pozadí">
+<!ENTITY flashgotShowLog "Zobraziť záznam">
+<!ENTITY flashgotClearLog "Odstrániť záznam">
+<!ENTITY flashgotAbout "Čo je rozšírenie FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Preskočiť okná s potvrdením">
+<!ENTITY flashgotGetRightQuick "Použiť togetright.exe vždy keď je to možné">
+<!ENTITY flashgotAutostart "Automaticky spustiť sťahovanie">
+<!ENTITY flashgotNoDMS "??? NEBOL NÁJDENÝ ŽIADNY SPRÁVCA SŤAHOVANIA ???">
+<!ENTITY flashgotNoDMS.tip "Zobraziť podporovaných správcov sťahovania">
+<!ENTITY flashgotGetRightOld "STARÝ GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Odoslať zakódované URL adresy">
+<!ENTITY flashgotEnable "Povoliť">
+<!ENTITY flashgotDisable "Zakázať">
+<!ENTITY flashgotTmpDir "Dočasný priečinok">
+<!ENTITY flashgotBrowse "Prehľadávať…">
+<!ENTITY flashgotReset "Obnoviť">
+<!ENTITY flashgotRebootChange "Táto zmena sa prejaví po reštartovaní prehliadača">
+<!ENTITY flashgotAltClick "Alt+Click = Použiť FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = NEpoužiť FlashGot">
+<!ENTITY flashgotDownloads "Sťahovania">
+<!ENTITY flashgotInterceptAll "Prerušiť všetky sťahovania">
+<!ENTITY flashgotLog "Záznam">
+<!ENTITY flashgotShowFilter "Zobraziť okno Filter">
+<!ENTITY flashgotFilter "Filter">
+<!ENTITY flashgotHost "Hostiteľ">
+<!ENTITY flashgotRegExp "Regulárny výraz">
+<!ENTITY flashgotGlob "Globálna šablóna">
+<!ENTITY flashgotSelAll "Vybrať všetko">
+<!ENTITY flashgotSelInv "Invertovať výber">
+<!ENTITY flashgotSelect "Vybrať">
+<!ENTITY flashgotUnselect "Zrušiť označenie">
+<!ENTITY hideIcons "Skryť ikony">
+<!ENTITY nestedMenu "Kompaktná kontextová ponuka (použitá podponuka, ak je potrebná)">
+<!ENTITY flashgotExecutable "Cesta k spustiteľnému súboru:">
+<!ENTITY flashgotArguments "Šablóna parametrov:">
+<!ENTITY flashgotAutodetect "Automatická detekcia správcu sťahovania">
+<!ENTITY flashgotDetect "Zistiť teraz">
+<!ENTITY flashgotPlaceHolders "Vlastníci">
+<!ENTITY flashgotQuoteWarn1 "V šablóne parametrov nemôžete použiť úvodzovky.">
+<!ENTITY flashgotQuoteWarn2 "Ak ich potrebujete, napíšte si batch skript.">
+<!ENTITY flashgotBadInstall "Dôležitý komponent rozšírenia FlashGot chýba alebo je poškodený. Prosím, preinštalujte FlashGot.">
+<!ENTITY flashgotWellGetPath "Cesta k WellGet:">
+<!ENTITY flashgotExtFilter "Použiť filter koncoviek súborov aj na dávkové sťahovanie">
+<!ENTITY flashgotHTTPAuth "HTTP autentifikácia">
+<!ENTITY flashgotAppearance "Vzhľad">
+<!ENTITY flashgotDownloadDropdown "Zobraziť rozbaľovaciu ponuku FlashGot v predvolenom dialógovom okne sťahovania">
+<!ENTITY flashgotVisitHomepage "Navštíviť domovskú stránku rozšírenia">
+<!ENTITY flashgotShownInContextMenu "Zobrazené v kontextovej ponuke">
+<!ENTITY flashgotCustomEntries "Vlastné položky">
+<!ENTITY flashgotDigGallery "Získať galériu">
+<!ENTITY flashgotOverwrite "Prepísať">
+<!ENTITY flashgotMedia "Médiá FlashGot">
+<!ENTITY flashgotShowReleaseNotes "Po aktualizácii zobraziť poznámky k vydaniu">
+<!ENTITY flashgotUninstall "Odinštalovať">
+<!ENTITY flashgotClear.label "Vymazať">
+<!ENTITY flashgotClear.accesskey "V">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

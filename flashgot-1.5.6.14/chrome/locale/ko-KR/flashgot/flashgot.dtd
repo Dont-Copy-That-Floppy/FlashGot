@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "플래쉬갓으로 링크 내려받기">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "플래쉬갓으로 선택한 것 내려받기">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "플래쉬갓으로 모두 내려받기">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "플래쉬갓 탭">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "플래쉬갓 설정">
+<!ENTITY includeImages.label "현재 문서의 그림 파일들 포함하기">
+<!ENTITY hideDisabledCmds.label "사용하지 않는 명령 숨기기">
+<!ENTITY flashgotBuildGallery "갤러리 만들기">
+<!ENTITY flashgotBuildGallery.title "플래쉬갓 - 갤러리 만들기">
+<!ENTITY flashgotGBVariableURLs "여러가지 URL">
+<!ENTITY flashgotGBSample "[시작-끝;증감] 이나 [함수 이름(…)]을 이용하여 범위를 지정할 수 있습니다. 예:">
+<!ENTITY flashgotGBPreview "미리보기:">
+<!ENTITY flashgotGBContent "내용:">
+<!ENTITY flashgotGBReferrer "참조자 URL:">
+<!ENTITY flashgotGBSync "범위 일치시키기">
+<!ENTITY flashgotGBRanges "범위">
+<!ENTITY flashgotGBExpressions "자바스크립트 함수">
+<!ENTITY flashgotGeneral "일반">
+<!ENTITY flashgotMenu "메뉴">
+<!ENTITY flashgotDownloadManager "내려받기 관리자">
+<!ENTITY flashgotMoreOpts "설정창 열기">
+<!ENTITY flashgotExtensions "확장자(예. jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "넣기">
+<!ENTITY flashgotRemove "빼기">
+<!ENTITY flashgotPrivacy "개인정보">
+<!ENTITY flashgotReferrer "참조자">
+<!ENTITY flashgotAutodetectReferrer "참조 URL을 자동으로 보내기">
+<!ENTITY flashgotFakeReferrer "사용자가 지정한 참조 URL 보내기:">
+<!ENTITY flashgotSendCookies "쿠키 보내기">
+<!ENTITY flashgotAdvanced "고급">
+<!ENTITY flashgotBGProcessing "백그라운드로 작업하기">
+<!ENTITY flashgotShowLog "기록 보기">
+<!ENTITY flashgotClearLog "기록 지우기">
+<!ENTITY flashgotAbout "플래쉬갓에 대해서">
+<!ENTITY flashgotDMQuiet "확인창 띄우지 않기">
+<!ENTITY flashgotGetRightQuick "가능하면 최대한 togetright.exe를 사용">
+<!ENTITY flashgotAutostart "내려받기 자동시작">
+<!ENTITY flashgotNoDMS "??? 내려받기 관리자를 찾을 수 없음 ???">
+<!ENTITY flashgotNoDMS.tip "지원하는 내려받기 관리자 보기">
+<!ENTITY flashgotGetRightOld "구형 GetRight ( 5.2b이전 버전 )">
+<!ENTITY flashgotEncodeURLs "인코딩된 URL를 보냄">
+<!ENTITY flashgotEnable "켬">
+<!ENTITY flashgotDisable "끔">
+<!ENTITY flashgotTmpDir "임시 디렉토리">
+<!ENTITY flashgotBrowse "탐색…">
+<!ENTITY flashgotReset "재설정">
+<!ENTITY flashgotRebootChange "이 변경은 브라우저의 다음번 시작시에 적용되게 됩니다">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = FlashGot 사용 안함">
+<!ENTITY flashgotDownloads "내려받기">
+<!ENTITY flashgotInterceptAll "모든 내려받기를 가로챕니다">
+<!ENTITY flashgotLog "로그">
+<!ENTITY flashgotShowFilter "필터 대화상자 표시">
+<!ENTITY flashgotFilter "필터">
+<!ENTITY flashgotHost "호스트">
+<!ENTITY flashgotRegExp "정규 표현식">
+<!ENTITY flashgotGlob "전역 패턴">
+<!ENTITY flashgotSelAll "모두 선택">
+<!ENTITY flashgotSelInv "선택 반전">
+<!ENTITY flashgotSelect "선택">
+<!ENTITY flashgotUnselect "선택 취소">
+<!ENTITY hideIcons "아이콘 숨기기">
+<!ENTITY nestedMenu "간략 문맥 메뉴 (필요시 하위메뉴 사용)">
+<!ENTITY flashgotExecutable "실행파일 경로:">
+<!ENTITY flashgotArguments "인수 템플릿:">
+<!ENTITY flashgotAutodetect "자동 내려받기 관리자 탐지">
+<!ENTITY flashgotDetect "즉시 탐색">
+<!ENTITY flashgotPlaceHolders "위치확보자">
+<!ENTITY flashgotQuoteWarn1 "인수 서식에 인용 부호를 포함하지 말아 주세요.">
+<!ENTITY flashgotQuoteWarn2 "필요시 배치 스크립트를 기록하는 것을 검토해 주세요.">
+<!ENTITY flashgotBadInstall "FlashGot에 필요한 코어 컴퍼넌트가 존재하지 않거나, 훼손되어 있습니다. FlashGot를 재설치 해 주십시오.">
+<!ENTITY flashgotWellGetPath "WellGet 경로:">
+<!ENTITY flashgotExtFilter "파일의 확장자 필터를 배치 내려받기시에도 적용합니다">
+<!ENTITY flashgotHTTPAuth "HTTP 인증서">
+<!ENTITY flashgotAppearance "모양">
+<!ENTITY flashgotDownloadDropdown "기본 내려받기 대화상자 내 플래쉬갓 드롭다운 표시">
+<!ENTITY flashgotVisitHomepage "확장기능 홈페이지 방문">
+<!ENTITY flashgotShownInContextMenu "문맥 메뉴에 표시">
+<!ENTITY flashgotCustomEntries "사용자 지정 항목">
+<!ENTITY flashgotDigGallery "갤러리 발굴">
+<!ENTITY flashgotOverwrite "덮어쓰기">
+<!ENTITY flashgotMedia "FlashGot 미디어">
+<!ENTITY flashgotShowReleaseNotes "업데이트 관련 릴리스 정보 표시">
+<!ENTITY flashgotUninstall "설치제거">
+<!ENTITY flashgotClear.label "제거">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

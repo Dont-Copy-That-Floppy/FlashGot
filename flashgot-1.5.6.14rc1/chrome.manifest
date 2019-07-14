@@ -1,0 +1,82 @@
+content flashgot jar:chrome/flashgot.jar!/content/flashgot/
+
+skin flashgot classic/1.0 jar:chrome/flashgot.jar!/skin/classic/flashgot/
+style chrome://global/content/customizeToolbar.xul chrome://flashgot/skin/browser.css
+
+overlay chrome://browser/content/browser.xul chrome://flashgot/content/flashgotOverlayFx.xul
+
+overlay chrome://songbird/content/xul/mainScriptsOverlay.xul chrome://flashgot/content/flashgotOverlayFx.xul
+
+overlay chrome://emusic/content/startup.xul chrome://flashgot/content/flashgotOverlayFx.xul
+
+overlay chrome://messenger/content/mailWindowOverlay.xul chrome://flashgot/content/flashgotOverlayTB.xul
+
+overlay chrome://mozapps/content/downloads/unknownContentType.xul chrome://flashgot/content/flashgotDMOverlayFx.xul
+
+overlay chrome://navigator/content/navigatorOverlay.xul chrome://flashgot/content/flashgotOverlayMoz.xul
+overlay chrome://global/content/nsHelperAppDlg.xul chrome://flashgot/content/flashgotDMOverlayMoz.xul
+
+# Gecko 2 component registration
+component {2a55fc5c-7b31-4ee1-ab15-5ee2eb428cbe} components/flashgotService.js
+contract @maone.net/flashgot-service;1 {2a55fc5c-7b31-4ee1-ab15-5ee2eb428cbe}
+category sessionstore-windows-restored @maone.net/flashgot-service;1 @maone.net/flashgot-service;1
+
+locale flashgot af-ZA jar:chrome/flashgot.jar!/locale/af-ZA/flashgot/
+locale flashgot ar    jar:chrome/flashgot.jar!/locale/ar/flashgot/
+locale flashgot ar-SA jar:chrome/flashgot.jar!/locale/ar-SA/flashgot/
+locale flashgot be-BY jar:chrome/flashgot.jar!/locale/be-BY/flashgot/
+locale flashgot bg-BG jar:chrome/flashgot.jar!/locale/bg-BG/flashgot/
+locale flashgot bn-BD jar:chrome/flashgot.jar!/locale/bn-BD/flashgot/
+locale flashgot bn-IN jar:chrome/flashgot.jar!/locale/bn-IN/flashgot/
+locale flashgot ca-AD jar:chrome/flashgot.jar!/locale/ca-AD/flashgot/
+locale flashgot cs-CZ jar:chrome/flashgot.jar!/locale/cs-CZ/flashgot/
+locale flashgot da    jar:chrome/flashgot.jar!/locale/da/flashgot/
+locale flashgot de    jar:chrome/flashgot.jar!/locale/de/flashgot/
+locale flashgot el    jar:chrome/flashgot.jar!/locale/el/flashgot/
+locale flashgot en-US jar:chrome/flashgot.jar!/locale/en-US/flashgot/
+locale flashgot es-AR jar:chrome/flashgot.jar!/locale/es-AR/flashgot/
+locale flashgot es-CL jar:chrome/flashgot.jar!/locale/es-CL/flashgot/
+locale flashgot es-ES jar:chrome/flashgot.jar!/locale/es-ES/flashgot/
+locale flashgot et-EE jar:chrome/flashgot.jar!/locale/et-EE/flashgot/
+locale flashgot eu    jar:chrome/flashgot.jar!/locale/eu/flashgot/
+locale flashgot fa-IR jar:chrome/flashgot.jar!/locale/fa-IR/flashgot/
+locale flashgot fi    jar:chrome/flashgot.jar!/locale/fi/flashgot/
+locale flashgot fr    jar:chrome/flashgot.jar!/locale/fr/flashgot/
+locale flashgot gl-ES jar:chrome/flashgot.jar!/locale/gl-ES/flashgot/
+locale flashgot he    jar:chrome/flashgot.jar!/locale/he/flashgot/
+locale flashgot he-IL jar:chrome/flashgot.jar!/locale/he-IL/flashgot/
+locale flashgot hi-IN jar:chrome/flashgot.jar!/locale/hi-IN/flashgot/
+locale flashgot hr-HR jar:chrome/flashgot.jar!/locale/hr-HR/flashgot/
+locale flashgot hu    jar:chrome/flashgot.jar!/locale/hu/flashgot/
+locale flashgot hy-AM jar:chrome/flashgot.jar!/locale/hy-AM/flashgot/
+locale flashgot id-ID jar:chrome/flashgot.jar!/locale/id-ID/flashgot/
+locale flashgot it    jar:chrome/flashgot.jar!/locale/it/flashgot/
+locale flashgot ja-JP jar:chrome/flashgot.jar!/locale/ja-JP/flashgot/
+locale flashgot ka-GE jar:chrome/flashgot.jar!/locale/ka-GE/flashgot/
+locale flashgot kk-KZ jar:chrome/flashgot.jar!/locale/kk-KZ/flashgot/
+locale flashgot km-KH jar:chrome/flashgot.jar!/locale/km-KH/flashgot/
+locale flashgot ko-KR jar:chrome/flashgot.jar!/locale/ko-KR/flashgot/
+locale flashgot lt-LT jar:chrome/flashgot.jar!/locale/lt-LT/flashgot/
+locale flashgot mk-MK jar:chrome/flashgot.jar!/locale/mk-MK/flashgot/
+locale flashgot ml-IN jar:chrome/flashgot.jar!/locale/ml-IN/flashgot/
+locale flashgot mn-MN jar:chrome/flashgot.jar!/locale/mn-MN/flashgot/
+locale flashgot ms-MY jar:chrome/flashgot.jar!/locale/ms-MY/flashgot/
+locale flashgot nb-NO jar:chrome/flashgot.jar!/locale/nb-NO/flashgot/
+locale flashgot nl    jar:chrome/flashgot.jar!/locale/nl/flashgot/
+locale flashgot pl    jar:chrome/flashgot.jar!/locale/pl/flashgot/
+locale flashgot pt-BR jar:chrome/flashgot.jar!/locale/pt-BR/flashgot/
+locale flashgot pt-PT jar:chrome/flashgot.jar!/locale/pt-PT/flashgot/
+locale flashgot ro-RO jar:chrome/flashgot.jar!/locale/ro-RO/flashgot/
+locale flashgot ru    jar:chrome/flashgot.jar!/locale/ru/flashgot/
+locale flashgot sk-SK jar:chrome/flashgot.jar!/locale/sk-SK/flashgot/
+locale flashgot sl-SI jar:chrome/flashgot.jar!/locale/sl-SI/flashgot/
+locale flashgot sq-AL jar:chrome/flashgot.jar!/locale/sq-AL/flashgot/
+locale flashgot sr    jar:chrome/flashgot.jar!/locale/sr/flashgot/
+locale flashgot sv-SE jar:chrome/flashgot.jar!/locale/sv-SE/flashgot/
+locale flashgot th    jar:chrome/flashgot.jar!/locale/th/flashgot/
+locale flashgot tr    jar:chrome/flashgot.jar!/locale/tr/flashgot/
+locale flashgot uk    jar:chrome/flashgot.jar!/locale/uk/flashgot/
+locale flashgot uk-UA jar:chrome/flashgot.jar!/locale/uk-UA/flashgot/
+locale flashgot vi    jar:chrome/flashgot.jar!/locale/vi/flashgot/
+locale flashgot zh-CN jar:chrome/flashgot.jar!/locale/zh-CN/flashgot/
+locale flashgot zh-TW jar:chrome/flashgot.jar!/locale/zh-TW/flashgot/

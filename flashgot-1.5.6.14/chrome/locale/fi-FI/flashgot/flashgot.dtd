@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Linkki">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Valinta">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot Kaikki">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Välilehdet">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot Asetukset">
+<!ENTITY includeImages.label "Liitä mukaan kuvat nykyiseltä sivulta">
+<!ENTITY hideDisabledCmds.label "Piilota käytöstä poistetut käskyt">
+<!ENTITY flashgotBuildGallery "Rakenna Galleria">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Rakenna Galleria">
+<!ENTITY flashgotGBVariableURLs "Muuttujien URL:t">
+<!ENTITY flashgotGBSample "Muuttujien arvoalueet on ilmoitettu muodossa [alku-loppu,askel] tai [funktion_nimi(…)], esimerkiksi:">
+<!ENTITY flashgotGBPreview "Esikatselu:">
+<!ENTITY flashgotGBContent "Sisältö:">
+<!ENTITY flashgotGBReferrer "Viittaava URL:">
+<!ENTITY flashgotGBSync "Täsmää arvoalueet">
+<!ENTITY flashgotGBRanges "Arvoalueet">
+<!ENTITY flashgotGBExpressions "JavaScript Toiminnot">
+<!ENTITY flashgotGeneral "Yleiset">
+<!ENTITY flashgotMenu "Valikko">
+<!ENTITY flashgotDownloadManager "Tiedostojen siirto-ohjelma">
+<!ENTITY flashgotMoreOpts "Lisää asetuksia…">
+<!ENTITY flashgotExtensions "Tiedostotyypit">
+<!ENTITY flashgotAdd "Lisää">
+<!ENTITY flashgotRemove "Poista">
+<!ENTITY flashgotPrivacy "Tietosuoja">
+<!ENTITY flashgotReferrer "Viittaustieto">
+<!ENTITY flashgotAutodetectReferrer "Lähetä automaattisesti tunnistettu viittaava URL">
+<!ENTITY flashgotFakeReferrer "Käytä aina tätä viittaustietoa:">
+<!ENTITY flashgotSendCookies "Lähetä evästeet">
+<!ENTITY flashgotAdvanced "Lisäasetukset">
+<!ENTITY flashgotBGProcessing "Käsittele linkit tausta-ajona">
+<!ENTITY flashgotShowLog "Näytä loki…">
+<!ENTITY flashgotClearLog "Tyhjennä loki">
+<!ENTITY flashgotAbout "Tietoja FlashGot 1.5.6.14:sta">
+<!ENTITY flashgotDMQuiet "Ohita varmennuskyselyt">
+<!ENTITY flashgotGetRightQuick "Käytä togetright.exe:ä aina kun mahdollista">
+<!ENTITY flashgotAutostart "Aloita tiedostojen siirto automaattisesti">
+<!ENTITY flashgotNoDMS "??? TIEDOSTOJEN SIIRTO-OHJELMIA EI LÖYDETTY ???">
+<!ENTITY flashgotNoDMS.tip "Näytä tuetut lataamisohjelmat">
+<!ENTITY flashgotGetRightOld "VANHEMPI GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Lähetä koodatut URL:t">
+<!ENTITY flashgotEnable "Ota käyttöön">
+<!ENTITY flashgotDisable "Poista käytöstä">
+<!ENTITY flashgotTmpDir "Väliaikainen hakemisto">
+<!ENTITY flashgotBrowse "Selaa">
+<!ENTITY flashgotReset "Nollata">
+<!ENTITY flashgotRebootChange "Tämä muutos tulee voimaan selaimen uudelleen käynnistyksen jälkeen">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = EI FlashGot:a">
+<!ENTITY flashgotDownloads "Tiedostojen siirto">
+<!ENTITY flashgotInterceptAll "Sieppaa kaikki tiedostojen siirrot">
+<!ENTITY flashgotLog "Loki">
+<!ENTITY flashgotShowFilter "Näytä suodattimien valintaruutu">
+<!ENTITY flashgotFilter "Suodata">
+<!ENTITY flashgotHost "Isäntä">
+<!ENTITY flashgotRegExp "Säännöllinen lauseke">
+<!ENTITY flashgotGlob "Merkkijonolauseke">
+<!ENTITY flashgotSelAll "Valitse kaikki">
+<!ENTITY flashgotSelInv "Muuta valinta päinvastaiseksi">
+<!ENTITY flashgotSelect "Valitse">
+<!ENTITY flashgotUnselect "Poista valinta">
+<!ENTITY hideIcons "Piilota ikonit">
+<!ENTITY nestedMenu "Tiivistä sisältövalikko (tarvittaessa käytä alavalikkoja)">
+<!ENTITY flashgotExecutable "Suorittavan tiedoston polku:">
+<!ENTITY flashgotArguments "Parametripohja:">
+<!ENTITY flashgotAutodetect "Tunnista tiedostojen siirto-ohjelmat automaattisesti">
+<!ENTITY flashgotDetect "Hae nyt">
+<!ENTITY flashgotPlaceHolders "Paikkamerkit">
+<!ENTITY flashgotQuoteWarn1 "Et voi käyttää lainausmerkkejä parametripohjan kanssa.">
+<!ENTITY flashgotQuoteWarn2 "Jos tarvitset lainausmerkkejä, harkitse komentotulkki (batch) skriptin kirjoittamista.">
+<!ENTITY flashgotBadInstall "A core FlashGot component is missing or corrupted. Please reinstall FlashGot.">
+<!ENTITY flashgotWellGetPath "WellGet polku:">
+<!ENTITY flashgotExtFilter "Apply file extension filter to batch downloads too">
+<!ENTITY flashgotHTTPAuth "HTTP tunnistautuminen">
+<!ENTITY flashgotAppearance "Ulkoasu">
+<!ENTITY flashgotDownloadDropdown "Show FlashGot drop-down inside the default download dialog">
+<!ENTITY flashgotVisitHomepage "Vieraile lisäosan kotisivulla">
+<!ENTITY flashgotShownInContextMenu "Shown in context menu">
+<!ENTITY flashgotCustomEntries "Custom Entries">
+<!ENTITY flashgotDigGallery "Dig Gallery">
+<!ENTITY flashgotOverwrite "Ylikirjoita">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

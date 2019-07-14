@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot koppeling">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot selectie">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot alles">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot tabs">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot opties">
+<!ENTITY includeImages.label "Afbeeldingen van huidige pagina toevoegen">
+<!ENTITY hideDisabledCmds.label "Uitgeschakelde commando&apos;s verbergen">
+<!ENTITY flashgotBuildGallery "Gallerij maken">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Gallerij maken">
+<!ENTITY flashgotGBVariableURLs "Variabele webadressen">
+<!ENTITY flashgotGBSample "Variabele draagwijdtes worden uitgedrukt volgens de vorm [start-einde;stap] of [functie_naam(…)], bijvoorbeeld:">
+<!ENTITY flashgotGBPreview "Voorbeeld:">
+<!ENTITY flashgotGBContent "Inhoud:">
+<!ENTITY flashgotGBReferrer "Verwijzend webadres:">
+<!ENTITY flashgotGBSync "Synchroniseer draagwijdtes">
+<!ENTITY flashgotGBRanges "Draagwijdtes">
+<!ENTITY flashgotGBExpressions "JavaScript functies">
+<!ENTITY flashgotGeneral "Algemeen">
+<!ENTITY flashgotMenu "Menu">
+<!ENTITY flashgotDownloadManager "Download-beheerder">
+<!ENTITY flashgotMoreOpts "Meer opties…">
+<!ENTITY flashgotExtensions "Bestandsextensies (bijv. jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Toevoegen">
+<!ENTITY flashgotRemove "Verwijderen">
+<!ENTITY flashgotPrivacy "Privacy">
+<!ENTITY flashgotReferrer "Verwijzend webadres">
+<!ENTITY flashgotAutodetectReferrer "Automatisch gedetecteerd Verwijzend webadres verzenden">
+<!ENTITY flashgotFakeReferrer "Altijd dit Verwijzend webadres gebruiken:">
+<!ENTITY flashgotSendCookies "Cookies verzenden">
+<!ENTITY flashgotAdvanced "Geavanceerd">
+<!ENTITY flashgotBGProcessing "Koppelingen op de achtergrond verwerken">
+<!ENTITY flashgotShowLog "Log weergeven…">
+<!ENTITY flashgotClearLog "Log wissen">
+<!ENTITY flashgotAbout "Over FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Vragen om een bevestiging overslaan">
+<!ENTITY flashgotGetRightQuick "Gebruik togetright.exe wanneer mogelijk">
+<!ENTITY flashgotAutostart "Downloads automatisch starten">
+<!ENTITY flashgotNoDMS "??? GEEN DOWNLOADMANAGER GEDETECTEERD ???">
+<!ENTITY flashgotNoDMS.tip "Ondersteunde Download-beheerders weergeven">
+<!ENTITY flashgotGetRightOld "OUDE GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Gecodeerde webadressen verzenden">
+<!ENTITY flashgotEnable "Inschakelen">
+<!ENTITY flashgotDisable "Uitschakelen">
+<!ENTITY flashgotTmpDir "Tijdelijke map">
+<!ENTITY flashgotBrowse "Bladeren">
+<!ENTITY flashgotReset "Resetten">
+<!ENTITY flashgotRebootChange "Deze wijziging wordt van kracht de volgende keer dat de browser wordt gestart">
+<!ENTITY flashgotAltClick "Alt+Klik = FlashGot gebruiken">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Klik = GEEN FlashGot gebruiken">
+<!ENTITY flashgotDownloads "Downloads">
+<!ENTITY flashgotInterceptAll "Alle downloads onderscheppen">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Filter dialoog weergeven">
+<!ENTITY flashgotFilter "Filter">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Reguliere expressie">
+<!ENTITY flashgotGlob "Glob patroon">
+<!ENTITY flashgotSelAll "Alles selecteren">
+<!ENTITY flashgotSelInv "Selectie omkeren">
+<!ENTITY flashgotSelect "Selecteren">
+<!ENTITY flashgotUnselect "Deselecteren">
+<!ENTITY hideIcons "Pictogrammen verbergen">
+<!ENTITY nestedMenu "Compact contextmenu (gebruik submenu indien gewenst)">
+<!ENTITY flashgotExecutable "Uitvoerbaar pad:">
+<!ENTITY flashgotArguments "Argumenten sjabloon">
+<!ENTITY flashgotAutodetect "Automatische detectie van download-beheerders">
+<!ENTITY flashgotDetect "Nu detecteren">
+<!ENTITY flashgotPlaceHolders "Plaatsvervangers">
+<!ENTITY flashgotQuoteWarn1 "In het argumentensjabloon kunnen geen aanhalingstekens gebruikt worden.">
+<!ENTITY flashgotQuoteWarn2 "Als het gewenst is, overweeg het schrijven van een batchscript.">
+<!ENTITY flashgotBadInstall "Een belangrijk onderdeel van FlashGot ontbreekt of is beschadigd. Installeer FlashGot opnieuw.">
+<!ENTITY flashgotWellGetPath "WellGet pad:">
+<!ENTITY flashgotExtFilter "Bestandsextensie filter ook aan batch downloads toevoegen.">
+<!ENTITY flashgotHTTPAuth "HTTP-authenticatie">
+<!ENTITY flashgotAppearance "Verschijning">
+<!ENTITY flashgotDownloadDropdown "FlashGot uitklapmenu weergeven binnen het standaard download-venster">
+<!ENTITY flashgotVisitHomepage "Extensie homepage bezoeken">
+<!ENTITY flashgotShownInContextMenu "Deze Download-beheerder in het contextmenu weergeven">
+<!ENTITY flashgotCustomEntries "Aangepaste invoer">
+<!ENTITY flashgotDigGallery "Dig Gallerij">
+<!ENTITY flashgotOverwrite "Overschrijven">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotShowReleaseNotes "Na een update de release opmerkingen weergeven">
+<!ENTITY flashgotUninstall "Deïnstalleren">
+<!ENTITY flashgotClear.label "Wissen">
+<!ENTITY flashgotClear.accesskey "W">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

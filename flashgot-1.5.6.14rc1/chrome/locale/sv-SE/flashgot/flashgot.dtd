@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot-länk">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot: Urval">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot: Alla">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot-flikar">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "Alternativ för FlashGot">
+<!ENTITY includeImages.label "Inkludera bilder från aktuell sida">
+<!ENTITY hideDisabledCmds.label "Dölj inaktiverade kommandon">
+<!ENTITY flashgotBuildGallery "Skapa galleri…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Skapa galleri">
+<!ENTITY flashgotGBVariableURLs "Varierande URL:er">
+<!ENTITY flashgotGBSample "Varierande områden uttrycks som [start-end;step] eller [function_name], till exempel:">
+<!ENTITY flashgotGBPreview "Förhandsgranska:">
+<!ENTITY flashgotGBContent "Innehåll:">
+<!ENTITY flashgotGBReferrer "Hänvisande URL:">
+<!ENTITY flashgotGBSync "Synkronisera områden">
+<!ENTITY flashgotGBRanges "Områden">
+<!ENTITY flashgotGBExpressions "JavaScript-funktioner">
+<!ENTITY flashgotGeneral "Allmänt">
+<!ENTITY flashgotMenu "Meny">
+<!ENTITY flashgotDownloadManager "Nedladningsassistent">
+<!ENTITY flashgotMoreOpts "Fler alternativ…">
+<!ENTITY flashgotExtensions "Filändelser (ex. jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Lägg till">
+<!ENTITY flashgotRemove "Ta bort">
+<!ENTITY flashgotPrivacy "Integritet">
+<!ENTITY flashgotReferrer "Hänsvisare">
+<!ENTITY flashgotAutodetectReferrer "Skicka automatiskt upptäckta hänvisade URL">
+<!ENTITY flashgotFakeReferrer "Använd alltid denna hänvisande URL:">
+<!ENTITY flashgotSendCookies "Skicka kakor">
+<!ENTITY flashgotAdvanced "Avancerat">
+<!ENTITY flashgotBGProcessing "Bearbeta länkar i bakgrunden">
+<!ENTITY flashgotShowLog "Visa logg…">
+<!ENTITY flashgotClearLog "Rensa logg">
+<!ENTITY flashgotAbout "Om FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Hoppa över bekräftelseförfrågningar">
+<!ENTITY flashgotGetRightQuick "Använd togetright.exe när det är möjligt">
+<!ENTITY flashgotAutostart "Starta nedladdningar automatiskt">
+<!ENTITY flashgotNoDMS "??? INGEN NEDLADDNINGSASSISTENT HITTADES ???">
+<!ENTITY flashgotNoDMS.tip "Visa nedladdningsassistenter som stöds">
+<!ENTITY flashgotGetRightOld "GAMMAL GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Skicka översatta URL:er">
+<!ENTITY flashgotEnable "Aktivera">
+<!ENTITY flashgotDisable "Avaktivera">
+<!ENTITY flashgotTmpDir "Temporär katalog">
+<!ENTITY flashgotBrowse "Bläddra…">
+<!ENTITY flashgotReset "Återställ">
+<!ENTITY flashgotRebootChange "Förändringarna börjar gälla efter att webbläsaren startats om.">
+<!ENTITY flashgotAltClick "Alt+Klick = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = INTE FlashGot">
+<!ENTITY flashgotDownloads "Nedladdningar">
+<!ENTITY flashgotInterceptAll "Genskjut alla nedladdningar">
+<!ENTITY flashgotLog "Logg">
+<!ENTITY flashgotShowFilter "Visa filterdialog">
+<!ENTITY flashgotFilter "Filter">
+<!ENTITY flashgotHost "Värd">
+<!ENTITY flashgotRegExp "Allmänt uttryck">
+<!ENTITY flashgotGlob "Klickmönster">
+<!ENTITY flashgotSelAll "Markera allt">
+<!ENTITY flashgotSelInv "Invertera markering">
+<!ENTITY flashgotSelect "Markera">
+<!ENTITY flashgotUnselect "Avmarkera">
+<!ENTITY hideIcons "Dölj ikoner">
+<!ENTITY nestedMenu "Komprimerad snabbmeny (använd undermenyer vid behov)">
+<!ENTITY flashgotExecutable "Sökväg till program:">
+<!ENTITY flashgotArguments "Argumentmall:">
+<!ENTITY flashgotAutodetect "Automatisk upptäckt av nedladdningsassistent">
+<!ENTITY flashgotDetect "Sök nu">
+<!ENTITY flashgotPlaceHolders "Platshållare">
+<!ENTITY flashgotQuoteWarn1 "Det är inte möjligt att använda citationstecken i argumentmallen.">
+<!ENTITY flashgotQuoteWarn2 "Om citationstecken är nödvändigt, överväg att skriva ett batch-skript.">
+<!ENTITY flashgotBadInstall "En kärnkomponent i FlashGot saknas eller är skadad. Var vänlig ominstallera FlashGot.">
+<!ENTITY flashgotWellGetPath "WellGet sökväg:">
+<!ENTITY flashgotExtFilter "Använd filändelsefilter även för batch-nedladdningar">
+<!ENTITY flashgotHTTPAuth "HTTP-autenticitering">
+<!ENTITY flashgotVisitHomepage "Besök tilläggets webbplats">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotAppearance "Appearance">
+<!ENTITY flashgotDownloadDropdown "Show FlashGot drop-down inside the default download dialog">
+<!ENTITY flashgotShownInContextMenu "Shown in context menu">
+<!ENTITY flashgotCustomEntries "Custom Entries">
+<!ENTITY flashgotDigGallery "Dig Gallery">
+<!ENTITY flashgotOverwrite "Overwrite">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

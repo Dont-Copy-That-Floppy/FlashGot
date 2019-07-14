@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://flashgot/skin/chooser.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://flashgot/locale/flashgot.dtd">
+<dialog id="FGfolderChooser" 
+  onload="Chooser.init()"
+  ondialogaccept="Chooser.accept()"
+  ondialogcancel="Chooser.cancel()"
+  title="FlashGot"
+  buttons="accept,cancel"
+  spacerflex="1"
+  persist="screenX screenY"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+  <script type="application/x-javascript" src="flashgotCommon.js" />
+  <script type="application/x-javascript" src="chooser.js" />
+	<vbox flex="1">
+		
+		<vbox id="link-chooser" collapsed="true" flex="1">
+      <label id="filterLabel" control="filter" value="&flashgotFilter;" accesskey="&flashgotFilter.accesskey;" class="header" />
+      <hbox>
+				<textbox id="filter" flex="1"
+				 oninput="Chooser.linkChooser.filterChanged(this.value)"
+         onfocus="this.select()"
+				 value=""
+				 type="autocomplete"
+				 autocompletesearch="flashgot-autocomplete"
+				 persist="autocompletesearchparam value"
+				 />
+        <button label="&flashgotSelAll;" accesskey="&flashgotSelAll.accesskey;"
+          oncommand="Chooser.linkChooser.selectAll()" />
+        <button label="&flashgotSelInv;" accesskey="&flashgotSelInv.accesskey;"
+          oncommand="Chooser.linkChooser.invertSelection()" />
+			</hbox>
+      
+			<tree id="links" 
+			      persist="sortDirection sortResource"
+            hidecolumnpicker="true"
+			      editable="true" flex="1" minheight="300" minwidth="600">
+				<treecols>
+				  <treecol id="links-choosen" label="✓" type="checkbox"
+					persist="ordinal hidden" fixed="true" editable="true" />
+				  <treecol id="links-type" label="&flashgotFileType;" value="type" flex="1"
+					persist="width ordinal hidden" />
+           <splitter class="tree-splitter" />
+				  <treecol id="links-url" label="&flashgotURL;" value="url" flex="3" crop="center"
+					persist="width ordinal hidden" />
+				  <splitter class="tree-splitter" />
+				  <treecol id="links-name" label="&flashgotFileName;" value="name" flex="2" crop="center"
+					persist="width ordinal hidden" />
+          <splitter class="tree-splitter" />
+				</treecols>
+				<treechildren />
+			</tree>
+			<checkbox id="all-choosen" label="&flashgotAllChoosen;" accesskey="&flashgotAllChoosen.accesskey;" checked="false" persist="checked"
+                oncommand="if (this.checked) Chooser.linkChooser.chooseAll()" />
+		</vbox>
+		<label id="destLabel" control="dest" value="&flashgotDestinationFolder;" class="header"
+           accesskey="&flashgotDestinationFolder.accesskey;"
+           />
+		<hbox>
+				<panel id="flashgot_autocomplete" type="autocomplete" noautofocus="true" />
+			<textbox id="dest" minwidth="400"
+				 onchange="Chooser.folderChanged(this)"
+				 value=""
+				 type="autocomplete"
+				 autocompletesearch="flashgot-autocomplete"
+				 completeselectedindex="true"
+				 autocompletepopup="flashgot_autocomplete"
+         flex="1"
+				 />
+			<button id="browse" oncommand="Chooser.browse()" label="&flashgotBrowse;" accesskey="&flashgotBrowse.accesskey;" />
+		</hbox>
+	</vbox>
+</dialog>

@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot でダウンロード">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot で選択範囲内をダウンロード">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot で全部ダウンロード">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot で全タブをダウンロード">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot 設定">
+<!ENTITY includeImages.label "画像もダウンロード">
+<!ENTITY hideDisabledCmds.label "無効なコマンドを隠す">
+<!ENTITY flashgotBuildGallery "ギャラリーを作成…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - ギャラリーを作成">
+<!ENTITY flashgotGBVariableURLs "URL の範囲を指定">
+<!ENTITY flashgotGBSample "範囲は [開始値-終了値;増加量] または [ファンクション名(…)] のように指定します。例:">
+<!ENTITY flashgotGBPreview "プレビュー:">
+<!ENTITY flashgotGBContent "コンテンツ:">
+<!ENTITY flashgotGBReferrer "リファラー URL:">
+<!ENTITY flashgotGBSync "範囲を同期させる">
+<!ENTITY flashgotGBRanges "範囲">
+<!ENTITY flashgotGBExpressions "JavaScript 関数">
+<!ENTITY flashgotGeneral "一般">
+<!ENTITY flashgotMenu "メニュー">
+<!ENTITY flashgotDownloadManager "ダウンロードマネージャー">
+<!ENTITY flashgotMoreOpts "詳細設定…">
+<!ENTITY flashgotExtensions "拡張子（例：jpg, mpg, mp3...）">
+<!ENTITY flashgotAdd "追加">
+<!ENTITY flashgotRemove "削除">
+<!ENTITY flashgotPrivacy "プライバシー">
+<!ENTITY flashgotReferrer "リファラー">
+<!ENTITY flashgotAutodetectReferrer "自動検出したリファラーを送る">
+<!ENTITY flashgotFakeReferrer "常にこのリファラ URL を使う:">
+<!ENTITY flashgotSendCookies "クッキーを送る">
+<!ENTITY flashgotAdvanced "詳細">
+<!ENTITY flashgotBGProcessing "バックグラウンドで処理">
+<!ENTITY flashgotShowLog "ログを表示">
+<!ENTITY flashgotClearLog "ログをクリア">
+<!ENTITY flashgotAbout "FlashGot 1.5.6.14rc1 について">
+<!ENTITY flashgotDMQuiet "確認画面をスキップ">
+<!ENTITY flashgotGetRightQuick "可能であれば togetright.exe を使用">
+<!ENTITY flashgotAutostart "ダウンロードを自動で開始する">
+<!ENTITY flashgotNoDMS "??? ダウンロードマネージャーを検出できませんでした ???">
+<!ENTITY flashgotNoDMS.tip "サポートしているダウンロードマネージャーを表示">
+<!ENTITY flashgotGetRightOld "GetRight が古い（5.2b 以下）">
+<!ENTITY flashgotEncodeURLs "エンコードされたURLを送る">
+<!ENTITY flashgotEnable "有効">
+<!ENTITY flashgotDisable "無効">
+<!ENTITY flashgotTmpDir "テンポラリディレクトリ">
+<!ENTITY flashgotBrowse "参照…">
+<!ENTITY flashgotReset "リセット">
+<!ENTITY flashgotRebootChange "この変更はブラウザ再起動後に有効になります">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot 使用">
+<!ENTITY flashgotBypassCombo "Alt+Shift + Click = FlashGot 以外">
+<!ENTITY flashgotDownloads "ダウンロード">
+<!ENTITY flashgotInterceptAll "全ダウンロードの制御を奪う">
+<!ENTITY flashgotLog "ログ">
+<!ENTITY flashgotShowFilter "フィルタダイアログを表示する">
+<!ENTITY flashgotFilter "フィルタ">
+<!ENTITY flashgotHost "ホスト">
+<!ENTITY flashgotRegExp "正規表現">
+<!ENTITY flashgotGlob "パターンにマッチする全てのパスを検索">
+<!ENTITY flashgotSelAll "全て選択">
+<!ENTITY flashgotSelInv "選択を反転">
+<!ENTITY flashgotSelect "選択">
+<!ENTITY flashgotUnselect "選択解除">
+<!ENTITY hideIcons "アイコンを非表示">
+<!ENTITY nestedMenu "コンパクトなコンテキストメニュー（必要に応じてサブメニュー化）">
+<!ENTITY flashgotExecutable "実行ファイルのパス:">
+<!ENTITY flashgotArguments "コマンドライン引数:">
+<!ENTITY flashgotAutodetect "ダウンロードマネージャーの自動検知">
+<!ENTITY flashgotDetect "今すぐ検知">
+<!ENTITY flashgotPlaceHolders "プレースホルダ">
+<!ENTITY flashgotQuoteWarn1 "引用符を使うことはできません。">
+<!ENTITY flashgotQuoteWarn2 "必要ならバッチスクリプト作成を検討して下さい。">
+<!ENTITY flashgotBadInstall "FlashGot コアコンポーネントが存在しないか壊れています。FlashGot を再インストールして下さい。">
+<!ENTITY flashgotWellGetPath "WellGet のパス:">
+<!ENTITY flashgotExtFilter "ファイル拡張子フィルタをバッチダウンロードにも適用する">
+<!ENTITY flashgotVisitHomepage "アドオンのホームページを開く">
+<!ENTITY flashgotHTTPAuth "HTTP 認証">
+<!ENTITY flashgotAppearance "外観">
+<!ENTITY flashgotDownloadDropdown "デフォルトのダウンロードダイアログ内に FlashGot のドロップダウンを表示">
+<!ENTITY flashgotShownInContextMenu "コンテキストメニューに表示">
+<!ENTITY flashgotCustomEntries "Custom エントリー">
+<!ENTITY flashgotDigGallery "Dig ギャラリー">
+<!ENTITY flashgotOverwrite "上書き">
+<!ENTITY flashgotMedia "FlashGot メディア">
+<!ENTITY flashgotShowReleaseNotes "更新時にリリースノートを表示">
+<!ENTITY flashgotUninstall "アンインストール">
+<!ENTITY flashgotClear.label "クリア">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

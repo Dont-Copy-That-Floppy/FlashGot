@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Link">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Selectie">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot Toate">
+<!ENTITY flashgotAll.accesskey "T">
+<!ENTITY flashgotTabs "Salturi FlashGot">
+<!ENTITY flashgotTabs.accesskey "s">
+<!ENTITY flashgotOptions "Optiuni FlashGot">
+<!ENTITY includeImages.label "Include imaginiile de pe pagina curenta">
+<!ENTITY hideDisabledCmds.label "Ascunde comenzile dezactivate">
+<!ENTITY flashgotBuildGallery "Creeaza o Galerie">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Creeaza o Galerie">
+<!ENTITY flashgotGBVariableURLs "Serii de URL-uri">
+<!ENTITY flashgotGBSample "Seriile variabilelor se exprima in forma [start-sfarsit;pas] sau [nume_de_functie(…)], de exemplu:">
+<!ENTITY flashgotGBPreview "Previezualizare:">
+<!ENTITY flashgotGBContent "Continut:">
+<!ENTITY flashgotGBReferrer "URL Referrer:">
+<!ENTITY flashgotGBSync "Sincronizeaza seriile">
+<!ENTITY flashgotGBRanges "Serii">
+<!ENTITY flashgotGBExpressions "Functii JavaScript">
+<!ENTITY flashgotGeneral "General">
+<!ENTITY flashgotMenu "Meniu">
+<!ENTITY flashgotDownloadManager "Download Manager">
+<!ENTITY flashgotMoreOpts "Mai multe optiuni…">
+<!ENTITY flashgotExtensions "Extensii">
+<!ENTITY flashgotAdd "Adauga">
+<!ENTITY flashgotRemove "Sterge">
+<!ENTITY flashgotPrivacy "Securitate">
+<!ENTITY flashgotReferrer "Referrer">
+<!ENTITY flashgotAutodetectReferrer "Autodetecteaza si trimte URL-ul Referrer">
+<!ENTITY flashgotFakeReferrer "Foloseste intotdeauna acest Referrer URL:">
+<!ENTITY flashgotSendCookies "Trimite Cookie-uri">
+<!ENTITY flashgotAdvanced "Optiuni avansate">
+<!ENTITY flashgotBGProcessing "Proceseaza link-urile in fundal">
+<!ENTITY flashgotShowLog "Arata log-ul">
+<!ENTITY flashgotClearLog "Sterge log-ul">
+<!ENTITY flashgotAbout "Despre FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Sari peste ferestrele de confimare">
+<!ENTITY flashgotGetRightQuick "Foloseste togetright.exe cand e posibil">
+<!ENTITY flashgotAutostart "Autostart descarcari">
+<!ENTITY flashgotNoDMS "??? NU S-A GASIT MANAGER DE DESCARCARE ???">
+<!ENTITY flashgotNoDMS.tip "Arata Manager-i de descarcare suportate">
+<!ENTITY flashgotGetRightOld "GetRight VECHI ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Trimite URL-uri codate">
+<!ENTITY flashgotEnable "Admite">
+<!ENTITY flashgotDisable "Anuleaza">
+<!ENTITY flashgotTmpDir "Catalogul temporar">
+<!ENTITY flashgotBrowse "Cauta…">
+<!ENTITY flashgotReset "Resetare">
+<!ENTITY flashgotRebootChange "Aceasta schimbare va avea efect dupa repornirea browser-ului">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = NO FlashGot">
+<!ENTITY flashgotDownloads "Descarcari">
+<!ENTITY flashgotInterceptAll "Intercepteaza toate descarcarile">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Arata dialogul filtrului">
+<!ENTITY flashgotFilter "Filtru">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Expresie regulara">
+<!ENTITY flashgotGlob "Baza globala">
+<!ENTITY flashgotSelAll "Selecteaza tot">
+<!ENTITY flashgotSelInv "Inverseaza selectarea">
+<!ENTITY flashgotSelect "Selecteaza">
+<!ENTITY flashgotUnselect "Deselecteaza">
+<!ENTITY hideIcons "Ascunde icoanele">
+<!ENTITY nestedMenu "Compacteaza meniul contextual (foloseste submeniu la nevoie)">
+<!ENTITY flashgotExecutable "Calea executabila:">
+<!ENTITY flashgotArguments "Argumentele liniei de comanda">
+<!ENTITY flashgotAutodetect "Detectare automata a Mnagerului de descarcare">
+<!ENTITY flashgotDetect "Cauta acum">
+<!ENTITY flashgotPlaceHolders "Ancorari">
+<!ENTITY flashgotQuoteWarn1 "Nu puteti folosi ghilimele intre argumente">
+<!ENTITY flashgotQuoteWarn2 "Daca aveti nevoie, folositi un script executabil">
+<!ENTITY flashgotBadInstall "Un component de baza a FlashGot lipseste sau e corupt. Reinstalati FlashGot">
+<!ENTITY flashgotWellGetPath "Calea WellGet:">
+<!ENTITY flashgotExtFilter "Aplica filtrul de extensii si la descarcari automate">
+<!ENTITY flashgotHTTPAuth "Autentificare HTTP">
+<!ENTITY flashgotAppearance "Aparenta">
+<!ENTITY flashgotDownloadDropdown "Arata descarcarcarea FlashGot in dialogul de descarcare implicit">
+<!ENTITY flashgotVisitHomepage "Viziteaza pagina extinsa">
+<!ENTITY flashgotShownInContextMenu "Arata in meniul contextual">
+<!ENTITY flashgotCustomEntries "Intrari alese">
+<!ENTITY flashgotDigGallery "Galeria Dig">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotOverwrite "Overwrite">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

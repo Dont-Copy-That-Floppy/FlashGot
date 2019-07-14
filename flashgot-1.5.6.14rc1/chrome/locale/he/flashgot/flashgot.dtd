@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot קישור">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot בחירה">
+<!ENTITY flashgotSel.accesskey "G">
+<!ENTITY flashgotAll "FlashGot הכל">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot לשוניות">
+<!ENTITY flashgotTabs.accesskey "ש">
+<!ENTITY flashgotOptions "FlashGot אפשרויות">
+<!ENTITY includeImages.label "כלול תמונות שנמצאו בדף הנוכחי">
+<!ENTITY hideDisabledCmds.label "הסתר פקודות לא זמינות">
+<!ENTITY flashgotBuildGallery "יצירת ספריה...">
+<!ENTITY flashgotBuildGallery.title "FlashGot - יצירת ספריה">
+<!ENTITY flashgotGBVariableURLs "כתובות URL של משתנה">
+<!ENTITY flashgotGBSample "טווחי המשתנים באים לידי ביטוי בטופס כ [התחלה-סיום;שלב] או [שם_פעולה(…)], למשל:">
+<!ENTITY flashgotGBPreview "תצוגה מקדימה">
+<!ENTITY flashgotGBContent "תוכן">
+<!ENTITY flashgotGBReferrer "כתובת URL של המפנה:">
+<!ENTITY flashgotGBSync "טווחי סנכרון">
+<!ENTITY flashgotGBRanges "טווחים">
+<!ENTITY flashgotGBExpressions "פעולות JS">
+<!ENTITY flashgotGeneral "כללי">
+<!ENTITY flashgotMenu "תפריט">
+<!ENTITY flashgotDownloadManager "מנהל הורדות">
+<!ENTITY flashgotMoreOpts "אפשרויות נוספות...">
+<!ENTITY flashgotExtensions "סיומת קבצים (כגון: jpg ,mpg ,mp3...)">
+<!ENTITY flashgotAdd "הוסף">
+<!ENTITY flashgotRemove "הסר">
+<!ENTITY flashgotPrivacy "פרטיות">
+<!ENTITY flashgotReferrer "המפנה">
+<!ENTITY flashgotAutodetectReferrer "שליחת כתובת URL מפנה שזוהתה באופן עצמי">
+<!ENTITY flashgotFakeReferrer "השתמש תמיד בכתובת URL מפנה זו:">
+<!ENTITY flashgotSendCookies "שלח קבצי Cookie">
+<!ENTITY flashgotAdvanced "מתקדם">
+<!ENTITY flashgotBGProcessing "תהליך עיבוד קישורים ברקע">
+<!ENTITY flashgotShowLog "הצג יומן רישום...">
+<!ENTITY flashgotClearLog "נקה את יומן הרישום">
+<!ENTITY flashgotAbout "אודות FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "דלג על בקשות אישור">
+<!ENTITY flashgotGetRightQuick "השתמש ב־ togetright.exe במידת האפשר">
+<!ENTITY flashgotAutostart "הפעלה עצמית של הורדות">
+<!ENTITY flashgotNoDMS "??? לא זוהה מנהל הורדות ???">
+<!ENTITY flashgotNoDMS.tip "הצג מנהלי הורדות נתמכים">
+<!ENTITY flashgotGetRightOld "GetRight הישן (&lt; = 5.2b)">
+<!ENTITY flashgotEncodeURLs "שלח כתובות Url מקודדת">
+<!ENTITY flashgotEnable "הפעל">
+<!ENTITY flashgotDisable "בטל">
+<!ENTITY flashgotTmpDir "תיקיה זמנית">
+<!ENTITY flashgotBrowse "עיון...">
+<!ENTITY flashgotReset "איפוס">
+<!ENTITY flashgotRebootChange "שינוי זה ייכנס לתוקף בהפעלה הבאה של הדפדפן">
+<!ENTITY flashgotAltClick "Alt + לחיצה = FlashGot">
+<!ENTITY flashgotBypassCombo "Shift + Alt + לחיצה = ללא FlashGot">
+<!ENTITY flashgotDownloads "הורדות">
+<!ENTITY flashgotInterceptAll "עצור את כל ההורדות">
+<!ENTITY flashgotLog "יומן רישום">
+<!ENTITY flashgotShowFilter "הצג תיבת דו־שיח של מסנן">
+<!ENTITY flashgotFilter "מסנן">
+<!ENTITY flashgotHost "מארח">
+<!ENTITY flashgotRegExp "ביטוי רגיל">
+<!ENTITY flashgotGlob "תבנית צבירה">
+<!ENTITY flashgotSelAll "בחר הכל">
+<!ENTITY flashgotSelInv "הפוך בחירה">
+<!ENTITY flashgotSelect "בחירה">
+<!ENTITY flashgotUnselect "בטל בחירה">
+<!ENTITY hideIcons "הסתר סמלים">
+<!ENTITY nestedMenu "תפריט תלוי הקשר מצומצם (השתמש בפתריט המשנה במידת הצורך)">
+<!ENTITY flashgotExecutable "נתיב של קובץ הפעלה:">
+<!ENTITY flashgotArguments "תבנית רצף פקודות של שורת הפקודה:">
+<!ENTITY flashgotAutodetect "זיהוי עצמי של מנהל הורדות">
+<!ENTITY flashgotDetect "זהה כעת">
+<!ENTITY flashgotPlaceHolders "מצייני מיקום">
+<!ENTITY flashgotQuoteWarn1 "אין באפשרותך להשתמש בגרשיים בתוך תבנית רצף פקודות.">
+<!ENTITY flashgotQuoteWarn2 "אם אתה זקוק להם, שקול לכתוב קובץ script של אצווה.">
+<!ENTITY flashgotBadInstall "רכיב הליבה של FlashGot חסר או פגום. אנא התקן מחדש את FlashGot.">
+<!ENTITY flashgotWellGetPath "נתיב WellGet:">
+<!ENTITY flashgotExtFilter "החל סינון סיומת קובץ גם על הורדות מסוג אצווה">
+<!ENTITY flashgotHTTPAuth "אימות HTTP">
+<!ENTITY flashgotAppearance "עיצוב">
+<!ENTITY flashgotDownloadDropdown "הצג רשימה נפתחת של FlashGot בתוך תיבת הדו־שיח של הורדה המוגדרת כברירת המחדל">
+<!ENTITY flashgotVisitHomepage "בקר בדף הבית של ההרחבה">
+<!ENTITY flashgotShownInContextMenu "מוצג בתפריט ההקשר">
+<!ENTITY flashgotCustomEntries "ערכים מותאמים אישית">
+<!ENTITY flashgotDigGallery "ספריית אתר">
+<!ENTITY flashgotOverwrite "שכתב">
+<!ENTITY flashgotMedia "FlashGot מדיה">
+<!ENTITY flashgotShowReleaseNotes "הצג את הערות המוצר בעדכון">
+<!ENTITY flashgotUninstall "הסר">
+<!ENTITY flashgotClear.label "נקה">
+<!ENTITY flashgotClear.accesskey "נ">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

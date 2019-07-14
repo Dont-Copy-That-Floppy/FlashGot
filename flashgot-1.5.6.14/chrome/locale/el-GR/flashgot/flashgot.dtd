@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot: δεσμός">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot: επιλογή">
+<!ENTITY flashgotSel.accesskey "ε">
+<!ENTITY flashgotAll "FlashGot: όλα">
+<!ENTITY flashgotAll.accesskey "λ">
+<!ENTITY flashgotTabs "FlashGot: καρτέλες">
+<!ENTITY flashgotTabs.accesskey "κ">
+<!ENTITY flashgotOptions "Επιλογές FlashGot">
+<!ENTITY includeImages.label "Να περιλαμβάνονται εικόνες που βρέθηκαν στην στρέχουσα σελίδα">
+<!ENTITY hideDisabledCmds.label "Απόκρυψη απενεργοποιημένων εντολών">
+<!ENTITY flashgotBuildGallery "Δημιουργία συλλογής">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Δημιουργία συλλογής">
+<!ENTITY flashgotGBVariableURLs "Μεταβλητές URLs">
+<!ENTITY flashgotGBSample "Οι τιμές των μεταβλητών εκφράζονται στη φόρμα: [start-end;step] ή [function_name(…)], για  παράδειγμα:">
+<!ENTITY flashgotGBPreview "Προεπισκόπηση:">
+<!ENTITY flashgotGBContent "Περιεχόμενο:">
+<!ENTITY flashgotGBReferrer "URL παραπομπής:">
+<!ENTITY flashgotGBSync "Συγχρονισμός τιμών">
+<!ENTITY flashgotGBRanges "Τιμές">
+<!ENTITY flashgotGBExpressions "Λειτουργίες JavaScript">
+<!ENTITY flashgotGeneral "Γενικά">
+<!ENTITY flashgotMenu "Μενού">
+<!ENTITY flashgotDownloadManager "Διαχειριστής λήψης αρχείων">
+<!ENTITY flashgotMoreOpts "Περισσότερες επιλογές…">
+<!ENTITY flashgotExtensions "Επεκτάσεις αρχείων (π.χ. jpg, mpg, mp3,…)">
+<!ENTITY flashgotAdd "Προσθήκη">
+<!ENTITY flashgotRemove "Απομάκρυνση">
+<!ENTITY flashgotPrivacy "Απόρρητο">
+<!ENTITY flashgotReferrer "Τοποθεσία παραπομπής">
+<!ENTITY flashgotAutodetectReferrer "Αποστολή εντοπισμένου URL παραπομπής">
+<!ENTITY flashgotFakeReferrer "Πάντα χρήση αυτού του URL παραπομπής:">
+<!ENTITY flashgotSendCookies "Αποστολή Cookies">
+<!ENTITY flashgotAdvanced "Για προχωρημένους">
+<!ENTITY flashgotBGProcessing "Διεργασία δεσμών στο παρασκήνιο">
+<!ENTITY flashgotShowLog "Εμφάνιση αρχείου καταγραφής">
+<!ENTITY flashgotClearLog "Εκκαθάριση αρχείου καταγραφής">
+<!ENTITY flashgotAbout "Περί FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Παράκαμψη ειδοποιήσεων επιβεβαίωσης">
+<!ENTITY flashgotGetRightQuick "Χρήση togetright.exe όταν είναι δυνατόν">
+<!ENTITY flashgotAutostart "Αυτόματη εκκίνηση μεταφορτώσεων">
+<!ENTITY flashgotNoDMS "??? ΔΕΝ ΕΝΤΟΠΙΣΘΗΚΕ ΕΦΑΡΜΟΓΗ ΔΙΑΧΕΙΡΙΣΗΣ ΛΗΨΗΣ ΑΡΧΕΙΩΝ ???">
+<!ENTITY flashgotNoDMS.tip "Εμφάνιση υποστηριζόμενων διαχειριστών λήψης αρχείων">
+<!ENTITY flashgotGetRightOld "ΠΑΛΙΟ GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Αποστολή κωδικοποιημένων URL">
+<!ENTITY flashgotEnable "Ενεργοποίηση">
+<!ENTITY flashgotDisable "Απενεργοποίηση">
+<!ENTITY flashgotTmpDir "Προσωρινός φάκελος">
+<!ENTITY flashgotBrowse "Περιήγηση…">
+<!ENTITY flashgotReset "Επαναφορά">
+<!ENTITY flashgotRebootChange "Η αλλαγή θα ενεργοποιηθεί μετά την επανεκκίνηση του περιηγητή">
+<!ENTITY flashgotAltClick "Alt+Κλικ = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Κλικ = παράκαμψη του FlashGot">
+<!ENTITY flashgotDownloads "Λήψεις">
+<!ENTITY flashgotInterceptAll "Διεκπεραίωση όλων των λήψεων">
+<!ENTITY flashgotLog "Αρχείο καταγραφής">
+<!ENTITY flashgotShowFilter "Εμφάνιση διαλόγου φίλτρου">
+<!ENTITY flashgotFilter "Φίλτρο">
+<!ENTITY flashgotHost "Κεντρικός υπολογιστής">
+<!ENTITY flashgotRegExp "Regular Expression">
+<!ENTITY flashgotGlob "Glob Pattern">
+<!ENTITY flashgotSelAll "Επιλογή όλων">
+<!ENTITY flashgotSelInv "Αντιστροφή επιλογής">
+<!ENTITY flashgotSelect "Επιλογή">
+<!ENTITY flashgotUnselect "Αποεπιλογή">
+<!ENTITY hideIcons "Απόκρυψη εικονιδίων">
+<!ENTITY nestedMenu "Συγχώνευση μενού περιεχομένου (χρήση υπο-μενού αν χρειαστεί)">
+<!ENTITY flashgotExecutable "Τοποθεσία εκτελέσιμου αρχείου:">
+<!ENTITY flashgotArguments "Πρότυπο παραμέτρων:">
+<!ENTITY flashgotAutodetect "Αυτόματη ανίχνευση διαχειριστή λήψης αρχείων">
+<!ENTITY flashgotDetect "Ανίχνευση τώρα">
+<!ENTITY flashgotPlaceHolders "Αντικαταστάτες">
+<!ENTITY flashgotQuoteWarn1 "Δεν μπορείτε να χρησιμοποιήσετε εισαγωγικά στο πρότυπο παραμέτρων.">
+<!ENTITY flashgotQuoteWarn2 "Εάν τα χρειάζεστε, λάβετε υπ&apos; όψη σας την συγγραφή ενός σεναρίου εντολών (script).">
+<!ENTITY flashgotBadInstall "Ένα βασικό στοιχείου του FlashGot λείπει ή έχει καταστραφεί. Παρακαλώ επανεγκαταστήστε το FlashGot.">
+<!ENTITY flashgotWellGetPath "Διαδρομή WellGet:">
+<!ENTITY flashgotExtFilter "Εφαρμογή του φίλτρου επέκτασης αρχείων και στις λήψεις δέσμης αρχείων">
+<!ENTITY flashgotHTTPAuth "Πιστοποίηση HTTP">
+<!ENTITY flashgotAppearance "Εμφάνιση">
+<!ENTITY flashgotDownloadDropdown "Εμφάνιση του FlashGot στο παράθυρο διαλόγου των λήψεων">
+<!ENTITY flashgotVisitHomepage "Επισκεφτείτε την ιστοσελίδα της επέκτασης">
+<!ENTITY flashgotShownInContextMenu "Προβολή στο μενού επιλογών">
+<!ENTITY flashgotCustomEntries "Προσαρμοσμένες εισαγωγές">
+<!ENTITY flashgotDigGallery "Ξετρύπωμα συλλογής">
+<!ENTITY flashgotOverwrite "Αντικατάσταση">
+<!ENTITY flashgotMedia "Πολυμέσα FlashGot">
+<!ENTITY flashgotShowReleaseNotes "Εμφάνιση των σημειώσεων έκδοσης σε αναβαθμίσεις">
+<!ENTITY flashgotUninstall "Απεγκατάσταση">
+<!ENTITY flashgotClear.label "Εκαθάριση">
+<!ENTITY flashgotClear.accesskey "κ">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Scarica il link con FlashGot">
+<!ENTITY flashgotLink.accesskey "l">
+<!ENTITY flashgotSel "Scarica la selezione con FlashGot">
+<!ENTITY flashgotSel.accesskey "G">
+<!ENTITY flashgotAll "Scarica tutto con FlashGot">
+<!ENTITY flashgotAll.accesskey "t">
+<!ENTITY flashgotTabs "Scarica le schede con FlashGot">
+<!ENTITY flashgotTabs.accesskey "h">
+<!ENTITY flashgotOptions "Opzioni di FlashGot">
+<!ENTITY includeImages.label "Includi le immagini presenti nella pagina">
+<!ENTITY hideDisabledCmds.label "Nascondi i comandi disabilitati">
+<!ENTITY flashgotBuildGallery "Fabbrica una galleria">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Fabbrica una galleria">
+<!ENTITY flashgotGBVariableURLs "URL variabili">
+<!ENTITY flashgotGBSample "Gli intervalli variabili si esprimono nella forma [inizio-fine;passo] oppure [nome_funzione(…)], ad esempio:">
+<!ENTITY flashgotGBPreview "Anteprima:">
+<!ENTITY flashgotGBContent "Contenuti:">
+<!ENTITY flashgotGBReferrer "URL di provenienza:">
+<!ENTITY flashgotGBSync "Sincronizza gli intervalli">
+<!ENTITY flashgotGBRanges "Intervalli">
+<!ENTITY flashgotGBExpressions "Funzioni JavaScript">
+<!ENTITY flashgotGeneral "Generale">
+<!ENTITY flashgotMenu "Menu">
+<!ENTITY flashgotDownloadManager "Download manager">
+<!ENTITY flashgotMoreOpts "Altre opzioni…">
+<!ENTITY flashgotExtensions "Estensioni dei file">
+<!ENTITY flashgotAdd "Aggiungi">
+<!ENTITY flashgotRemove "Rimuovi">
+<!ENTITY flashgotPrivacy "Privacy">
+<!ENTITY flashgotReferrer "Referente">
+<!ENTITY flashgotAutodetectReferrer "Invia l'URL referente rilevato automaticamente">
+<!ENTITY flashgotFakeReferrer "Usa sempre quest'URL:">
+<!ENTITY flashgotSendCookies "Invia cookie">
+<!ENTITY flashgotAdvanced "Avanzate">
+<!ENTITY flashgotBGProcessing "Elabora i link in background">
+<!ENTITY flashgotShowLog "Mostra log">
+<!ENTITY flashgotClearLog "Cancella log">
+<!ENTITY flashgotAbout "Informazioni su FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Evita le finestre di conferma">
+<!ENTITY flashgotGetRightQuick "Usa togetright.exe quando è possibile">
+<!ENTITY flashgotAutostart "Inizia i download automaticamente">
+<!ENTITY flashgotNoDMS "??? NESSUN DOWNLOAD MANAGER TROVATO ???">
+<!ENTITY flashgotNoDMS.tip "Visualizza i download manager supportati">
+<!ENTITY flashgotGetRightOld "Vecchia versione di GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Invia URL codificati">
+<!ENTITY flashgotEnable "Abilita">
+<!ENTITY flashgotDisable "Disabilita">
+<!ENTITY flashgotTmpDir "Cartella temporanea">
+<!ENTITY flashgotBrowse "Sfoglia…">
+<!ENTITY flashgotRebootChange "Questa modifica avrà effetto al prossimo avvio del browser">
+<!ENTITY flashgotDownloads "Download">
+<!ENTITY flashgotInterceptAll "Intercetta tutti i download">
+<!ENTITY hideIcons "Nascondi le icone">
+<!ENTITY nestedMenu "Menu contestuale compatto (usa sottomenu se necessario)">
+<!ENTITY flashgotExecutable "Percorso dell'eseguibile:">
+<!ENTITY flashgotArguments "Modello dei parametri:">
+<!ENTITY flashgotAutodetect "Ricerca automatica dei download manager">
+<!ENTITY flashgotDetect "Cerca adesso">
+<!ENTITY flashgotPlaceHolders "Segnaposto">
+<!ENTITY flashgotQuoteWarn1 "Non puoi usare apici nel modello degli argomenti.">
+<!ENTITY flashgotQuoteWarn2 "Se ne hai bisogno, valuta l'opportunità di uno script">
+<!ENTITY flashgotBadInstall "Un componente fondamentale di FlashGot è assente o corrotto. È necessario reinstallare FlashGot.">
+<!ENTITY flashgotWellGetPath "Percorso di WellGet:">
+<!ENTITY flashgotExtFilter "Applica il filtro sull'estensione del file anche ai download multipli">
+<!ENTITY flashgotHTTPAuth "Autenticazione HTTP">
+<!ENTITY flashgotVisitHomepage "Visita il sito web dell'estensione">
+<!ENTITY flashgotShownInContextMenu "Visibile nel menu contestuale">
+<!ENTITY flashgotCustomEntries "Elementi personalizzati">
+<!ENTITY flashgotDigGallery "Scava galleria">
+<!ENTITY flashgotOverwrite "Sovrascrivi">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotShowReleaseNotes "Apri la pagina con le note di rilascio dopo gli aggiornamenti">
+<!ENTITY flashgotUninstall "Disinstalla">
+<!ENTITY flashgotClear.label "Pulisci">
+<!ENTITY flashgotClear.accesskey "P">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotReset "Reset">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = NO FlashGot">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Show Filter Dialog">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Regular Expression">
+<!ENTITY flashgotGlob "Glob Pattern">
+<!ENTITY flashgotSelAll "Select All">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv "Invert Selection">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotSelect "Select">
+<!ENTITY flashgotUnselect "Deselect">
+<!ENTITY flashgotAppearance "Appearance">
+<!ENTITY flashgotDownloadDropdown "Show FlashGot drop-down inside the default download dialog">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter "Selection filter">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

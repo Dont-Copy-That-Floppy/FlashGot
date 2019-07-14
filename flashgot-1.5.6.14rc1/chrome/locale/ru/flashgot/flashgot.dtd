@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Закачать ссылку при помощи FlashGot">
+<!ENTITY flashgotLink.accesskey "з">
+<!ENTITY flashgotSel "Закачать выделенное при помощи FlashGot">
+<!ENTITY flashgotSel.accesskey "ы">
+<!ENTITY flashgotAll "Закачать все при помощи FlashGot">
+<!ENTITY flashgotAll.accesskey "в">
+<!ENTITY flashgotTabs "Закачать из всех вкладок при помощи FlashGot">
+<!ENTITY flashgotTabs.accesskey "к">
+<!ENTITY flashgotOptions "Настройки FlashGot">
+<!ENTITY includeImages.label "Включая изображения с текущей страницы">
+<!ENTITY hideDisabledCmds.label "Скрыть отключенные команды">
+<!ENTITY flashgotBuildGallery "Cоздать галерею…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - создание галереи">
+<!ENTITY flashgotGBVariableURLs "Диапазон адресов">
+<!ENTITY flashgotGBSample "Изменение диапазона выражается в форме [начало-конец;шаг], например:">
+<!ENTITY flashgotGBPreview "Предпросмотр:">
+<!ENTITY flashgotGBContent "Содержимое:">
+<!ENTITY flashgotGBReferrer "Реферер:">
+<!ENTITY flashgotGBSync "Синхронизировать интервалы">
+<!ENTITY flashgotGBRanges "Диапазоны">
+<!ENTITY flashgotGBExpressions "Функции JavaScript">
+<!ENTITY flashgotGeneral "Основные">
+<!ENTITY flashgotMenu "Меню">
+<!ENTITY flashgotDownloadManager "Менеджер закачек">
+<!ENTITY flashgotMoreOpts "Настройки…">
+<!ENTITY flashgotExtensions "Расширения (jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Добавить">
+<!ENTITY flashgotRemove "Удалить">
+<!ENTITY flashgotPrivacy "Приватность">
+<!ENTITY flashgotReferrer "Реферер">
+<!ENTITY flashgotAutodetectReferrer "Отсылать исходный реферер">
+<!ENTITY flashgotFakeReferrer "Всегда использовать этот реферер:">
+<!ENTITY flashgotSendCookies "Использовать Cookies">
+<!ENTITY flashgotAdvanced "Дополнительно">
+<!ENTITY flashgotBGProcessing "Обрабатывать ссылки в фоне">
+<!ENTITY flashgotShowLog "Показать журнал">
+<!ENTITY flashgotClearLog "Очистить журнал">
+<!ENTITY flashgotAbout "О FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Пропускать подтверждения">
+<!ENTITY flashgotGetRightQuick "Использовать togetright.exe, если возможно">
+<!ENTITY flashgotAutostart "Автоматически стартовать закачки">
+<!ENTITY flashgotNoDMS "??? МЕНЕДЖЕРЫ ЗАКАЧЕК НЕ ОБНАРУЖЕНЫ ???">
+<!ENTITY flashgotNoDMS.tip "Показать поддерживаемые менеджеры закачек">
+<!ENTITY flashgotGetRightOld "Старый GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Отсылать кодированные URL">
+<!ENTITY flashgotEnable "Включить">
+<!ENTITY flashgotDisable "Отключить">
+<!ENTITY flashgotTmpDir "Временная папка">
+<!ENTITY flashgotBrowse "Обзор…">
+<!ENTITY flashgotReset "Сброс">
+<!ENTITY flashgotRebootChange "Изменения вступят в силу после перезапуска браузера">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = без FlashGot">
+<!ENTITY flashgotDownloads "Закачки">
+<!ENTITY flashgotInterceptAll "Перехватывать все закачки">
+<!ENTITY flashgotLog "Журнал">
+<!ENTITY flashgotShowFilter "Показать диалог фильтров">
+<!ENTITY flashgotFilter "Фильтр">
+<!ENTITY flashgotHost "Хост">
+<!ENTITY flashgotRegExp "Регулярное выражение">
+<!ENTITY flashgotGlob "Глобальный шаблон">
+<!ENTITY flashgotSelAll "Выделить все">
+<!ENTITY flashgotSelInv "Обратить выделение">
+<!ENTITY flashgotSelect "Выделить">
+<!ENTITY flashgotUnselect "Снять выделение">
+<!ENTITY hideIcons "Скрыть значки">
+<!ENTITY nestedMenu "Компактное меню (использовать подменю при необходимости)">
+<!ENTITY flashgotExecutable "Исполняемый файл:">
+<!ENTITY flashgotArguments "Шаблон командной строки:">
+<!ENTITY flashgotAutodetect "Автоопределение менеджеров закачек">
+<!ENTITY flashgotDetect "Определить сейчас">
+<!ENTITY flashgotPlaceHolders "Переменные">
+<!ENTITY flashgotQuoteWarn1 "В шаблоне командной строки нельзя использовать кавычки.">
+<!ENTITY flashgotQuoteWarn2 "Если они так необходимы, напишите пакетный сценарий.">
+<!ENTITY flashgotBadInstall "Основной компонент FlashGot поврежден или отсутствует. Переустановите FlashGot.">
+<!ENTITY flashgotWellGetPath "Размещение WellGet:">
+<!ENTITY flashgotExtFilter "Также использовать фильтры при пакетной закачке">
+<!ENTITY flashgotHTTPAuth "Аутентификация по HTTP">
+<!ENTITY flashgotAppearance "Внешний вид">
+<!ENTITY flashgotDownloadDropdown "Выпадающее меню FlashGot в окне сохранения файла">
+<!ENTITY flashgotVisitHomepage "Посетить домашнюю страницу расширения">
+<!ENTITY flashgotShownInContextMenu "Отображать в контекстном меню">
+<!ENTITY flashgotCustomEntries "Пользовательские пункты">
+<!ENTITY flashgotDigGallery "Цифровая галерея">
+<!ENTITY flashgotOverwrite "Перезаписать">
+<!ENTITY flashgotMedia "Мультимедиа">
+<!ENTITY flashgotShowReleaseNotes "При обновлении отображать примечания к выпуску">
+<!ENTITY flashgotUninstall "Удалить">
+<!ENTITY flashgotClear.label "Очистить">
+<!ENTITY flashgotClear.accesskey "О">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+
+    FlashGot - a Firefox extension for external download managers integration
+    Copyright (C) 2004-2013 Giorgio Maone - g.maone@informaction.com
+
+***** END LICENSE BLOCK ***** -->
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://flashgot/locale/flashgot.dtd">
+
+<dialog id="flashgotOptions" 
+  onload="fgo_onload()"
+  ondialogaccept="fgo_save()"
+  title="&flashgotOptions;"
+  buttons="extra2,accept,cancel"
+  
+  buttonlabelextra2="&flashgotUninstall;"
+  ondialogextra2="gFlashGotService.smUninstaller.appUninstall(window)"
+  
+  flex="1"
+  spacerflex="1"
+  
+  persist="screenX screenY"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+>
+  <script type="application/x-javascript" src="iaUI.js"/>
+  <script type="application/x-javascript" src="flashgotCommon.js"/>
+  <script type="application/x-javascript" src="flashgotOptions.js"/>
+  
+  <popupset>
+      <tooltip id="quoteWarn" position="at_pointer" orient="vertical" >
+        <description>&flashgotQuoteWarn1;</description>
+        <description>&flashgotQuoteWarn2;</description>
+      </tooltip>
+   </popupset>
+
+  <tabbox id="mainTabbox" flex="1" >
+  <tabs>
+    <tab label="&flashgotGeneral;"/>
+    <tab label="&flashgotMenu;"/>
+    <tab id="tab-downloads" label="&flashgotDownloads;"/>
+    <tab id="tab-media" label="&flashgotMedia;"/>
+    <tab label="&flashgotPrivacy;"/>
+    <tab label="&flashgotAdvanced;"/>
+  </tabs>
+    <tabpanels flex="1">
+      <tabpanel flex="1"><!-- General -->
+      <vbox flex="1">  
+        <vbox>
+          <label class="header" value="&flashgotDownloadManager;" />
+          <hbox align="center">
+            <menulist id="downloadManagers" flex="1" oncommand="fgo_dmSelected()">
+                <menupopup id="mp-dms" />
+            </menulist>
+            <button id="customDM-add" oncommand="g_cust.add()" 
+              label="&flashgotAdd;" />
+           </hbox>
+         </vbox>
+        <deck id="dmsdeck" selectedIndex="1" flex="1">
+          <vbox flex="1">
+          <label value="&flashgotExecutable;" />  
+          <hbox align="center">
+              <textbox id="customDM-exeFile" readonly="true" flex="1"
+                 />
+               <button label="&flashgotBrowse;"
+                    oncommand="g_cust.locateExe()" />
+            </hbox>
+            <hbox align="center">
+              <label value="&flashgotArguments;"  />
+               <spacer flex="1" />
+              <toolbar style="border: 0px; margin: 0px; padding: 0px; background: transparent;">
+              <toolbarbutton style="border: none; background: transparent;"
+                label="&flashgotPlaceHolders;" type="menu">
+                <menupopup>
+                  <menuitem id="ph-" hidden="true" oncommand="g_cust.insertPH(this.id)"/>
+                </menupopup>
+              </toolbarbutton>
+            </toolbar>
+            </hbox>
+            <textbox id="customDM-args" multiline="true" flex="1" 
+              cols="60" rows="3"  
+              oninput="g_cust.argsChanged(this)" />
+            
+            <hbox align="center">
+              
+               <spacer flex="1" />
+              <button label="&flashgotRemove;" oncommand="g_cust.remove()" />
+            </hbox>
+          </vbox>
+           <vbox flex="1">
+            <checkbox class="dm-opt" id="opt-Net_Transport.encode" label="&flashgotEncodeURLs;" />
+            
+            <checkbox class="dm-opt" id="opt-dmsopts._Built_In_.overwrite" label="&flashgotOverwrite;" />
+            
+            <checkbox class="dm-opt" id="opt-Downloader_4_X.quiet" label="&flashgotDMQuiet;" />
+            
+            <checkbox class="dm-opt" id="opt-GetRight.quick" label="&flashgotGetRightQuick;" />
+            <checkbox class="dm-opt" id="opt-GetRight.old" label="&flashgotGetRightOld;" />
+            <checkbox class="dm-opt" id="opt-GetRight.autostart" label="&flashgotAutostart;" />
+            <checkbox class="dm-opt" id="opt-dmsopts.GetRight.quiet" label="&flashgotDMQuiet;" />
+            
+            <checkbox class="dm-opt" id="opt-dmsopts.JDownloader.autostart" label="&flashgotAutostart;" />
+            <checkbox class="dm-opt" id="opt-dmsopts.JDownloader.quiet" label="&flashgotDMQuiet;" />
+            
+            
+            <hbox class="dm-opt" id="hbox-pyLoad" align="center">
+              <label id="pyLoad-label" value="&flashgotURL;:" />
+              <textbox id="pyLoad-url" flex="1" />
+            </hbox>
+            <checkbox class="dm-opt" id="opt-dmsopts.pyLoad.autostart" label="&flashgotAutostart;" />
+            
+            <label id="nodms" collapsed="true"
+               style="color: #0000FF; text-decoration: none; cursor: pointer; margin: 4px; padding: 4px; background-color: yellow; border: 1px solid red"
+               tooltiptext="&flashgotNoDMS.tip;"
+               onclick="gFlashGotService.showDMSReference()"
+               >&flashgotNoDMS;</label>
+              
+            <hbox class="dm-opt" id="hbox-WellGet" align="center">
+              <label id="wellget-label" value="&flashgotWellGetPath;" />
+              <textbox readonly="true" id="wellget-text" flex="1" />
+              <button label="&flashgotBrowse;" onclick="fgo_browseWellGet()" />
+              <button label="&flashgotReset;" onclick="fgo_browseWellGet(true)" />
+            </hbox>
+               
+            </vbox>
+            
+          </deck>
+          <checkbox id="shownInContextMenu" label="&flashgotShownInContextMenu;" 
+              oncommand="fgo_shownInContextMenuClicked(this)" />
+      
+          <separator class="groove" />
+            
+          <checkbox id="opt-includeImages" label="&includeImages.label;" />
+          <checkbox id="opt-altClick" label="&flashgotAltClick;" />
+          <checkbox id="opt-bypassCombo" label="&flashgotBypassCombo;" />
+          <checkbox id="opt-gesture" label="&flashgotGesture;" />
+       </vbox>
+      </tabpanel>
+      <tabpanel> <!-- Menu -->
+        <vbox flex="1">
+            <spacer flex="1" />
+            <hbox flex="1">
+                <spacer flex="1" />
+                <vbox>
+                    <checkbox id="invopt-hide-it" label="&flashgotLink;" />
+                    <checkbox id="invopt-hide-sel" label="&flashgotSel;" />
+                    <checkbox id="invopt-hide-all" label="&flashgotAll;" />
+                    <checkbox id="invopt-hide-tabs" label="&flashgotTabs;" />
+                    <checkbox id="invopt-hide-media" label="&flashgotMedia;" />
+                    <separator />
+                   
+                    <checkbox id="invopt-hide-buildGallery" label="&flashgotBuildGallery;" />
+                    <checkbox id="invopt-hide-options" label="&flashgotOptions;" />
+                    <separator />
+                    <separator class="groove" />
+                    <separator />
+                    <checkbox id="opt-hideDisabledCmds" label="&hideDisabledCmds.label;" />
+                   <checkbox id="opt-hide-icons" label="&hideIcons;" />
+                   <checkbox id="opt-nested-menu" label="&nestedMenu;" />
+                </vbox>
+                <spacer flex="1" />
+            </hbox>
+            <spacer flex="1" />
+       </vbox>
+      </tabpanel>
+      
+      <tabpanel> <!-- Downloads -->
+        <vbox flex="1">
+        <checkbox id="opt-autoStart" label="&flashgotAutostart;" />
+        <separator/>
+        <radiogroup id="interception-rg"
+          onselect="fgo_interceptionSelected(this)">
+          <radio id="interceptAll-radio" label="&flashgotInterceptAll;" />  
+          <radio id="interceptExt-radio" label="&flashgotExtensions;" />
+        </radiogroup>
+        <grid id="extensions-box" flex="1">
+            <columns>
+              <column flex="1"/>
+              <column />
+            </columns>
+            <rows>
+                <row align="center">
+                    <textbox id="ext-text" oninput="fgo_extText_changed()" />
+                    <button id="ext-add-button" 
+                      label="&flashgotAdd;"  
+                      oncommand="fgo_ext_add()" disabled="true" />
+                </row>
+                <row>
+                    <listbox id="ext-list" seltype="multiple" 
+                               onselect="fgo_extList_changed()" 
+                               rows="8" 
+                               >
+                               <listitem id="fake_ext_item" label=" " />
+                    </listbox>
+                    <vbox>
+                    <button id="ext-remove-button" 
+                     label="&flashgotRemove;" 
+                     oncommand="fgo_ext_remove()" disabled="true" />
+                    </vbox>
+                </row>
+                <row>
+                 <checkbox id="opt-extfilter" label="&flashgotExtFilter;" />
+                </row>
+            </rows>
+        </grid>
+      </vbox>
+      </tabpanel>
+      
+      <tabpanel> <!-- Media -->
+        <vbox flex="1">
+        <label class="header" value="&flashgotDownloadManager;" />
+        <hbox>
+            <menulist id="media-dmList" flex="1">
+                <menupopup id="media-dmPopup" />
+            </menulist>
+        </hbox>
+        <checkbox id="opt-media.statusIcon" label="&flashgotShowToolbarButton;" />
+        </vbox>
+      </tabpanel>
+      
+      
+      <tabpanel>
+       <vbox flex="1" >
+          <label class="header" value="&flashgotReferrer;" />
+          <radiogroup id="referrer-radio">
+          <radio value="true" label="&flashgotAutodetectReferrer;" />
+          <radio value="false" label="&flashgotFakeReferrer;" />
+          <hbox>
+            <spacer width="20" />
+            <textbox id="referrer-text" flex="1" />
+          </hbox>
+          </radiogroup>
+          <spacer flex="1" />
+          <separator class="groove" />
+        
+             <checkbox id="invopt-omitCookies" label="&flashgotSendCookies;" />
+             <checkbox id="opt-httpauth" label="&flashgotHTTPAuth;" />
+          <spacer flex="1" /> 
+            
+       </vbox>
+      </tabpanel>
+      
+      
+      
+      <tabpanel>
+     
+      <vbox flex="1" >
+        <label class="header" id="tmpdir-label" value="&flashgotTmpDir;" />
+        <hbox align="center">
+          
+          <textbox id="tmpdir-text" readonly="true" flex="1"/>
+          <button label="&flashgotBrowse;"
+            oncommand="fgo_browseTmpDir()" />
+        </hbox>
+        <description id="tmpdir-warning" 
+          style="visibility: hidden">&flashgotRebootChange;</description>
+        <spacer flex="1" />
+        
+        <separator class="groove" />
+        <checkbox id="opt-firstRunRedirection" label="&flashgotShowReleaseNotes;"/>
+        <spacer flex="1" />
+        <separator class="groove" />
+        <hbox align="center">
+          <checkbox id="opt-detect.auto"  label="&flashgotAutodetect;" />
+           <spacer flex="1" />
+          <button label="&flashgotDetect;" oncommand="fgo_detectNow()" />
+         </hbox> 
+         
+         <spacer flex="1" />
+        <separator class="groove" />
+        <hbox align="center">
+          <label class="header" id="tmpdir-label" value="&flashgotLog;" />
+          <checkbox id="invopt-logEnabled"  label="&flashgotDisable;" />
+          <spacer flex="1" />
+            <button label="&flashgotShowLog;" 
+              oncommand="fgo_showLog()"  
+            />
+            <button label="&flashgotClearLog;" 
+              oncommand="fgo_clearLog()"  
+            />
+          </hbox>
+    
+       </vbox>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+  
+  <description id="badInstall" flex="1" hidden="true" >&flashgotBadInstall;</description>
+  
+</dialog>

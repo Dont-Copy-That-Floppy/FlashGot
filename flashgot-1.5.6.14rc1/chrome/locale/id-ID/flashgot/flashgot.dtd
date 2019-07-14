@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Link">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Pilihan/Selections">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot Semua/All">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Tabs">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "Menu Pengaturan/Opsi FlashGot">
+<!ENTITY includeImages.label "Sertakan gambar yang terdapat di halaman ini">
+<!ENTITY hideDisabledCmds.label "Sembunyikan Perintah yang Tidak Diaktifkan">
+<!ENTITY flashgotBuildGallery "Buat Galeri">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Buat Galeri">
+<!ENTITY flashgotGBVariableURLs "Variabel URLs">
+<!ENTITY flashgotGBSample "Kumpulan variabel diekspresikan dalam bentuk [mulai-akhir;step] atau [nama_fungsi(…)], sebagai contoh:">
+<!ENTITY flashgotGBPreview "Lihat dulu:">
+<!ENTITY flashgotGBContent "Isi:">
+<!ENTITY flashgotGBReferrer "URL Pengacu/Referer:">
+<!ENTITY flashgotGBSync "Sinkronisasi ranges">
+<!ENTITY flashgotGBRanges "Ranges">
+<!ENTITY flashgotGBExpressions "Fungsi JavaScript">
+<!ENTITY flashgotGeneral "Umum">
+<!ENTITY flashgotMenu "Menu">
+<!ENTITY flashgotDownloadManager "Download Manager">
+<!ENTITY flashgotMoreOpts "Pengaturan Lebih Lanjut…">
+<!ENTITY flashgotExtensions "Ekstensi File">
+<!ENTITY flashgotAdd "Tambah">
+<!ENTITY flashgotRemove "Hapus">
+<!ENTITY flashgotPrivacy "Privasi">
+<!ENTITY flashgotReferrer "Pengacu/Referrer">
+<!ENTITY flashgotAutodetectReferrer "Kirim URL pengacu/referrer yang terdeteksi otomatis">
+<!ENTITY flashgotFakeReferrer "Selalu gunakan pengacu/referrer URL ini:">
+<!ENTITY flashgotSendCookies "Kirim Cookies">
+<!ENTITY flashgotAdvanced "Tingkat Lanjut">
+<!ENTITY flashgotBGProcessing "Proses links di background">
+<!ENTITY flashgotShowLog "Tampilkan Log">
+<!ENTITY flashgotClearLog "Hapus Log">
+<!ENTITY flashgotAbout "Tentang FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Abaikan Dialog Konfirmasi">
+<!ENTITY flashgotGetRightQuick "Gunakan togetright.exe apabila dimungkinkan">
+<!ENTITY flashgotAutostart "Memulai download secara otomatis">
+<!ENTITY flashgotNoDMS "??? TIDAK ADA DOWNLOAD MANAGER YANG TERDETEKSI ???">
+<!ENTITY flashgotNoDMS.tip "Show supported Download Managers">
+<!ENTITY flashgotGetRightOld "GetRight LAMA ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Kirim URL yang terkode">
+<!ENTITY flashgotEnable "Aktifkan">
+<!ENTITY flashgotDisable "Tidak aktif">
+<!ENTITY flashgotTmpDir "Direktori Sementara">
+<!ENTITY flashgotBrowse "Jelajah…">
+<!ENTITY flashgotReset "Reset">
+<!ENTITY flashgotRebootChange "Perubahan ini akan terlihat setelah browser di-restart">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = NO FlashGot">
+<!ENTITY flashgotDownloads "Download">
+<!ENTITY flashgotInterceptAll "Intercept semua download">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Tampilkan Dialog Pilihan Filter">
+<!ENTITY flashgotFilter "Filter">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Ekspresi Reguler">
+<!ENTITY flashgotGlob "Pola Umum">
+<!ENTITY flashgotSelAll "Pilih Semua">
+<!ENTITY flashgotSelInv "Invers Pilihan">
+<!ENTITY flashgotSelect "Pilih">
+<!ENTITY flashgotUnselect "Hapus Pilih">
+<!ENTITY hideIcons "Hide Icons">
+<!ENTITY nestedMenu "Compact context menu (use submenu if needed)">
+<!ENTITY flashgotExecutable "Executable path:">
+<!ENTITY flashgotArguments "Arguments template:">
+<!ENTITY flashgotAutodetect "Automatic download manager detection">
+<!ENTITY flashgotDetect "Detect Now">
+<!ENTITY flashgotPlaceHolders "Placeholders">
+<!ENTITY flashgotQuoteWarn1 "You cannot use quotes within the arguments template.">
+<!ENTITY flashgotQuoteWarn2 "If you need them, consider writing a batch script.">
+<!ENTITY flashgotBadInstall "A core FlashGot component is missing or corrupted. Please reinstall FlashGot.">
+<!ENTITY flashgotWellGetPath "WellGet path:">
+<!ENTITY flashgotExtFilter "Apply file extension filter to batch downloads too">
+<!ENTITY flashgotHTTPAuth "HTTP Authentication">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotAppearance "Appearance">
+<!ENTITY flashgotDownloadDropdown "Show FlashGot drop-down inside the default download dialog">
+<!ENTITY flashgotVisitHomepage "Visit extension home page">
+<!ENTITY flashgotShownInContextMenu "Shown in context menu">
+<!ENTITY flashgotCustomEntries "Custom Entries">
+<!ENTITY flashgotDigGallery "Dig Gallery">
+<!ENTITY flashgotOverwrite "Overwrite">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot көмегімен сілтемені жүктеп алу">
+<!ENTITY flashgotLink.accesskey "ж">
+<!ENTITY flashgotSel "FlashGot көмегімен ерекшеленгенді жүктеп алу">
+<!ENTITY flashgotSel.accesskey "е">
+<!ENTITY flashgotAll "FlashGot көмегімен барлығын жүктеп алу">
+<!ENTITY flashgotAll.accesskey "б">
+<!ENTITY flashgotTabs "FlashGot көмегімен барлық беттердегі барлығын жүктеп алу">
+<!ENTITY flashgotTabs.accesskey "р">
+<!ENTITY flashgotOptions "FlashGot баптаулары">
+<!ENTITY includeImages.label "Ағымдағы парақ суреттерімен қоса">
+<!ENTITY hideDisabledCmds.label "Сөндірілегн командаларды жасыру">
+<!ENTITY flashgotBuildGallery "Галереяны құру…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - галереяны құру">
+<!ENTITY flashgotGBVariableURLs "Адрестер диапазоны">
+<!ENTITY flashgotGBSample "Диапазон келесі пішімде беріледі [басы-аяғы;қадамы], мысалы:">
+<!ENTITY flashgotGBPreview "Алдын-ала қарау:">
+<!ENTITY flashgotGBContent "Құрамасы:">
+<!ENTITY flashgotGBReferrer "Сілтейтін URL:">
+<!ENTITY flashgotGBSync "Арылықтарды синхронизациялау">
+<!ENTITY flashgotGBRanges "Диапазондар">
+<!ENTITY flashgotGBExpressions "JavaScript функциялары">
+<!ENTITY flashgotGeneral "Жалпы">
+<!ENTITY flashgotMenu "Мәзір">
+<!ENTITY flashgotDownloadManager "Жүктемелер менеджері">
+<!ENTITY flashgotMoreOpts "Көбірек баптаулар…">
+<!ENTITY flashgotExtensions "Файл кеңейтулері (мысалы, jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Қосу">
+<!ENTITY flashgotRemove "Өшіру">
+<!ENTITY flashgotPrivacy "Жекелік">
+<!ENTITY flashgotReferrer "Сілтеуші">
+<!ENTITY flashgotAutodetectReferrer "Анықталған сілтеуші URL жіберу">
+<!ENTITY flashgotFakeReferrer "Әрқашан осы сілтеуші URL қолдану:">
+<!ENTITY flashgotSendCookies "Cookies жіберу">
+<!ENTITY flashgotAdvanced "Кеңейтілген">
+<!ENTITY flashgotBGProcessing "Сілтемелерді білдіртпей-ақ өңдеу">
+<!ENTITY flashgotShowLog "Лог көрсету…">
+<!ENTITY flashgotClearLog "Логты тазалау">
+<!ENTITY flashgotAbout "FlashGot 1.5.6.14 туралы">
+<!ENTITY flashgotDMQuiet "Растаулар сұранымдарын өткізіп жіберу">
+<!ENTITY flashgotGetRightQuick "Мүмкін болса togetright.exe қолдану">
+<!ENTITY flashgotAutostart "Жүктемелерді автоматты түрде бастау">
+<!ENTITY flashgotNoDMS "??? ЖҮТЕМЕЛЕР МЕНЕДЖЕРІ ТАБЫЛМАДЫ МА ???">
+<!ENTITY flashgotNoDMS.tip "Қолдау бар жүктемелер менеджерлер тізімі">
+<!ENTITY flashgotGetRightOld "Ескі GetRight ( &lt;= 5.2b">
+<!ENTITY flashgotEncodeURLs "Шифрленген сілтемелерді жіберу">
+<!ENTITY flashgotEnable "Қосу">
+<!ENTITY flashgotDisable "Сөндіру">
+<!ENTITY flashgotTmpDir "Уақытша жұмыс бумасы">
+<!ENTITY flashgotBrowse "Қарап шығу">
+<!ENTITY flashgotReset "Тастау">
+<!ENTITY flashgotRebootChange "Бұл өзгеріс браузер келесі рет қосылғанда іске асады">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = FlashGot сөндіреді">
+<!ENTITY flashgotDownloads "Жүктемелер">
+<!ENTITY flashgotInterceptAll "Жүктемелерге жол бермеу">
+<!ENTITY flashgotLog "Лог">
+<!ENTITY flashgotShowFilter "Фильтрлер сұхбатын көрсету">
+<!ENTITY flashgotFilter "Фильтр">
+<!ENTITY flashgotHost "Торап">
+<!ENTITY flashgotRegExp "Регулярды өрнектер">
+<!ENTITY flashgotGlob "Glob Pattern">
+<!ENTITY flashgotSelAll "Барлығын ерекшелеу">
+<!ENTITY flashgotSelInv "Ерекшелеуді айналдыру">
+<!ENTITY flashgotSelect "Ерекшелеу">
+<!ENTITY flashgotUnselect "Ерекшелемеу">
+<!ENTITY hideIcons "Таңбашаларды жасыру">
+<!ENTITY nestedMenu "Ықшам контекст мәзірі (керек болса, ішкі мәзірді қолдану)">
+<!ENTITY flashgotExecutable "Орындалатын файлдың жолы:">
+<!ENTITY flashgotArguments "Аргументтер шаблоны:">
+<!ENTITY flashgotAutodetect "Жүктемелер менеджерін автоматты түрде анықтау">
+<!ENTITY flashgotDetect "Қазір анықтау">
+<!ENTITY flashgotPlaceHolders "Қоршамалар">
+<!ENTITY flashgotQuoteWarn1 "Аргументтер шаблоны ішінде тырнақшаны қолдануға болмайды.">
+<!ENTITY flashgotQuoteWarn2 "Олар сізге керек болса, batch script жазуды қарастырып көріңіз.">
+<!ENTITY flashgotBadInstall "FlashGot негізгі құрамасы жоқ. FlashGot қайта орнату керек.">
+<!ENTITY flashgotWellGetPath "WellGet орналасқан жері:">
+<!ENTITY flashgotExtFilter "Топтық жүктеп алу кезінде файлдық кеңейтулер фильтрін қолдану">
+<!ENTITY flashgotHTTPAuth "HTTP аутентификациясы">
+<!ENTITY flashgotAppearance "Сыртқа түрі">
+<!ENTITY flashgotDownloadDropdown "Негізгі жүктеме сұхбаты ішінде FlashGot drop-down көрсету">
+<!ENTITY flashgotVisitHomepage "Кеңейтудің үй парағын көру">
+<!ENTITY flashgotShownInContextMenu "Контекст мәзәрәнде көрсету">
+<!ENTITY flashgotCustomEntries "Бапталатын пункттер">
+<!ENTITY flashgotDigGallery "Сандық галерея">
+<!ENTITY flashgotOverwrite "Үстінен жазу">
+<!ENTITY flashgotMedia "FlashGot көмегімен медианы жүктеп алу">
+<!ENTITY flashgotShowReleaseNotes "Жаңартудың шығарылым ескертпесін көрсету">
+<!ENTITY flashgotUninstall "Өшіру">
+<!ENTITY flashgotClear.label "Тазарту">
+<!ENTITY flashgotClear.accesskey "з">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "使用 FlashGot 下载此链接">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "使用 FlashGot 下载所选链接">
+<!ENTITY flashgotSel.accesskey "G">
+<!ENTITY flashgotAll "使用 FlashGot 下载全部链接">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "使用 FlashGot 下载标签页组">
+<!ENTITY flashgotTabs.accesskey "B">
+<!ENTITY flashgotOptions "FlashGot 选项">
+<!ENTITY includeImages.label "包含当前页面中的图片">
+<!ENTITY hideDisabledCmds.label "隐藏无效命令">
+<!ENTITY flashgotBuildGallery "建立图库…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - 建立图库">
+<!ENTITY flashgotGBVariableURLs "可变 URLs">
+<!ENTITY flashgotGBSample "以 [开始-结束;跨度] 或 [函数_名称(…)] 的形式表示可变范围，例如:">
+<!ENTITY flashgotGBPreview "预览:">
+<!ENTITY flashgotGBContent "内容">
+<!ENTITY flashgotGBReferrer "引用页 URL:">
+<!ENTITY flashgotGBSync "同步范围">
+<!ENTITY flashgotGBRanges "范围">
+<!ENTITY flashgotGBExpressions "JavaScript 函数">
+<!ENTITY flashgotGeneral "常规">
+<!ENTITY flashgotMenu "菜单">
+<!ENTITY flashgotDownloadManager "下载管理器">
+<!ENTITY flashgotMoreOpts "更多选项…">
+<!ENTITY flashgotExtensions "受监视的文件类型(例如:jpg,mpg,mp3)">
+<!ENTITY flashgotAdd "新增">
+<!ENTITY flashgotRemove "移除">
+<!ENTITY flashgotPrivacy "隐私">
+<!ENTITY flashgotReferrer "引用页">
+<!ENTITY flashgotAutodetectReferrer "发送自动检测到的 URL">
+<!ENTITY flashgotFakeReferrer "总是使用下列引用页 URL:">
+<!ENTITY flashgotSendCookies "发送 Cookie">
+<!ENTITY flashgotAdvanced "高级">
+<!ENTITY flashgotBGProcessing "在后台处理链接">
+<!ENTITY flashgotShowLog "显示日志">
+<!ENTITY flashgotClearLog "清空日志">
+<!ENTITY flashgotAbout "关于 FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "忽略确认提示">
+<!ENTITY flashgotGetRightQuick "尽可能使用“togetrght.exe”">
+<!ENTITY flashgotAutostart "自动下载已监视的文件">
+<!ENTITY flashgotNoDMS "未检测到下载软件">
+<!ENTITY flashgotNoDMS.tip "显示支持的下载软件">
+<!ENTITY flashgotGetRightOld "旧版 GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "发送已编码的 URLs">
+<!ENTITY flashgotEnable "启用">
+<!ENTITY flashgotDisable "禁用">
+<!ENTITY flashgotTmpDir "临时文件夹">
+<!ENTITY flashgotBrowse "浏览…">
+<!ENTITY flashgotReset "重置">
+<!ENTITY flashgotRebootChange "更改将在重启浏览器后生效">
+<!ENTITY flashgotAltClick "Alt+Click = 使用 FlashGot 下载">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = 不使用 FlashGot 下载">
+<!ENTITY flashgotDownloads "下载">
+<!ENTITY flashgotInterceptAll "接管所有下载">
+<!ENTITY flashgotLog "日志">
+<!ENTITY flashgotShowFilter "显示过滤的对话">
+<!ENTITY flashgotFilter "过滤">
+<!ENTITY flashgotHost "主机">
+<!ENTITY flashgotRegExp "正则表达式">
+<!ENTITY flashgotGlob "全域模式">
+<!ENTITY flashgotSelAll "全选">
+<!ENTITY flashgotSelInv "反选">
+<!ENTITY flashgotSelect "选定">
+<!ENTITY flashgotUnselect "取消选定">
+<!ENTITY hideIcons "隐藏图标">
+<!ENTITY nestedMenu "合并右键快捷菜单(如果需要将建立子菜单)">
+<!ENTITY flashgotExecutable "可执行路径:">
+<!ENTITY flashgotArguments "参数模板:">
+<!ENTITY flashgotAutodetect "自动侦测下载软件">
+<!ENTITY flashgotDetect "立即检测">
+<!ENTITY flashgotPlaceHolders "占位符">
+<!ENTITY flashgotQuoteWarn1 "无法在参数模板中使用引用项。">
+<!ENTITY flashgotQuoteWarn2 "如果需要，可以编写一个批处理脚本。">
+<!ENTITY flashgotBadInstall "FlashGot 的核心文件已经丢失或损坏，请重新安装 FlashGot。">
+<!ENTITY flashgotWellGetPath "WellGet 路径:">
+<!ENTITY flashgotExtFilter "批量下载时过滤文件扩展名">
+<!ENTITY flashgotHTTPAuth "HTTP 验证">
+<!ENTITY flashgotAppearance "外观">
+<!ENTITY flashgotDownloadDropdown "在下载对话框中显示 Flashgot 下拉式菜单">
+<!ENTITY flashgotVisitHomepage "浏览扩展主页">
+<!ENTITY flashgotShownInContextMenu "在右键菜单中显示">
+<!ENTITY flashgotCustomEntries "定制条目">
+<!ENTITY flashgotDigGallery "Dig Gallery">
+<!ENTITY flashgotOverwrite "覆盖">
+<!ENTITY flashgotMedia "FlashGot 此媒体">
+<!ENTITY flashgotShowReleaseNotes "升级时显示更新说明">
+<!ENTITY flashgotUninstall "卸载">
+<!ENTITY flashgotClear.label "清除">
+<!ENTITY flashgotClear.accesskey "C">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

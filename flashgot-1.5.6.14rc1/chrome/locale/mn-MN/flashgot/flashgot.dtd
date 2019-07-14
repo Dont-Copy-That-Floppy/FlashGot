@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot холбоос">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Сонголт">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot Бүгдийг">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Хуудсууд">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot Сонголтууд">
+<!ENTITY includeImages.label "Тухайн хуудас дахь олдсон зургуудыг хамтатгах">
+<!ENTITY hideDisabledCmds.label "Хаалттай коммандуудыг нуух">
+<!ENTITY flashgotBuildGallery "Цомог үүсгэх…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Цомог үүсгэх">
+<!ENTITY flashgotGBVariableURLs "Хувьсагч URL-үүд">
+<!ENTITY flashgotGBSample "Энэ тохиолдолд хувьсах бүс [эхлэл-төгсгөл;алхам] эсвэл [функцийн нэр(…)] байдалтай байна:">
+<!ENTITY flashgotGBPreview "Харах:">
+<!ENTITY flashgotGBContent "Агуулга:">
+<!ENTITY flashgotGBReferrer "Хамааралтай URL:">
+<!ENTITY flashgotGBSync "Давхцуулах бүс">
+<!ENTITY flashgotGBRanges "Бүсүүд">
+<!ENTITY flashgotGBExpressions "JavaScript Функцүүд">
+<!ENTITY flashgotGeneral "Ерөнхий">
+<!ENTITY flashgotMenu "Цэс">
+<!ENTITY flashgotDownloadManager "Татагч">
+<!ENTITY flashgotMoreOpts "Илүү сонголтууд…">
+<!ENTITY flashgotExtensions "Файлын өргөтгөлүүд (ж: jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Нэмэх">
+<!ENTITY flashgotRemove "Хасах">
+<!ENTITY flashgotPrivacy "Нууцлал">
+<!ENTITY flashgotReferrer "Хамаарал">
+<!ENTITY flashgotAutodetectReferrer "Илэрсэн хамааралтай URL-ийг илгээх">
+<!ENTITY flashgotFakeReferrer "Энэ хамааралтай URL-ийг ихэвчлэн хэрэглэх:">
+<!ENTITY flashgotSendCookies "Cookie илгээх">
+<!ENTITY flashgotAdvanced "Дэвшмэл">
+<!ENTITY flashgotBGProcessing "Холбоосуудыг ар талд ажиллуулах">
+<!ENTITY flashgotShowLog "Бүртгэл харах…">
+<!ENTITY flashgotClearLog "Бүртгэл цэвэрлэх">
+<!ENTITY flashgotAbout "FlashGot 1.5.6.14rc1-ын тухай">
+<!ENTITY flashgotDMQuiet "Баталгаажуулах асуултыг алгасах">
+<!ENTITY flashgotGetRightQuick "Энэ нь боломжтой бол хэдийд ч togetright.exe хэрэглэх">
+<!ENTITY flashgotAutostart "Татцыг шууд эхлэх">
+<!ENTITY flashgotNoDMS "??? ТАТАГЧ ИЛЭРСЭНГҮЙ ???">
+<!ENTITY flashgotNoDMS.tip "Дэмжигдэх Татагчуудыг харах">
+<!ENTITY flashgotGetRightOld "ХУУЧИН GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Хувиргагдсан URL илгээх">
+<!ENTITY flashgotEnable "Нээх">
+<!ENTITY flashgotDisable "Хаах">
+<!ENTITY flashgotTmpDir "Завсрын хавтас">
+<!ENTITY flashgotBrowse "Хөтлөх…">
+<!ENTITY flashgotReset "Сэргээх">
+<!ENTITY flashgotRebootChange "Энэ солио нь хөтчийн дараагийн эхлүүлэлтэд идэвхжинэ">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = FlashGot Үгүй">
+<!ENTITY flashgotDownloads "Татцууд">
+<!ENTITY flashgotInterceptAll "Бүх татцыг болих">
+<!ENTITY flashgotLog "Бүртгэл">
+<!ENTITY flashgotShowFilter "Шүүлтүүрийн харилцах цонх харуулах">
+<!ENTITY flashgotFilter "Шүүлтүүр">
+<!ENTITY flashgotHost "Эзэн">
+<!ENTITY flashgotRegExp "Энгийн илэрхийлэл">
+<!ENTITY flashgotGlob "Glob загвар">
+<!ENTITY flashgotSelAll "Бүгдийг сонгох">
+<!ENTITY flashgotSelInv "Сонголтыг солих">
+<!ENTITY flashgotSelect "Сонгох">
+<!ENTITY flashgotUnselect "Үл сонгох">
+<!ENTITY hideIcons "Шошгуудыг нуух">
+<!ENTITY nestedMenu "Хамаарлын цэсийг багасгах (хэрэгтэй бол дэд цэс ашиглана)">
+<!ENTITY flashgotExecutable "Ажиллах зам:">
+<!ENTITY flashgotArguments "Бэлдэцийн аргумент:">
+<!ENTITY flashgotAutodetect "Автоматаар илэрсэн Татагч">
+<!ENTITY flashgotDetect "Илрүүл">
+<!ENTITY flashgotPlaceHolders "Газрын эзэн">
+<!ENTITY flashgotQuoteWarn1 "Та бэлдцийн аргументтэй хашилтыг хэрэглэж болохгүй.">
+<!ENTITY flashgotQuoteWarn2 "хэрэв эдгээр нь танд хэрэг болбол, бүлэг скриптийг анхааралтай бичнэ үү.">
+<!ENTITY flashgotBadInstall "FlashGot -ын үндсэн нэгдэл алдагдсан эсвэл эвдэрчээ. FlashGot-ыг дахин суулгана уу.">
+<!ENTITY flashgotWellGetPath "WellGet зам:">
+<!ENTITY flashgotExtFilter "Бүлгээр татахад файлын өргөтгөлийн шүүлтүүрийг бас хэрэглэх">
+<!ENTITY flashgotHTTPAuth "HTTP Итгэлцэл">
+<!ENTITY flashgotAppearance "Төрх">
+<!ENTITY flashgotDownloadDropdown "FlashGot-ын чирээд-тавих зүйлийг анхдагч татах харилцах цонхонд харуулах">
+<!ENTITY flashgotVisitHomepage "Өргөтгөлийн вэб хуудсанд зочлох">
+<!ENTITY flashgotShownInContextMenu "Хамаарлын цэсэнд харуулах">
+<!ENTITY flashgotCustomEntries "Тусгай тэмдэглэл">
+<!ENTITY flashgotDigGallery "Малтах галлерей">
+<!ENTITY flashgotOverwrite "Давхарлах">
+<!ENTITY flashgotMedia "FlashGot орчин">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

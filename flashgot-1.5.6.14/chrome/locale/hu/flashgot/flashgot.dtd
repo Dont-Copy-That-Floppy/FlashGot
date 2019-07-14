@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Link letöltése FlashGot-tal">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "Kijelölés letöltése FlashGot-tal">
+<!ENTITY flashgotSel.accesskey "K">
+<!ENTITY flashgotAll "Minden letöltése FlashGot-tal">
+<!ENTITY flashgotAll.accesskey "M">
+<!ENTITY flashgotTabs "Böngészőlapok letöltése FlashGot-tal">
+<!ENTITY flashgotTabs.accesskey "B">
+<!ENTITY flashgotOptions "FlashGot beállításai">
+<!ENTITY includeImages.label "Az oldalon lévő képek belefoglalása">
+<!ENTITY hideDisabledCmds.label "Nem elérhető parancsok elrejtése">
+<!ENTITY flashgotBuildGallery "Galéria készítése">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Galéria készítése">
+<!ENTITY flashgotGBVariableURLs "Változó URL-ek">
+<!ENTITY flashgotGBSample "A változók tartományait [eleje-vége;lépésköz] vagy [függvény_név(...)] formában adhatjuk meg, például:">
+<!ENTITY flashgotGBPreview "Előnézet:">
+<!ENTITY flashgotGBContent "Tartalom:">
+<!ENTITY flashgotGBReferrer "Átadó URL:">
+<!ENTITY flashgotGBSync "Tartományok szinkronizálása">
+<!ENTITY flashgotGBRanges "Tartományok">
+<!ENTITY flashgotGBExpressions "JavaScript függvények">
+<!ENTITY flashgotGeneral "Általános">
+<!ENTITY flashgotMenu "Menü">
+<!ENTITY flashgotDownloadManager "Letöltésvezérlő">
+<!ENTITY flashgotMoreOpts "További beállítások…">
+<!ENTITY flashgotExtensions "Fájlkiterjesztések">
+<!ENTITY flashgotAdd "Hozzáadás">
+<!ENTITY flashgotRemove "Eltávolítás">
+<!ENTITY flashgotPrivacy "Adatvédelem">
+<!ENTITY flashgotReferrer "Referrer">
+<!ENTITY flashgotAutodetectReferrer "Referrer küldése automatikusan">
+<!ENTITY flashgotFakeReferrer "Mindig a következő referrer URL-t használja:">
+<!ENTITY flashgotSendCookies "Sütik küldése">
+<!ENTITY flashgotAdvanced "Haladó">
+<!ENTITY flashgotBGProcessing "Linkek feldolgozása a háttérben">
+<!ENTITY flashgotShowLog "Naplófájl olvasása">
+<!ENTITY flashgotClearLog "Naplófájl törlése">
+<!ENTITY flashgotAbout "FlashGot 1.5.6.14 névjegye">
+<!ENTITY flashgotDMQuiet "Párbeszédablakok átugrása">
+<!ENTITY flashgotGetRightQuick "A togetright.exe használata, ha lehetséges">
+<!ENTITY flashgotAutostart "Letöltések automatikus indítása">
+<!ENTITY flashgotNoDMS "??? NEM TALÁLHATÓ LETÖLTÉSVEZÉRLŐ ???">
+<!ENTITY flashgotNoDMS.tip "Támogatott letöltésvezérlők mutatása">
+<!ENTITY flashgotGetRightOld "Régi verziójú GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "URL-ok küldése kódolva">
+<!ENTITY flashgotEnable "Engedélyezés">
+<!ENTITY flashgotDisable "Kikapcsolás">
+<!ENTITY flashgotTmpDir "Ideiglenes mappa">
+<!ENTITY flashgotBrowse "Tallózás">
+<!ENTITY flashgotReset "Visszaállítás">
+<!ENTITY flashgotRebootChange "Ez a változtatás a böngésző újraindítását követően lép életbe">
+<!ENTITY flashgotAltClick "Alt+Kattintás = letöltés FlashGot-tal">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Kattintás = letöltés FlashGot nélkül">
+<!ENTITY flashgotDownloads "Letöltések">
+<!ENTITY flashgotInterceptAll "Minden letöltés 'elfogása'">
+<!ENTITY flashgotLog "Naplózás">
+<!ENTITY flashgotShowFilter "Szűrők beállításai">
+<!ENTITY flashgotFilter "Szűrő">
+<!ENTITY flashgotHost "Kiszolgáló">
+<!ENTITY flashgotRegExp "Reguláris kifejezés">
+<!ENTITY flashgotGlob "Glob minta">
+<!ENTITY flashgotSelAll "Mindet kijelöli">
+<!ENTITY flashgotSelInv "Kijelölés megfordítása">
+<!ENTITY flashgotSelect "Kijelölés">
+<!ENTITY flashgotUnselect "Kijelölés megszüntetése">
+<!ENTITY hideIcons "Ikonok elrejtése">
+<!ENTITY nestedMenu "Jobb egérgombos menü tömörítése (almenü használata szükség szerint)">
+<!ENTITY flashgotExecutable "Elérési út:">
+<!ENTITY flashgotArguments "Paraméterek:">
+<!ENTITY flashgotAutodetect "Letöltésvezérlők automatikus felismerése">
+<!ENTITY flashgotDetect "Letöltésvezérlők keresése">
+<!ENTITY flashgotPlaceHolders "Helyőrzők">
+<!ENTITY flashgotQuoteWarn1 "Idézőjelek használata nem megengedett a sablonban.">
+<!ENTITY flashgotQuoteWarn2 "Ha mégis szükség lenne rájuk, batch script írásával van lehetőség a használatukra.">
+<!ENTITY flashgotBadInstall "Egy Flashgot komponens hiányzik vagy hibás. Kérlek telepítse újra a Flashgot-ot!">
+<!ENTITY flashgotWellGetPath "WellGet útvonala:">
+<!ENTITY flashgotExtFilter "Fájl kiterjesztések szűrő alkalmazása tömeges letöltésekhez is">
+<!ENTITY flashgotHTTPAuth "HTTP hitelesítés">
+<!ENTITY flashgotAppearance "Megjelenés">
+<!ENTITY flashgotDownloadDropdown "FlashGot legördülő menü mutatása a Letöltések ablakban">
+<!ENTITY flashgotVisitHomepage "Kiegészítő honlapjának meglátogatása">
+<!ENTITY flashgotShownInContextMenu "Megjelenítés a környezetei menüben">
+<!ENTITY flashgotCustomEntries "Személyes bejegyzések">
+<!ENTITY flashgotDigGallery "Dig galéria">
+<!ENTITY flashgotOverwrite "Felülírás">
+<!ENTITY flashgotMedia "FlashGot Média">
+<!ENTITY flashgotShowReleaseNotes "Változások listájának megjelenítése frissítéskor">
+<!ENTITY flashgotUninstall "Eltávolítás">
+<!ENTITY flashgotClear.label "Törlés">
+<!ENTITY flashgotClear.accesskey "T">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

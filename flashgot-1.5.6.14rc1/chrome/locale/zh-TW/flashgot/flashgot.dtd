@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "使用 FlashGot 下載此鏈結(F)">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "使用 FlashGot 下載選取的鏈結(S)">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "全部使用 FlashGot 下載(A)">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "使用 FlashGot 下載所有分頁中的鏈結(T)">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot 選項">
+<!ENTITY includeImages.label "包含目前頁面所找到的圖片">
+<!ENTITY hideDisabledCmds.label "隱藏無法作用的指令">
+<!ENTITY flashgotBuildGallery "建立圖庫">
+<!ENTITY flashgotBuildGallery.title "FlashGot - 建立圖庫">
+<!ENTITY flashgotGBVariableURLs "可變的URLs">
+<!ENTITY flashgotGBSample "變數範圍以[start-end;step] 或 [function_name(…)] 這種形式來表示, 例如:">
+<!ENTITY flashgotGBPreview "預覽:">
+<!ENTITY flashgotGBContent "內容:">
+<!ENTITY flashgotGBReferrer "引用的網址:">
+<!ENTITY flashgotGBSync "同步範圍">
+<!ENTITY flashgotGBRanges "範圍">
+<!ENTITY flashgotGBExpressions "JavaScript 函式">
+<!ENTITY flashgotGeneral "一般">
+<!ENTITY flashgotMenu "選單">
+<!ENTITY flashgotDownloadManager "下載管理員">
+<!ENTITY flashgotMoreOpts "更多選項…">
+<!ENTITY flashgotExtensions "受監視的類型">
+<!ENTITY flashgotAdd "新增">
+<!ENTITY flashgotRemove "移除">
+<!ENTITY flashgotPrivacy "隱私">
+<!ENTITY flashgotReferrer "引用">
+<!ENTITY flashgotAutodetectReferrer "傳送自動偵測的網址">
+<!ENTITY flashgotFakeReferrer "使用自訂的網址:">
+<!ENTITY flashgotSendCookies "傳送 Cookies">
+<!ENTITY flashgotAdvanced "進階">
+<!ENTITY flashgotBGProcessing "在背景處理鏈結">
+<!ENTITY flashgotShowLog "顯示日誌">
+<!ENTITY flashgotClearLog "清除日誌">
+<!ENTITY flashgotAbout "關於 FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "略過確認提示">
+<!ENTITY flashgotGetRightQuick "儘可能使用 togetright.exe">
+<!ENTITY flashgotAutostart "自動下載受監視的檔案類型">
+<!ENTITY flashgotNoDMS "??? 偵測不到下載管理員 ???">
+<!ENTITY flashgotNoDMS.tip "顯示所支援的下載管理員">
+<!ENTITY flashgotGetRightOld "舊版的 GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "傳送編碼的 URLs">
+<!ENTITY flashgotEnable "啟用">
+<!ENTITY flashgotDisable "停用">
+<!ENTITY flashgotTmpDir "暫存目錄">
+<!ENTITY flashgotBrowse "瀏覽…">
+<!ENTITY flashgotReset "重置">
+<!ENTITY flashgotRebootChange "此改變會於重新啟動 Firefox 後生效">
+<!ENTITY flashgotAltClick "Alt+Click = 使用 FlashGot 下載">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = 不使用 FlashGot 下載">
+<!ENTITY flashgotDownloads "下載">
+<!ENTITY flashgotInterceptAll "監視所有類型">
+<!ENTITY flashgotLog "紀錄">
+<!ENTITY flashgotShowFilter "顯示過濾對話框">
+<!ENTITY flashgotFilter "過濾">
+<!ENTITY flashgotHost "主機">
+<!ENTITY flashgotRegExp "常規表示式">
+<!ENTITY flashgotGlob "全域樣式">
+<!ENTITY flashgotSelAll "全選">
+<!ENTITY flashgotSelInv "反向選取">
+<!ENTITY flashgotSelect "選取">
+<!ENTITY flashgotUnselect "取消選取">
+<!ENTITY hideIcons "隱藏圖標">
+<!ENTITY nestedMenu "使用簡潔的選單">
+<!ENTITY flashgotExecutable "檔案路徑:">
+<!ENTITY flashgotArguments "參數樣板:">
+<!ENTITY flashgotAutodetect "自動偵測下載管理員">
+<!ENTITY flashgotDetect "立即偵測">
+<!ENTITY flashgotPlaceHolders "Placeholders">
+<!ENTITY flashgotQuoteWarn1 "不可在參數樣板內使用引號.">
+<!ENTITY flashgotQuoteWarn2 "如需要,請使用 batch script.">
+<!ENTITY flashgotBadInstall "FlashGot核心元件遺失或損毀。請重新安裝。">
+<!ENTITY flashgotWellGetPath "WellGet路徑：">
+<!ENTITY flashgotExtFilter "批次下載時同時套用檔案類型過濾器">
+<!ENTITY flashgotHTTPAuth "HTTP授權">
+<!ENTITY flashgotAppearance "外觀">
+<!ENTITY flashgotDownloadDropdown "在下載對話框中顯示 FlashGot 下拉式選單">
+<!ENTITY flashgotVisitHomepage "訪問FlashGot首頁">
+<!ENTITY flashgotShownInContextMenu "於滑鼠右鍵選單顯示FlashGot">
+<!ENTITY flashgotCustomEntries "使用者自訂條目">
+<!ENTITY flashgotDigGallery "發掘畫廊">
+<!ENTITY flashgotOverwrite "覆寫">
+<!ENTITY flashgotMedia "FlashGot媒體">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

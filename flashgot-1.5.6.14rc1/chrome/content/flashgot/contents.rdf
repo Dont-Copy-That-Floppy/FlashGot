@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:chrome="http://www.mozilla.org/rdf/chrome#">
+
+    <RDF:Seq about="urn:mozilla:package:root">
+        <RDF:li resource="urn:mozilla:package:flashgot" />
+    </RDF:Seq>
+
+    <RDF:Description about="urn:mozilla:package:flashgot"
+            chrome:displayName="FlashGot 1.5.6.14rc1"
+            chrome:author="Giorgio Maone (InformAction)"
+            chrome:authorURL="http://www.informaction.com/g_maone"
+            chrome:name="flashgot"
+            chrome:description="Enables Firefox, Mozilla Suite, Netscape and Thunderbird to handle single and massive (&quot;all&quot; and &quot;selection&quot;) downloads using the most popular external download managers for Windows, Mac OS X, Linux and FreeBSD (dozens currently supported, see Extension's Home Page for details). FlashGot offers also a Build Gallery functionality which helps to synthetize full media galleries in one page, from serial contents originally scattered on several pages, for easy and fast &quot;download all&quot;."
+            chrome:extension="true"
+            chrome:xpcNativeWrappers="true"
+            >
+    </RDF:Description>
+
+  <RDF:Seq about="urn:mozilla:overlays">
+    <!-- Firefox -->
+    <RDF:li resource="chrome://browser/content/browser.xul"/>
+    <RDF:li resource="chrome://mozapps/content/downloads/unknownContentType.xul"/> 
+    <!-- <RDF:li resource="chrome://global/content/filepicker.xul"/> -->
+    <!-- Mozilla Suite -->
+    <RDF:li resource="chrome://navigator/content/navigatorOverlay.xul"/>
+    <RDF:li resource="chrome://global/content/nsHelperAppDlg.xul"/> 
+    <!-- Thunderbird / Suite-->
+    <RDF:li resource="chrome://messenger/content/mailWindowOverlay.xul"/>
+  </RDF:Seq>
+  
+  <RDF:Seq about="chrome://browser/content/browser.xul">
+    <RDF:li>chrome://flashgot/content/flashgotOverlayFx.xul</RDF:li>
+    <RDF:li>chrome://flashgot/content/localeCheckOverlay.xul</RDF:li>
+  </RDF:Seq>
+  
+  <RDF:Seq about="chrome://navigator/content/navigatorOverlay.xul">
+    <RDF:li>chrome://flashgot/content/flashgotOverlayMoz.xul</RDF:li>
+    <RDF:li>chrome://flashgot/content/localeCheckOverlay.xul</RDF:li>
+  </RDF:Seq>
+  
+  <RDF:Seq about="chrome://messenger/content/mailWindowOverlay.xul">
+    <RDF:li>chrome://flashgot/content/flashgotOverlayTB.xul</RDF:li>
+  </RDF:Seq>
+  
+   <RDF:Seq about="chrome://global/content/nsHelperAppDlg.xul">
+   <RDF:li>chrome://flashgot/content/flashgotDMOverlayMoz.xul</RDF:li>
+  </RDF:Seq>
+
+  <RDF:Seq about="chrome://mozapps/content/downloads/unknownContentType.xul">
+    <RDF:li>chrome://flashgot/content/flashgotDMOverlayFx.xul</RDF:li>
+  </RDF:Seq>
+  <!--
+  <RDF:Seq about="chrome://global/content/filepicker.xul">
+     <RDF:li>chrome://flashgot/content/filepickerOverlay.xul</RDF:li>
+  </RDF:Seq>
+  -->
+</RDF:RDF>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="chrome://global/skin/" type="text/css"?><?xml-stylesheet href="chrome://flashgot/skin/about.css" type="text/css"?><!DOCTYPE dialog SYSTEM "chrome://flashgot/locale/flashgot.dtd">
+<dialog title="About FlashGot" chromehidden="menubar toolbar location directories status extrachrome" id="genericAbout" onload="about_onload()" buttons="accept" xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"><script type="application/x-javascript" src="chrome://flashgot/content/flashgotCommon.js"/><script type="application/x-javascript">
+function about_onload() {
+  const strings=document.getElementById("about-strings");
+  const stringsFB=document.getElementById("about-stringsFB");
+  function stringFrom(bundle,key,parms) {
+    try {
+      return parms?bundle.getFormattedString(key,parms):bundle.getString(key);
+    } catch(ex) {
+      return null;
+    }
+  }
+  
+  function getString(key,parms) {
+    var s=stringFrom(strings,key,parms);
+    return s?s:stringFrom(stringsFB,key,parms);
+  }
+  
+    function setString(id, attr, key) {
+    var s=getString(key || id);
+    if(!s) return;
+   
+    var el=document.getElementById(id);
+    if(!el) return;
+    if(el.tagName=="description") {
+      el.firstChild.nodeValue=s;
+      return;
+    }
+    if(!attr) attr="value";
+    el.setAttribute(attr,s);
+  }
+  
+  function tip(id) {
+    setString(id,"tooltiptext", id +".tip");
+  }
+  
+  function label(id) {
+    setString(id);
+    tip(id);
+  }
+  
+  window.focus();
+  
+  var title = getString("aboutTitle",["FlashGot"]);
+  if(title) document.documentElement.setAttribute("title", title);
+  
+  setString("extensionDescription",null,"extensions.{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}.description");
+  
+  label("extensionCreatorLabel");
+  label("extensionContributors");
+  label("license");
+  label("changelog");
+   
+  tip("logo");
+  tip("sponsor");
+  tip("informaction");
+  tip("extensionHomepage");
+  tip("extensionCreator");
+}
+
+function browse(url, features) {
+  flashgotUtil.browse(url, features);
+  window.close();
+}
+
+
+</script><stringbundleset id="stringbundleset"><stringbundle id="about-strings" src="chrome://flashgot/locale/about.properties"/><stringbundle id="about-stringsFB" src="chrome://flashgot/content/en-US/about.properties"/></stringbundleset><vbox id="clientBox"><vbox id="clientBoxInternal" flex="1"><hbox align="start"><vbox id="logoBox"><image id="logo" src="chrome://flashgot/skin/icon80.png" class="link" tooltiptext="Visit Extension Home Page" onclick="browse('http://flashgot.net')"/></vbox><vbox flex="1"><hbox id="headBox" align="end"><vbox flex="1"><label value="FlashGot" id="extensionName" crop="right"/><label value="Version 1.5.6.14rc1" id="extensionVersion" crop="right"/></vbox><vbox flex="1" align="end"><hbox align="end"><spacer width="32"/><vbox><image id="sponsor" src="chrome://flashgot/skin/$" class="link" tooltiptext="Visit $ Home Page" onclick="browse('$')"/></vbox><spacer width="32"/><vbox><image id="informaction" src="chrome://flashgot/skin/ia.png" class="link" tooltiptext="Visit InformAction Home Page" onclick="browse('http://www.informaction.com/')"/></vbox></hbox></vbox></hbox><spacer flex="1"/><hbox id="creatorBox"><label id="extensionCreatorLabel" value="Author:"/><label id="extensionCreator" class="link" tooltiptext="Visit Author Home Page" onclick="browse('http://maone.net/')" value="Giorgio Maone" flex="1"/></hbox></vbox></hbox><separator class="thin"/><description id="extensionDescription">Enables Firefox, Mozilla Suite, Netscape and Thunderbird to handle single and massive ("all" and "selection") downloads using the most popular external download managers for Windows, Mac OS X, Linux and FreeBSD (dozens currently supported, see Extension's Home Page for details). FlashGot offers also a Build Gallery functionality which helps to synthetize full media galleries in one page, from serial contents originally scattered on several pages, for easy and fast "download all".</description><separator class="thin"/><label id="extensionContributors" value="Contributors:"/><vbox flex="1" id="contributorsBox" style="overflow: auto"><description class="contributor">Ahmad Zhafir (Malay translation)</description><description class="contributor">Alexander "Hawksthorne" Kirilov and Kalin Takev  (Bulgarian translation)</description><description class="contributor">Drive DRKA (Belarusian translation)</description><description class="contributor">Anthony L. Bryan and Darius Liktorius (Metalink support)</description><description class="contributor">Artek Działek, Bartosz Piec and Piotr Konieczny (Polish translation)</description><description class="contributor">Axel Zechner (KGet support)</description><description class="contributor">Kozák Csaba (WonderCsabo), Bálint Farkas and Henriett Peller (Hungarian translation)</description><description class="contributor">Basem Narmok (Arabic translation)</description><description class="contributor">Baurzhan Muftakhidinov (Kazakh translation)</description><description class="contributor">Bayarsaikhan Enkhtaivan (Mongolian translation)</description><description class="contributor">BDNT (Indonesian translation)</description><description class="contributor">Besmir Godole (Albanian translation)</description><description class="contributor">Bigbigbomb, Blackdire, Charlie Chen and George C. Tsoi (Simplified Chinese translation)</description><description class="contributor">Cola99 (Traditional Chinese translation)</description><description class="contributor">Diogo Mafra, Raryel Costa Souza and Marcelo Ghelman (Portuguese translation)</description><description class="contributor">Duriel (Simplified Chinese translation)</description><description class="contributor">Emilio Malaman, Tulio Padilha and Pesty (Portuguese translation)</description><description class="contributor">Engin Yazılan (Turkish translation)</description><description class="contributor">Frantisek Augusztin(KGet support)</description><description class="contributor">Frackounet, Yann Bill &amp; BlackJack (French translation)</description><description class="contributor">Gaspar Alomar Trías (Catalan translation)</description><description class="contributor">Gomyoung Kim (Korean translation)</description><description class="contributor">Greener(Traditional Chinese translation)</description><description class="contributor">k2jp and Hadakadenkyu (Japanese translation)</description><description class="contributor">HU Tian-Lei (Thunder hints)</description><description class="contributor">iLogik (Romanian translation)</description><description class="contributor">Jacques Letellier, Yann Bill and Calimero988 (French translation)</description><description class="contributor">Jan Janssen (Gwget support)</description><description class="contributor">Jarol and Nameless (Spanish translation)</description><description class="contributor">Jonathan Avraham (Hebrew translation)</description><description class="contributor">Kimmo Siekkinen and Jouko Saarinen (Finnish translation)</description><description class="contributor">Jure Osredkar and Miles (Slovenian translation)</description><description class="contributor">Kesisidis  Dimitrios and Rookie (Greek translation)</description><description class="contributor">Krcko (Croatian translation)</description><description class="contributor">Kostas Papadimas (Greek translation)</description><description class="contributor">Leon Odendaal (Afrikaans translation)</description><description class="contributor">Tomas Kordik (Czech translation)</description><description class="contributor">Leif Larsson (Swedish translation)</description><description class="contributor">Levent Karakas (Turkish translation)</description><description class="contributor">Lois Lamas (Galician translation)</description><description class="contributor">Luca Pedrazzi (Italian translation)</description><description class="contributor">Max Velasques (wxDownload Fast support)</description><description class="contributor">M. Agras and Urko (Spanish translation)</description><description class="contributor">Marius Navickas (Lithuanian translation)</description><description class="contributor">Martin Joné (Norwegian Bokmål translation)</description><description class="contributor">Martin Harder (Danish translation)</description><description class="contributor">Michal Duda (Czech translation)</description><description class="contributor">Mohsen Qorbani (Persian translation)</description><description class="contributor">Ömer Fadıl USTA (Turkish translation)</description><description class="contributor">Oliverl (Estonian translation)</description><description class="contributor">Patipat Susumpow (Thai translation)</description><description class="contributor">Pshadow (Traditional Chinese translation)</description><description class="contributor">Ragnaar and Водкотерапевт (Russian translation)</description><description class="contributor">ReinekeFux and Thomas Weber (German translation)</description><description class="contributor">Robert Setiadi (Indonesian translation)</description><description class="contributor">Raryel Costa Souza- Brazil (Portuguese/Brazil translation)</description><description class="contributor">Sergey Khoruzhin (Ukrainian translation)</description><description class="contributor">Steven Hemelaere and Alf (Dutch translation)</description><description class="contributor">Unghost (Russian translation)</description><description class="contributor">Wladow (Slovak translation)</description><description class="contributor">Љубиша Радовановић (Serbian translation)</description><description class="contributor">YuanHongYe (new Thunder support)</description><description class="contributor">Zhang Ji (BitComet support)</description></vbox><hbox><label id="license" class="link" tooltiptext="Read end-user license" onclick="browse('chrome://flashgot/content/FlashGot_License.txt')">License</label><spacer flex="1"/><label id="changelog" class="link" align="center" tooltiptext="See Changelog" onclick="browse('http://flashgot.net/changelog#1.5.6.14rc1')">Changelog</label><spacer flex="1"/><label id="extensionHomepage" class="link" tooltiptext="Visit Extension Home Page" onclick="browse('http://flashgot.net')">http://flashgot.net</label></hbox></vbox></vbox></dialog>

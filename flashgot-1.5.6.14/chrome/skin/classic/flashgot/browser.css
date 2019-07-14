@@ -1,0 +1,59 @@
+.flashgot-icon-lnk, .flashgot-command-menuitem {
+  list-style-image: url("chrome://flashgot/skin/fg1.png");
+}
+.flashgot-icon-sel {
+  list-style-image: url("chrome://flashgot/skin/fg2.png");
+}
+.flashgot-icon-all {
+  list-style-image: url("chrome://flashgot/skin/fg3.png");
+}
+.flashgot-icon-tabs {
+  list-style-image: url("chrome://flashgot/skin/fg4.png");
+}
+.flashgot-icon-opts {
+  list-style-image: url("chrome://flashgot/skin/fg5.png");
+}
+.flashgot-icon-buildGallery {
+  list-style-image: url("chrome://flashgot/skin/fg6.png");
+}
+.flashgot-icon-media {
+  list-style-image: url("chrome://flashgot/skin/fg7.png");
+}
+
+statusbarpanel.flashgot-icon-media {
+  cursor: pointer;
+}
+
+#flashgot-tbb-all  {
+  list-style-image: url("chrome://flashgot/skin/icon24.png");
+  -moz-box-orient: vertical;
+  -moz-box-pack: end;
+}
+
+toolbar[iconsize="small"] #flashgot-tbb-all {
+  list-style-image: url("chrome://flashgot/skin/fg1.png");
+}
+
+#flashgot-media-tbb {
+  list-style-image: url("chrome://flashgot/skin/fg7.png");
+}
+
+toolbar[customizing="true"] #flashgot-media-tbb {
+  display: inherit !important;
+  opacity: 1 !important;
+}
+
+#addon-bar > #flashgot-media-tbb {
+  -moz-box-orient: horizontal;
+  -moz-box-pack: end;
+}
+
+#flashgot-media-tbb  > .toolbarbutton-icon {
+  width: auto !important;
+  height: auto !important;
+}
+
+#regetMenu, #regetMenuSep, #regetContextSelection, #regetContextLink, #regetContextAll {
+  display: none !important;
+}
+

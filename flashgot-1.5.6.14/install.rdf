@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+ <Description about="urn:mozilla:install-manifest">
+ 
+   <em:id>{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}</em:id>
+   <em:name>FlashGot</em:name>
+   <em:version>1.5.6.14</em:version>
+   <em:description>Enables Firefox, Mozilla Suite, Netscape and Thunderbird to handle single and massive (&quot;all&quot; and &quot;selection&quot;) downloads using the most popular external download managers for Windows, Mac OS X, Linux and FreeBSD (dozens currently supported, see Extension's Home Page for details). FlashGot offers also a Build Gallery functionality which helps to synthetize full media galleries in one page, from serial contents originally scattered on several pages, for easy and fast &quot;download all&quot;.</em:description>
+   <em:creator>Giorgio Maone</em:creator>
+   <em:type>2</em:type>
+   <em:contributor>Ahmad Zhafir (Malay translation)</em:contributor>
+   <em:contributor>Alexander &quot;Hawksthorne&quot; Kirilov and Kalin Takev  (Bulgarian translation)</em:contributor>
+   <em:contributor>Drive DRKA (Belarusian translation)</em:contributor>
+   <em:contributor>Anthony L. Bryan and Darius Liktorius (Metalink support)</em:contributor>
+   <em:contributor>Artek Działek, Bartosz Piec and Piotr Konieczny (Polish translation)</em:contributor>
+   <em:contributor>Axel Zechner (KGet support)</em:contributor>
+   <em:contributor>Kozák Csaba (WonderCsabo), Bálint Farkas and Henriett Peller (Hungarian translation)</em:contributor>
+   <em:contributor>Basem Narmok (Arabic translation)</em:contributor>
+   <em:contributor>Baurzhan Muftakhidinov (Kazakh translation)</em:contributor>
+   <em:contributor>Bayarsaikhan Enkhtaivan (Mongolian translation)</em:contributor>
+   <em:contributor>BDNT (Indonesian translation)</em:contributor>     
+   <em:contributor>Besmir Godole (Albanian translation)</em:contributor>
+   <em:contributor>Bigbigbomb, Blackdire, Charlie Chen and George C. Tsoi (Simplified Chinese translation)</em:contributor>
+   <em:contributor>Cola99 (Traditional Chinese translation)</em:contributor>
+   <em:contributor>Diogo Mafra, Raryel Costa Souza and Marcelo Ghelman (Portuguese translation)</em:contributor>
+   <em:contributor>Duriel (Simplified Chinese translation)</em:contributor>
+   <em:contributor>Emilio Malaman, Tulio Padilha and Pesty (Portuguese translation)</em:contributor>
+   <em:contributor>Engin Yazılan (Turkish translation)</em:contributor>
+   <em:contributor>Frantisek Augusztin(KGet support)</em:contributor>
+   <em:contributor>Frackounet, Yann Bill &amp; BlackJack (French translation)</em:contributor>
+   <em:contributor>Gaspar Alomar Trías (Catalan translation)</em:contributor>
+   <em:contributor>Gomyoung Kim (Korean translation)</em:contributor>
+   <em:contributor>Greener(Traditional Chinese translation)</em:contributor>
+   <em:contributor>k2jp and Hadakadenkyu (Japanese translation)</em:contributor>
+   <em:contributor>HU Tian-Lei (Thunder hints)</em:contributor>
+   <em:contributor>iLogik (Romanian translation)</em:contributor>
+   <em:contributor>Jacques Letellier, Yann Bill and Calimero988 (French translation)</em:contributor>
+   <em:contributor>Jan Janssen (Gwget support)</em:contributor>
+   <em:contributor>Jarol and Nameless (Spanish translation)</em:contributor>
+   <em:contributor>Jonathan Avraham (Hebrew translation)</em:contributor>
+   <em:contributor>Kimmo Siekkinen and Jouko Saarinen (Finnish translation)</em:contributor>
+   <em:contributor>Jure Osredkar and Miles (Slovenian translation)</em:contributor>
+   <em:contributor>Kesisidis  Dimitrios and Rookie (Greek translation)</em:contributor>
+   <em:contributor>Krcko (Croatian translation)</em:contributor>
+   <em:contributor>Kostas Papadimas (Greek translation)</em:contributor>
+   <em:contributor>Leon Odendaal (Afrikaans translation)</em:contributor>
+   <em:contributor>Tomas Kordik (Czech translation)</em:contributor>
+   <em:contributor>Leif Larsson (Swedish translation)</em:contributor>
+   <em:contributor>Levent Karakas (Turkish translation)</em:contributor>
+   <em:contributor>Lois Lamas (Galician translation)</em:contributor>
+   <em:contributor>Luca Pedrazzi (Italian translation)</em:contributor>
+   <em:contributor>Max Velasques (wxDownload Fast support)</em:contributor>
+   <em:contributor>M. Agras and Urko (Spanish translation)</em:contributor>
+   <em:contributor>Marius Navickas (Lithuanian translation)</em:contributor>
+   <em:contributor>Martin Joné (Norwegian Bokmål translation)</em:contributor>
+   <em:contributor>Martin Harder (Danish translation)</em:contributor>
+   <em:contributor>Michal Duda (Czech translation)</em:contributor>
+   <em:contributor>Mohsen Qorbani (Persian translation)</em:contributor>
+   <em:contributor>Ömer Fadıl USTA (Turkish translation)</em:contributor>
+    <em:contributor>Oliverl (Estonian translation)</em:contributor>
+   <em:contributor>Patipat Susumpow (Thai translation)</em:contributor>
+   <em:contributor>Pshadow (Traditional Chinese translation)</em:contributor>
+   <em:contributor>Ragnaar and Водкотерапевт (Russian translation)</em:contributor>
+   <em:contributor>ReinekeFux and Thomas Weber (German translation)</em:contributor>
+   <em:contributor>Robert Setiadi (Indonesian translation)</em:contributor>
+   <em:contributor>Raryel Costa Souza- Brazil (Portuguese/Brazil translation)</em:contributor>
+   <em:contributor>Sergey Khoruzhin (Ukrainian translation)</em:contributor>
+
+   <em:contributor>Steven Hemelaere and Alf (Dutch translation)</em:contributor>
+   <em:contributor>Unghost (Russian translation)</em:contributor>
+   <em:contributor>Wladow (Slovak translation)</em:contributor>
+   <em:contributor>Љубиша Радовановић (Serbian translation)</em:contributor>
+   <em:contributor>YuanHongYe (new Thunder support)</em:contributor> 
+   <em:contributor>Zhang Ji (BitComet support)</em:contributor>
+   
+   <em:optionsURL>chrome://flashgot/content/flashgotOptions.xul</em:optionsURL>
+   <em:homepageURL>http://flashgot.net</em:homepageURL>
+   
+   
+   
+   <em:iconURL>chrome://flashgot/skin/icon32.png</em:iconURL>
+   <em:aboutURL>chrome://flashgot/content/about.xul</em:aboutURL>
+   <!-- Firefox -->
+   <em:targetApplication>
+     <Description>
+     <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+     <em:minVersion>14.0</em:minVersion>
+     <em:maxVersion>*</em:maxVersion>
+     </Description>
+   </em:targetApplication>
+   
+   <!-- Mozilla Suite -->
+   <em:targetApplication>
+      <Description>
+        <em:id>{86c18b42-e466-45a9-ae7a-9b95ba6f5640}</em:id>
+        <em:minVersion>${moz.minVersion}</em:minVersion>
+        <em:maxVersion>${moz.maxVersion}</em:maxVersion>
+      </Description>
+   </em:targetApplication>
+   
+    <!--SeaMonkey -->
+   <em:targetApplication>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.17</em:minVersion>
+        <em:maxVersion>*</em:maxVersion>
+      </Description>
+   </em:targetApplication>
+   
+   <!-- Mozilla Thunderbird -->
+   <em:targetApplication>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>14.0</em:minVersion>
+        <em:maxVersion>52.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- E Music -->
+   <em:targetApplication> <!-- eMusic -->
+			<Description>
+				<em:id>dlm@emusic.com</em:id>
+				<em:minVersion>${emusic.minVersion}</em:minVersion>
+				<em:maxVersion>${emusic.maxVersion}</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+    
+   <!-- Toolkit -->
+    <em:targetApplication>
+    <Description>
+      <em:id>toolkit@mozilla.org</em:id>
+      <em:minVersion>${tk.minVersion}</em:minVersion>
+      <em:maxVersion>${tk.maxVersion}</em:maxVersion>
+    </Description>
+    </em:targetApplication>
+    
+    <!-- Songbird -->
+    <em:targetApplication>
+    <Description>
+      <em:id>songbird@songbirdnest.com</em:id>
+      <em:minVersion>${sb.minVersion}</em:minVersion>
+      <em:maxVersion>${sb.maxVersion}</em:maxVersion>
+    </Description>
+    </em:targetApplication>
+    
+    <!-- Flock -->
+   <em:targetApplication> 
+      <Description>
+        <em:id>{a463f10c-3994-11da-9945-000d60ca027b}</em:id>
+        <em:minVersion>${flock.minVersion}</em:minVersion>
+        <em:maxVersion>${flock.maxVersion}</em:maxVersion>
+      </Description>
+   </em:targetApplication>
+    
+
+   
+   <em:file>
+     <Description about="urn:mozilla:extension:file:flashgot.jar">
+       <em:package>content/flashgot/</em:package>
+       <em:skin>skin/classic/flashgot/</em:skin>
+       <em:locale>locale/en-US/flashgot/</em:locale>
+       <em:locale>locale/af-ZA/flashgot/</em:locale>
+       <em:locale>locale/ar/flashgot/</em:locale>
+       <em:locale>locale/be-BY/flashgot/</em:locale>
+       <em:locale>locale/bg-BG/flashgot/</em:locale>
+       <em:locale>locale/ca-AD/flashgot/</em:locale>
+       <em:locale>locale/cs-CZ/flashgot/</em:locale>
+       <em:locale>locale/da-DK/flashgot/</em:locale>
+       <em:locale>locale/de/flashgot/</em:locale>
+       <em:locale>locale/el-GR/flashgot/</em:locale>
+       <em:locale>locale/es-AR/flashgot/</em:locale>
+       <em:locale>locale/es-CL/flashgot/</em:locale>
+       <em:locale>locale/es-ES/flashgot/</em:locale>
+       <em:locale>locale/et-EE/flashgot/</em:locale>
+       <em:locale>locale/fa-IR/flashgot/</em:locale>
+       <em:locale>locale/fi-FI/flashgot/</em:locale>
+       <em:locale>locale/fr/flashgot/</em:locale>
+       <em:locale>locale/gl-ES/flashgot/</em:locale>
+       <em:locale>locale/he-IL/flashgot/</em:locale>
+       <em:locale>locale/hi-IN/flashgot/</em:locale>
+       <em:locale>locale/hr-HR/flashgot/</em:locale>
+       <em:locale>locale/hu/flashgot/</em:locale>
+       <em:locale>locale/id-ID/flashgot/</em:locale>
+       <em:locale>locale/it-IT/flashgot/</em:locale>
+       <em:locale>locale/ja-JP/flashgot/</em:locale>
+       <em:locale>locale/kk-KZ/flashgot/</em:locale>
+       <em:locale>locale/km-KH/flashgot/</em:locale>
+       <em:locale>locale/ko-KR/flashgot/</em:locale>
+       <em:locale>locale/lt-LT/flashgot/</em:locale>
+       <em:locale>locale/mn-MN/flashgot/</em:locale>
+       <em:locale>locale/ms-MY/flashgot/</em:locale>
+       <em:locale>locale/nb-NO/flashgot/</em:locale>
+       <em:locale>locale/nl/flashgot/</em:locale>
+       <em:locale>locale/pl/flashgot/</em:locale>
+       <em:locale>locale/pt-BR/flashgot/</em:locale>
+       <em:locale>locale/pt-PT/flashgot/</em:locale>
+       <em:locale>locale/ro-RO/flashgot/</em:locale>
+       <em:locale>locale/ru-RU/flashgot/</em:locale>
+       <em:locale>locale/sk-SK/flashgot/</em:locale>
+       <em:locale>locale/sl-SI/flashgot/</em:locale>
+       <em:locale>locale/sq-AL/flashgot/</em:locale>
+       <em:locale>locale/sr/flashgot/</em:locale>
+       <em:locale>locale/sv-SE/flashgot/</em:locale>
+       <em:locale>locale/th-TH/flashgot/</em:locale>
+       <em:locale>locale/tr-TR/flashgot/</em:locale>
+       <em:locale>locale/uk/flashgot/</em:locale>
+       <em:locale>locale/vi/flashgot/</em:locale>
+       <em:locale>locale/zh-CN/flashgot/</em:locale>
+       <em:locale>locale/zh-TW/flashgot/</em:locale>    
+     </Description>
+   </em:file>
+  
+ </Description>
+
+</RDF>

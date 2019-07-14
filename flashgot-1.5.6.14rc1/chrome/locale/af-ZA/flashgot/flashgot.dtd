@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Skakel">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Seleksie">
+<!ENTITY flashgotSel.accesskey "G">
+<!ENTITY flashgotAll "FlashGot Alles">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Strokies(Tabs)">
+<!ENTITY flashgotTabs.accesskey "b">
+<!ENTITY flashgotOptions "FlashGot Keuses">
+<!ENTITY includeImages.label "Sluit fotos op huidige bladsy in">
+<!ENTITY hideDisabledCmds.label "Verskuil Versperde Bevele">
+<!ENTITY flashgotBuildGallery "Bou Galery">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Bou Galery">
+<!ENTITY flashgotGBVariableURLs "Veranderbare URL&apos;e">
+<!ENTITY flashgotGBSample "Veranderbare reekse word uitgedruk in die vorm [begin-einde;inkrement] of [funksie_naam(…)], byvoorbeeld:">
+<!ENTITY flashgotGBPreview "Voorskou:">
+<!ENTITY flashgotGBContent "Inhoud">
+<!ENTITY flashgotGBReferrer "Verwuser URL:">
+<!ENTITY flashgotGBSync "Sinkroniseer reekse">
+<!ENTITY flashgotGBRanges "Reekse">
+<!ENTITY flashgotGBExpressions "JavaSkrif Funksies">
+<!ENTITY flashgotGeneral "Algemeen">
+<!ENTITY flashgotMenu "Kieslys">
+<!ENTITY flashgotDownloadManager "Aflaai Bestuurder">
+<!ENTITY flashgotMoreOpts "Meer Keuses…">
+<!ENTITY flashgotExtensions "Lêer-uitbreding (bv. jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Voeg by">
+<!ENTITY flashgotRemove "Verwyder">
+<!ENTITY flashgotPrivacy "Privaatheid">
+<!ENTITY flashgotReferrer "Verwyser">
+<!ENTITY flashgotAutodetectReferrer "Stuur autobespeurde Verwyser URL">
+<!ENTITY flashgotFakeReferrer "Gebruik altyd hierdie Verwyser URL:">
+<!ENTITY flashgotSendCookies "Stuur Koekies">
+<!ENTITY flashgotAdvanced "Gevorderd">
+<!ENTITY flashgotBGProcessing "Prosesseer skakels in die agtergrond">
+<!ENTITY flashgotShowLog "Vertoon log…">
+<!ENTITY flashgotClearLog "Vee Log uit">
+<!ENTITY flashgotAbout "Rakende FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Gaan Bevestigings Verby">
+<!ENTITY flashgotGetRightQuick "Gebruik togetright.exe wanneer moontlik">
+<!ENTITY flashgotAutostart "Outo-begin aflaai">
+<!ENTITY flashgotNoDMS "???GEEN AFLAAI-BESTUURDER BESPEUR ???">
+<!ENTITY flashgotNoDMS.tip "Vertoon ondersteunde Aflaai-bestuurders">
+<!ENTITY flashgotGetRightOld "OU GetRight (&lt;=5.2b)">
+<!ENTITY flashgotEncodeURLs "Stuur enkodeerde URL&apos;e">
+<!ENTITY flashgotEnable "Skakel Aan">
+<!ENTITY flashgotDisable "Skakel Af">
+<!ENTITY flashgotTmpDir "Tydelike Vouer">
+<!ENTITY flashgotBrowse "Blaai…">
+<!ENTITY flashgotReset "Herstel">
+<!ENTITY flashgotRebootChange "Hierdie verandering sal in werking tree met die volgende oopmaak van jou blaaier">
+<!ENTITY flashgotAltClick "Alt+Kliek=FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Kliek=GEEN FlashGot">
+<!ENTITY flashgotDownloads "Aflaai">
+<!ENTITY flashgotInterceptAll "Onderskep alle items vir aflaai">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Vertoon Filter Dialoog">
+<!ENTITY flashgotFilter "Filter">
+<!ENTITY flashgotHost "Gasheer">
+<!ENTITY flashgotRegExp "Normale Uitdrukking">
+<!ENTITY flashgotGlob "Globale Patroon">
+<!ENTITY flashgotSelAll "Kies Alles">
+<!ENTITY flashgotSelInv "Keer Seleksie Om">
+<!ENTITY flashgotSelect "Kies">
+<!ENTITY flashgotUnselect "Verwyder">
+<!ENTITY hideIcons "Verkuil Ikone">
+<!ENTITY nestedMenu "Kompakte konteks kieslys (sien sub-kieslys indien nodig)">
+<!ENTITY flashgotExecutable "Pad na Uitvoerbare:">
+<!ENTITY flashgotArguments "Bevel-lyn argumente patrone:">
+<!ENTITY flashgotAutodetect "Outomatiese opspoor van aflaai-bestuurder">
+<!ENTITY flashgotDetect "Bespeur Nou">
+<!ENTITY flashgotPlaceHolders "Plekhouers">
+<!ENTITY flashgotQuoteWarn1 "Jy kan nie aanhalingstekens in die argumente-patrone gebruik nie.">
+<!ENTITY flashgotQuoteWarn2 "As jy dit benodig, skryf &apos;n skripsie.">
+<!ENTITY flashgotBadInstall "&apos;n Kern FlashGot komponent is korrup of weg. Herinstalleer FlashGot">
+<!ENTITY flashgotWellGetPath "WellGet pad:">
+<!ENTITY flashgotExtFilter "Wend lêer uitbreidings-filter ook aan op massa-aflaai">
+<!ENTITY flashgotHTTPAuth "HTTP Stawing">
+<!ENTITY flashgotAppearance "Voorkoms">
+<!ENTITY flashgotDownloadDropdown "Vertoon FlashGot keuselys binne die verstek aflaai-dialoog">
+<!ENTITY flashgotVisitHomepage "Besoek Uitbreiding tuisblad">
+<!ENTITY flashgotShownInContextMenu "Wys in konteks-keuselys">
+<!ENTITY flashgotCustomEntries "Persoonlike Inskrywings">
+<!ENTITY flashgotDigGallery "Dig Galery">
+<!ENTITY flashgotOverwrite "Oorskryf">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

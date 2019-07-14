@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Запампаваць спасылку пры дапамозе FlashGot">
+<!ENTITY flashgotLink.accesskey "з">
+<!ENTITY flashgotSel "Запампаваць вылучанае пры дапамозе FlashGot">
+<!ENTITY flashgotSel.accesskey "ы">
+<!ENTITY flashgotAll "Запампаваць усё пры дапамозе FlashGot">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "Запампаваць з усіх укладак пры дапамозе FlashGot">
+<!ENTITY flashgotTabs.accesskey "у">
+<!ENTITY flashgotOptions "Наладкі FlashGot">
+<!ENTITY includeImages.label "Уключаючы выявы з бягучай старонкі">
+<!ENTITY hideDisabledCmds.label "Схаваць адключаныя каманды">
+<!ENTITY flashgotBuildGallery "Cтварыць галерэю">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Стварыць галерэю">
+<!ENTITY flashgotGBVariableURLs "Дыяпазон адрасоў">
+<!ENTITY flashgotGBSample "Змена дыяпазону выяўляецца ў форме [пачатак-канец;крок], напрыклад:">
+<!ENTITY flashgotGBPreview "Перадпрагляд:">
+<!ENTITY flashgotGBContent "Змест:">
+<!ENTITY flashgotGBReferrer "Спасылаючыся URL:">
+<!ENTITY flashgotGBSync "Сінхранізаваць інтэрвалы">
+<!ENTITY flashgotGBRanges "Дыяпазоны">
+<!ENTITY flashgotGBExpressions "Функцыі JavaScript">
+<!ENTITY flashgotGeneral "Асноўнае">
+<!ENTITY flashgotMenu "Меню">
+<!ENTITY flashgotDownloadManager "Мэнэджэр запамповак">
+<!ENTITY flashgotMoreOpts "Наладкі…">
+<!ENTITY flashgotExtensions "Пашырэнні (напрыклад jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Дадаць">
+<!ENTITY flashgotRemove "Выдаліць">
+<!ENTITY flashgotPrivacy "Прыватнасць">
+<!ENTITY flashgotReferrer "Крыніца спасылкі">
+<!ENTITY flashgotAutodetectReferrer "Адсылаць вызначаную крыніцу URL">
+<!ENTITY flashgotFakeReferrer "Заўсёды выкарыстоўваць гэтую крыніцу URL:">
+<!ENTITY flashgotSendCookies "Карыстацца кукі">
+<!ENTITY flashgotAdvanced "Дадаткова">
+<!ENTITY flashgotBGProcessing "Апрацоўваць спасылкі ў фоне">
+<!ENTITY flashgotShowLog "Паказаць лог">
+<!ENTITY flashgotClearLog "Ачысціць лог">
+<!ENTITY flashgotAbout "Аб FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Прапускаць пацверджанні">
+<!ENTITY flashgotGetRightQuick "Выкарыстоўваць togetright.exe калі магчыма">
+<!ENTITY flashgotAutostart "Аўтаматычна пачынаць запампоўкі">
+<!ENTITY flashgotNoDMS "??? МЭНЭДЖЭРЫ ЗАПАМПОВАК НЕ ВЫЯЎЛЕНЫЯ ???">
+<!ENTITY flashgotNoDMS.tip "Паказаць падтрымліваемыя мэнэджэры запамповак">
+<!ENTITY flashgotGetRightOld "Стары GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Адсылаць кадаваныя URL">
+<!ENTITY flashgotEnable "Уключыць">
+<!ENTITY flashgotDisable "Адключыць">
+<!ENTITY flashgotTmpDir "Часовая тэчка">
+<!ENTITY flashgotBrowse "Праглядаць…">
+<!ENTITY flashgotReset "Скінуць">
+<!ENTITY flashgotRebootChange "Змены ўступяць у сілу пасля перазапуску браўзэра">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = без FlashGot">
+<!ENTITY flashgotDownloads "Запампоўкі">
+<!ENTITY flashgotInterceptAll "Перахапіць усе запампоўкі">
+<!ENTITY flashgotLog "Лог">
+<!ENTITY flashgotShowFilter "Паказаць дыялог &quot;Фільтр&quot;">
+<!ENTITY flashgotFilter "Фільтр">
+<!ENTITY flashgotHost "Хост">
+<!ENTITY flashgotRegExp "Рэгулярныя выразы">
+<!ENTITY flashgotGlob "Глабальны шаблон">
+<!ENTITY flashgotSelAll "Вылучыць усё">
+<!ENTITY flashgotSelInv "Звярнуць вылучэнне">
+<!ENTITY flashgotSelect "Вылучыць">
+<!ENTITY flashgotUnselect "Зняць вылучэнне">
+<!ENTITY hideIcons "Схаваць значкі">
+<!ENTITY nestedMenu "Кампактнае меню (пры неабходнасці будзе выкарыстоўвацца падменю)">
+<!ENTITY flashgotExecutable "Шлях запуску:">
+<!ENTITY flashgotArguments "Шаблон аргументаў:">
+<!ENTITY flashgotAutodetect "Аўтаматычна вызначаць мэнэджэры запамповак">
+<!ENTITY flashgotDetect "Вызначыць зараз">
+<!ENTITY flashgotPlaceHolders "Запаўняльнікі">
+<!ENTITY flashgotQuoteWarn1 "Вы не можаце карыстацца двукоссямі ўсярэдзіне шаблону аргументаў.">
+<!ENTITY flashgotQuoteWarn2 "Калі яны сапраўды патрэбныя, разгледзьце запіс пакетнага сцэнара.">
+<!ENTITY flashgotBadInstall "Асноўны кампанент FlashGot пашкоджаны або адсутнічае. Калі ласка пераўсталюйце FlashGot.">
+<!ENTITY flashgotWellGetPath "Шлях да WellGet:">
+<!ENTITY flashgotExtFilter "Ужываць фільтрацыю па пашырэнні файла пры пакетнай запампоўцы">
+<!ENTITY flashgotHTTPAuth "HTTP-аўтэнтыфікацыя">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "Жэст [Middle Button Drag Down] пачынае запампоўкі FlashGot">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotAppearance "Знешні выгляд">
+<!ENTITY flashgotDownloadDropdown "Паказваць звісальнае меню FlashGot унутры дыялогу запампоўкі па змаўчанні">
+<!ENTITY flashgotVisitHomepage "Наведаць старонку пашырэння">
+<!ENTITY flashgotShownInContextMenu "Паказваць у кантэкстным меню">
+<!ENTITY flashgotCustomEntries "Карыстальніцкія запісы">
+<!ENTITY flashgotDigGallery "Лічбавая галерэя">
+<!ENTITY flashgotOverwrite "Перапісваць">
+<!ENTITY flashgotMedia "Мультымедыя">
+<!ENTITY flashgotShowReleaseNotes "Паказаць нататкі аб выпуску пры абнаўленнях">
+<!ENTITY flashgotUninstall "Адусталяваць">
+<!ENTITY flashgotClear.label "Ачысціць">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Адрас">
+<!ENTITY flashgotFileName "Імя">
+<!ENTITY flashgotFileType "Тып">
+<!ENTITY flashgotDestinationFolder "Тэчка прызначэння">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Выбраць усе элементы па змаўчанні">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Паказваць кнопку на панэлі інструментаў">
+<!ENTITY flashgot.media.formats "Даступныя фарматы">
+<!ENTITY flashgot.media.refresh_signature_func.label "Абнавіць подпіс">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Паспрабуйце абнавіць функцыю дэкадавання подпісу">
+<!ENTITY flashgot.media.formats.dash "DASH (асобныя аўдыё і відэа трэкі)">

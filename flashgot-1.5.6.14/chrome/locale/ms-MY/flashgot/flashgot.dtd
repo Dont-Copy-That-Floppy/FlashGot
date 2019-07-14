@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Link FlashGot">
+<!ENTITY flashgotLink.accesskey "L">
+<!ENTITY flashgotSel "Pilihan FlashGot">
+<!ENTITY flashgotSel.accesskey "P">
+<!ENTITY flashgotAll "Semua FlashGot">
+<!ENTITY flashgotAll.accesskey "S">
+<!ENTITY flashgotTabs "Tab FlashGot">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "Opsyen FlashGot">
+<!ENTITY includeImages.label "Termasuk gambar yang dijumpai di halaman sekarang">
+<!ENTITY hideDisabledCmds.label "Sembunyi Arahan yang dinyahdayakan">
+<!ENTITY flashgotBuildGallery "Galeri Binaan…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Galeri Binaan">
+<!ENTITY flashgotGBVariableURLs "URL boleh ubah">
+<!ENTITY flashgotGBSample "Julat pelbagai ydinyatakan dalam borang [mula-tamat;langkah] atau [nama_fungsi(…)], untuk langkah:">
+<!ENTITY flashgotGBPreview "Pra Lihat:">
+<!ENTITY flashgotGBContent "Kandungan:">
+<!ENTITY flashgotGBReferrer "URL Rujukan:">
+<!ENTITY flashgotGBSync "Segarkan Julat">
+<!ENTITY flashgotGBRanges "Julat">
+<!ENTITY flashgotGBExpressions "Fungsi JavaScript">
+<!ENTITY flashgotGeneral "General">
+<!ENTITY flashgotMenu "Menu">
+<!ENTITY flashgotDownloadManager "Pengurus Muat Turun">
+<!ENTITY flashgotMoreOpts "Lebih opsyen…">
+<!ENTITY flashgotExtensions "Sambungan fail">
+<!ENTITY flashgotAdd "Tambah">
+<!ENTITY flashgotRemove "Buang">
+<!ENTITY flashgotPrivacy "Privasi">
+<!ENTITY flashgotReferrer "Rujukan">
+<!ENTITY flashgotAutodetectReferrer "Hantar auto-kesan URL rujukan">
+<!ENTITY flashgotFakeReferrer "Guna selalu URL rujukan ini:">
+<!ENTITY flashgotSendCookies "Hantar Cookies">
+<!ENTITY flashgotAdvanced "Lanjutan">
+<!ENTITY flashgotBGProcessing "Proses rangkaian di latarbelakang">
+<!ENTITY flashgotShowLog "Papar Log…">
+<!ENTITY flashgotClearLog "Padam Log">
+<!ENTITY flashgotAbout "Tentang FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Jangkau Prom Pengesahan">
+<!ENTITY flashgotGetRightQuick "Guna togetright.exe seboleh mungkin">
+<!ENTITY flashgotAutostart "Auto-mula Muat Turun">
+<!ENTITY flashgotNoDMS "??? TIADA PENGURUS MUAT TURUN DIKESAN ???">
+<!ENTITY flashgotNoDMS.tip "Paparkan sokongan Pengurusan Muat Turun">
+<!ENTITY flashgotGetRightOld "GetRight LAMA ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Hantar URL yang dikod">
+<!ENTITY flashgotEnable "Dayakan">
+<!ENTITY flashgotDisable "Nyahdayakan">
+<!ENTITY flashgotTmpDir "Direktori Sementara">
+<!ENTITY flashgotBrowse "Jelajah">
+<!ENTITY flashgotReset "Tetapkan semula">
+<!ENTITY flashgotRebootChange "Perubahan ini akan terlaksana apabila penjelajah dimula semula">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = TIADA FlashGot">
+<!ENTITY flashgotDownloads "Muat Turun">
+<!ENTITY flashgotInterceptAll "Penerimaan semua muat turun">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Papar penapis dialog">
+<!ENTITY flashgotFilter "Penapis">
+<!ENTITY flashgotHost "Hos">
+<!ENTITY flashgotRegExp "Ungkapan Biasa">
+<!ENTITY flashgotGlob "Paten Glob">
+<!ENTITY flashgotSelAll "Pilih Semua">
+<!ENTITY flashgotSelInv "Invet Pilihan">
+<!ENTITY flashgotSelect "Pilih">
+<!ENTITY flashgotUnselect "Nyahpilih">
+<!ENTITY hideIcons "Sebunyi ikon">
+<!ENTITY nestedMenu "Padatkan konteks menu (guna submenu jika perlu)">
+<!ENTITY flashgotExecutable "Laluan boleh laksana:">
+<!ENTITY flashgotArguments "Baris arahan templat:">
+<!ENTITY flashgotAutodetect "Pengesan pengurusan muat turun automatik">
+<!ENTITY flashgotDetect "Kesan Sekarang">
+<!ENTITY flashgotPlaceHolders "Tempat letak">
+<!ENTITY flashgotQuoteWarn1 "Anda dilarang gunakan tanda ajuk dengan templat.">
+<!ENTITY flashgotQuoteWarn2 "Jika anda perlukannya, pertimbangkan ,menggunakan skrip.">
+<!ENTITY flashgotBadInstall "Komponen asas FlasGot rosak atau hilang. Sila Install semula FlashGot.">
+<!ENTITY flashgotWellGetPath "Laluan WellGet:">
+<!ENTITY flashgotExtFilter "Aplikasikan penapis sambungan fail ke kumpulan dowmload juga.">
+<!ENTITY flashgotHTTPAuth "HTTP Autentikasi">
+<!ENTITY flashgotAppearance "Luaran">
+<!ENTITY flashgotDownloadDropdown "Tunjuk FlashGot muka-layar dalam dialog muat turun asal.">
+<!ENTITY flashgotVisitHomepage "Lawati laman utama program">
+<!ENTITY flashgotShownInContextMenu "Ditunjukkan di menu konteks">
+<!ENTITY flashgotCustomEntries "Ciri masukan">
+<!ENTITY flashgotDigGallery "Galeri Dig">
+<!ENTITY flashgotOverwrite "Tulis Semula">
+<!ENTITY flashgotMedia "Media FlashGot">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

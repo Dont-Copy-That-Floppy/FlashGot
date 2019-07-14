@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "دریافت مسیر با FlashGot">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "انتخاب FlashGot">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "دریافت همه با FlashGot">
+<!ENTITY flashgotAll.accesskey "ب">
+<!ENTITY flashgotTabs "دریافت برگه با FlashGot">
+<!ENTITY flashgotTabs.accesskey "گ">
+<!ENTITY flashgotOptions "تنظیمات FlashGot">
+<!ENTITY includeImages.label "تصاویر زمینه در صفحه جاری یافت شد">
+<!ENTITY hideDisabledCmds.label "مخفی کردن دستوراات غیرفعال">
+<!ENTITY flashgotBuildGallery "ایجاد گالری">
+<!ENTITY flashgotBuildGallery.title "ایجاد گالری FlashGot -">
+<!ENTITY flashgotGBVariableURLs "نشانی‌های متغیر">
+<!ENTITY flashgotGBSample "حدود متغیرها به شکل [start-end;step] یا [function_name(…)] بیان میشوند:">
+<!ENTITY flashgotGBPreview "پیشنما:">
+<!ENTITY flashgotGBContent "محتوی:">
+<!ENTITY flashgotGBReferrer "نشانی ارجاع کننده:">
+<!ENTITY flashgotGBSync "مطابقت محدوده ها">
+<!ENTITY flashgotGBRanges "محدوده ها">
+<!ENTITY flashgotGBExpressions "توابع JavaScript">
+<!ENTITY flashgotGeneral "عمومی">
+<!ENTITY flashgotMenu "منو">
+<!ENTITY flashgotDownloadManager "مدیریت دریافتی‌ها">
+<!ENTITY flashgotMoreOpts "تنظیمات بیشتر…">
+<!ENTITY flashgotExtensions "الحاقات">
+<!ENTITY flashgotAdd "افزودن">
+<!ENTITY flashgotRemove "حذف کردن">
+<!ENTITY flashgotPrivacy "امنیت">
+<!ENTITY flashgotReferrer "ارجاع کننده">
+<!ENTITY flashgotAutodetectReferrer "ارسال نشانی‌های ارجاع کننده یافت شده">
+<!ENTITY flashgotFakeReferrer "همواره آدرس ارجاع کننده زیر استفاده شود :">
+<!ENTITY flashgotSendCookies "ارسال کوکی‌ها">
+<!ENTITY flashgotAdvanced "پیشرفته">
+<!ENTITY flashgotBGProcessing "انجام عملیات در پس زمینه">
+<!ENTITY flashgotShowLog "نمایش وقایع">
+<!ENTITY flashgotClearLog "پاک کردن وقایع">
+<!ENTITY flashgotAbout "درباره FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "عدم نمایش پیغامهای تایید">
+<!ENTITY flashgotGetRightQuick "استفاده شود togetright.exe در هر زمان ممکن از">
+<!ENTITY flashgotAutostart "شروع خودکار دریافتی‌ها">
+<!ENTITY flashgotNoDMS ".مدیریت دریافتی‌ها پیدا‌نشد">
+<!ENTITY flashgotNoDMS.tip "نمایش مدیریت دریافتی‌های پشتیبانی شده">
+<!ENTITY flashgotGetRightOld "قدیمی GetRight ( &lt;= ۵.۲b )">
+<!ENTITY flashgotEncodeURLs "ارسال نشانی‌ها با کدبندی">
+<!ENTITY flashgotEnable "فعال‌کردن">
+<!ENTITY flashgotDisable "غیرفعال‌کردن">
+<!ENTITY flashgotTmpDir "پوشه موقتی">
+<!ENTITY flashgotBrowse "مرورکردن…">
+<!ENTITY flashgotReset "بازگشت">
+<!ENTITY flashgotRebootChange "این تغییر پس از بازآغازی مرورگر فعال خواهد شد">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "بدون Alt+Shift+Click = FlashGot">
+<!ENTITY flashgotDownloads "دریافتی‌ها">
+<!ENTITY flashgotInterceptAll "پیگیری همه دریافتی‌ها">
+<!ENTITY flashgotLog "وقایع">
+<!ENTITY flashgotShowFilter "نمایش پنجره فیلتر">
+<!ENTITY flashgotFilter "فیلتر">
+<!ENTITY flashgotHost "میزبان">
+<!ENTITY flashgotRegExp "عبارت منظم">
+<!ENTITY flashgotGlob "الگوی ساده">
+<!ENTITY flashgotSelAll "انتخاب همه">
+<!ENTITY flashgotSelInv "برعکس‌کردن انتخاب">
+<!ENTITY flashgotSelect "انتخاب">
+<!ENTITY flashgotUnselect "برگشت انتخاب">
+<!ENTITY hideIcons "پنهان‌کردن شمایل">
+<!ENTITY nestedMenu "جمع‌کردن منو (استفاده از زیرمنو)">
+<!ENTITY flashgotExecutable "نشانی برنامه:">
+<!ENTITY flashgotArguments "قالب نشانوندها:">
+<!ENTITY flashgotAutodetect "آشکارسازی خودکار مدیریت دریافتی‌ها">
+<!ENTITY flashgotDetect "آشکارسازی فوری">
+<!ENTITY flashgotPlaceHolders "جایگزارها">
+<!ENTITY flashgotQuoteWarn1 "شما نمی‌توانید از &quot; در نشانوند استفاده کنید.">
+<!ENTITY flashgotQuoteWarn2 "اگر به آن نیاز دارید از یک پرونده دست‌نوشت استفاده کنید.">
+<!ENTITY flashgotBadInstall "یکی ار بخش‌های اصلی FlashGot پیدا نشده و یا خراب شده‌است. لطفا FlashGot را دومرتبه نصب کنید.">
+<!ENTITY flashgotWellGetPath "WellGetنشانی:">
+<!ENTITY flashgotExtFilter "اعمال فیلتر برروی پسوند پرونده‌ها برای دریافت">
+<!ENTITY flashgotHTTPAuth "احرازهویت با HTTP">
+<!ENTITY flashgotAppearance "ظاهر">
+<!ENTITY flashgotDownloadDropdown "نمایش فهرست واشوی FlashGot در داخل پنجره بارگیری">
+<!ENTITY flashgotVisitHomepage "بازدید از صفخه خانگی افزونه">
+<!ENTITY flashgotShownInContextMenu "نمایش در منوی ماوس">
+<!ENTITY flashgotCustomEntries "موارد سفارشی">
+<!ENTITY flashgotDigGallery "گالری دیگ FlashGot">
+<!ENTITY flashgotOverwrite "جای‌نوشت">
+<!ENTITY flashgotMedia "رسانه FlashGot">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

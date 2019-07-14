@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Descarregar enllaç amb FlashGot">
+<!ENTITY flashgotLink.accesskey "e">
+<!ENTITY flashgotSel "Descarregar selecció amb FlashGot">
+<!ENTITY flashgotSel.accesskey "s">
+<!ENTITY flashgotAll "Descarregar tot amb FlashGot">
+<!ENTITY flashgotAll.accesskey "t">
+<!ENTITY flashgotTabs "Pestanyes FlashGot">
+<!ENTITY flashgotTabs.accesskey "p">
+<!ENTITY flashgotOptions "Opcions de FlashGot">
+<!ENTITY includeImages.label "Incloure les imatges de la pàgina actual">
+<!ENTITY hideDisabledCmds.label "Ocultar procediments inhabilitats">
+<!ENTITY flashgotBuildGallery "Crear galeria…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Crear galeria">
+<!ENTITY flashgotGBVariableURLs "Direccions URL">
+<!ENTITY flashgotGBSample "Els rangs variables s&apos;expressen com a [inicial-final;segments] o [procediment(arguments)], per exemple:">
+<!ENTITY flashgotGBPreview "Mostra:">
+<!ENTITY flashgotGBContent "Contingut:">
+<!ENTITY flashgotGBReferrer "Referent:">
+<!ENTITY flashgotGBSync "Rangs de sincronització">
+<!ENTITY flashgotGBRanges "Rangs">
+<!ENTITY flashgotGBExpressions "Funcions JavaScript">
+<!ENTITY flashgotGeneral "Generals">
+<!ENTITY flashgotMenu "Menú contextual">
+<!ENTITY flashgotDownloadManager "Gestor de descàrregues">
+<!ENTITY flashgotMoreOpts "Preferències…">
+<!ENTITY flashgotExtensions "Extensions d&apos;arxiu">
+<!ENTITY flashgotAdd "Afegir">
+<!ENTITY flashgotRemove "Eliminar">
+<!ENTITY flashgotPrivacy "Privacitat">
+<!ENTITY flashgotReferrer "Referent">
+<!ENTITY flashgotAutodetectReferrer "Enviar direcció URL autodetectada">
+<!ENTITY flashgotFakeReferrer "Utilitzar sempre aquesta direcció URL:">
+<!ENTITY flashgotSendCookies "Enviar Cookies">
+<!ENTITY flashgotAdvanced "Avançades">
+<!ENTITY flashgotBGProcessing "Processar enllaços en segon pla">
+<!ENTITY flashgotShowLog "Mostrar…">
+<!ENTITY flashgotClearLog "Netejar">
+<!ENTITY flashgotAbout "Sobre FlashGot 1.5.6.14…">
+<!ENTITY flashgotDMQuiet "Saltar avisos de confirmació">
+<!ENTITY flashgotGetRightQuick "Usar togetright.exe sempre que sigui possible">
+<!ENTITY flashgotAutostart "Iniciar descàrregues automàticament">
+<!ENTITY flashgotNoDMS "NO S&apos;HA TROBAT CAP GESTOR DE DESCÀRREGUES !!!">
+<!ENTITY flashgotNoDMS.tip "Mostra els gestors de descàrrega suportats">
+<!ENTITY flashgotGetRightOld "Antic GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Enviar URLs codificades">
+<!ENTITY flashgotEnable "Habilitar">
+<!ENTITY flashgotDisable "Deshabilitar">
+<!ENTITY flashgotTmpDir "Directori temporal">
+<!ENTITY flashgotBrowse "Examinar…">
+<!ENTITY flashgotReset "Esborrar">
+<!ENTITY flashgotRebootChange "El canvi tindrà efecte la pròxima vegada que iniciï el navegador">
+<!ENTITY flashgotAltClick "Alt+Clic per a descarregar enllaços amb FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Majús+Clic per a descarregar enllaços sense FlashGot">
+<!ENTITY flashgotDownloads "Descàrregues">
+<!ENTITY flashgotInterceptAll "Interceptar totes las descàrregues">
+<!ENTITY flashgotLog "Arxiu de registre (log)">
+<!ENTITY flashgotShowFilter "Filtres…">
+<!ENTITY flashgotFilter "Filtres">
+<!ENTITY flashgotHost "Servidor">
+<!ENTITY flashgotRegExp "Expressió regular">
+<!ENTITY flashgotGlob "Patró del Glob">
+<!ENTITY flashgotSelAll "Seleccionar tot">
+<!ENTITY flashgotSelInv "Invertir selecció">
+<!ENTITY flashgotSelect "Seleccionat">
+<!ENTITY flashgotUnselect "Deseleccionat">
+<!ENTITY hideIcons "Ocultar icones">
+<!ENTITY nestedMenu "Compactar menú de context (utilitzar submenú si és necessari)">
+<!ENTITY flashgotExecutable "Direcció de l&apos;executable:">
+<!ENTITY flashgotArguments "Plantilla d&apos;arguments per la línia de comandes:">
+<!ENTITY flashgotAutodetect "Detecció del gestor de descàrregues automàtica">
+<!ENTITY flashgotDetect "Detectar ara">
+<!ENTITY flashgotPlaceHolders "Placeholders">
+<!ENTITY flashgotQuoteWarn1 "No pots fer servir cometes a la plantilla d&apos; arguments.">
+<!ENTITY flashgotQuoteWarn2 "Si ho necessites, considera fer un script batch.">
+<!ENTITY flashgotBadInstall "Falta un component del nucli de FlashGot o és corrupte. Per favor, reinstal·li FlashGot.">
+<!ENTITY flashgotWellGetPath "Ruta del WellGet:">
+<!ENTITY flashgotExtFilter "Aplica el filtre d&apos; extensió d&apos; arxiu també als treballs en cadena">
+<!ENTITY flashgotHTTPAuth "Autenticació HTTP">
+<!ENTITY flashgotAppearance "Aparença">
+<!ENTITY flashgotDownloadDropdown "Mostrar menú desplegable de FlashGot al diàleg de descàrregues del navegador">
+<!ENTITY flashgotVisitHomepage "Visita la pàgina de l&apos; extensió">
+<!ENTITY flashgotShownInContextMenu "Mostrar en menú contextual">
+<!ENTITY flashgotCustomEntries "Entrades personalitzades">
+<!ENTITY flashgotDigGallery "Extreure Galeria">
+<!ENTITY flashgotOverwrite "Sobreescriure">
+<!ENTITY flashgotMedia "Mèdia FlashGot">
+<!ENTITY flashgotShowReleaseNotes "Mostra les notes de llançament al actualitzar">
+<!ENTITY flashgotUninstall "Desinstal·la">
+<!ENTITY flashgotClear.label "Neteja">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

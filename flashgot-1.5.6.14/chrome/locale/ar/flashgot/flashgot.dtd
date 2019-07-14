@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "وصلة الى فلاش غَت">
+<!ENTITY flashgotLink.accesskey "ف">
+<!ENTITY flashgotSel "انتقاء فلاش غَت">
+<!ENTITY flashgotSel.accesskey "ت">
+<!ENTITY flashgotAll "فلاش غَت الكل">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "ألسنة فلاش غَت">
+<!ENTITY flashgotTabs.accesskey "ل">
+<!ENTITY flashgotOptions "خيارات فلاش غوت">
+<!ENTITY includeImages.label "تضمن الصور الموجودة في الصفحة الحالية">
+<!ENTITY hideDisabledCmds.label "أخفاء الأوامر المعطلة">
+<!ENTITY flashgotBuildGallery "إبني معرض صور…">
+<!ENTITY flashgotBuildGallery.title "فلاش غَت - بناء معرض صور">
+<!ENTITY flashgotGBVariableURLs "عناوين مواقع متغّيرة">
+<!ENTITY flashgotGBSample "مدى المتغييرات معبر عنها بالطريقة [start-end;step] أو [function_name(…)] على سبيل المثال">
+<!ENTITY flashgotGBPreview "العرض المسبق">
+<!ENTITY flashgotGBContent "المحتوى:">
+<!ENTITY flashgotGBReferrer "عنوان الموقع المشير">
+<!ENTITY flashgotGBSync "تزامن الأنطقة">
+<!ENTITY flashgotGBRanges "أنطقة">
+<!ENTITY flashgotGBExpressions "مهام من نوع جافا سكربت">
+<!ENTITY flashgotGeneral "عام">
+<!ENTITY flashgotMenu "القائمة">
+<!ENTITY flashgotDownloadManager "منظم التحميل">
+<!ENTITY flashgotMoreOpts "خيارات إضافية …">
+<!ENTITY flashgotExtensions "امتدادات (مثل jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "أضافة">
+<!ENTITY flashgotRemove "إزالة">
+<!ENTITY flashgotPrivacy "الخصوصية">
+<!ENTITY flashgotReferrer "المشير">
+<!ENTITY flashgotAutodetectReferrer "ارسال عناوين المواقع المشارة المكتشفة آلياً">
+<!ENTITY flashgotFakeReferrer "استخدام هذا المشير لعناوين المواقع كل مرة">
+<!ENTITY flashgotSendCookies "ارسال بسكويتات ويب">
+<!ENTITY flashgotAdvanced "متقدم">
+<!ENTITY flashgotBGProcessing "معالجة الوصلات في الخلفية">
+<!ENTITY flashgotShowLog "اظهار السجلّّ">
+<!ENTITY flashgotClearLog "محو السجل">
+<!ENTITY flashgotAbout "حول برنامج فلاش غَت">
+<!ENTITY flashgotDMQuiet "تخطي طلبات التصديق">
+<!ENTITY flashgotGetRightQuick "استخدام  togetright.exe كلما أمكن ذلك">
+<!ENTITY flashgotAutostart "بدء التحميل آلياً">
+<!ENTITY flashgotNoDMS "؟؟؟لم يُكتشف أي منظم تحميل؟؟؟">
+<!ENTITY flashgotNoDMS.tip "اظهار منظمات التحميل المدعومة">
+<!ENTITY flashgotGetRightOld "جت رايت قديم(قبل الاصدار 5.2)">
+<!ENTITY flashgotEncodeURLs "ارسال عناوين مواقع بالرموز">
+<!ENTITY flashgotEnable "تفعيل">
+<!ENTITY flashgotDisable "ابطال">
+<!ENTITY flashgotTmpDir "مجلّد مؤقت">
+<!ENTITY flashgotBrowse "تصفّح…">
+<!ENTITY flashgotReset "استعادة">
+<!ENTITY flashgotRebootChange "سيتم تفعيل التغييرات بعد أعادة بدء المتصفح">
+<!ENTITY flashgotAltClick "Alt+النقر = ابقاء فلاش غَت">
+<!ENTITY flashgotBypassCombo "Alt+Shift+النقر = اغلاق فلاش غَت">
+<!ENTITY flashgotDownloads "التحميل">
+<!ENTITY flashgotInterceptAll "اعتراض كل محاولات التحميل">
+<!ENTITY flashgotLog "سجلّ">
+<!ENTITY flashgotShowFilter "اظهار حوار المرشح">
+<!ENTITY flashgotFilter "مرشّح">
+<!ENTITY flashgotHost "مضيف">
+<!ENTITY flashgotRegExp "تعبير منتظم">
+<!ENTITY flashgotGlob "نمط جلوب">
+<!ENTITY flashgotSelAll "اختيار الكل">
+<!ENTITY flashgotSelInv "عكس المختارات">
+<!ENTITY flashgotSelect "اختيار">
+<!ENTITY flashgotUnselect "إلغاء الاختيار">
+<!ENTITY hideIcons "اخفار الرموز">
+<!ENTITY nestedMenu "رص القائمة القرينية(استخدم قائمة فرعية إن لزم)">
+<!ENTITY flashgotExecutable "مسار التطبيق:">
+<!ENTITY flashgotArguments "قالب متغيرات سطر الأوامر:">
+<!ENTITY flashgotAutodetect "اكتشاف منظم التحميل آلياً">
+<!ENTITY flashgotDetect "الإكتشاف الآن">
+<!ENTITY flashgotPlaceHolders "كلمات حفظ المكان">
+<!ENTITY flashgotQuoteWarn1 "لا تستطيع استخدام علامات اقتباس داخل قالب متغيرات">
+<!ENTITY flashgotQuoteWarn2 "أن كنت بحاجة لهم, فكّر في كتابة سكربت دفعة">
+<!ENTITY flashgotBadInstall "أحد مكونات فلاش غَت الأساسية مفقود أو معطوب. يرجى إعادة تثبيت فلاش غَت.">
+<!ENTITY flashgotWellGetPath "مسار ولجٍت:">
+<!ENTITY flashgotExtFilter "تطبيق مرشّح امتداد الملف للتحميل الذي بالجملة">
+<!ENTITY flashgotHTTPAuth "توثيق أتش تي تي بي">
+<!ENTITY flashgotAppearance "المظهر">
+<!ENTITY flashgotDownloadDropdown "اظهار قائمة نزول ذات فلاش غَت داخل صندوق الحوار الافتراضي">
+<!ENTITY flashgotVisitHomepage "زيارة موقع البرنامج">
+<!ENTITY flashgotShownInContextMenu "يظهر في القائمة القرينية">
+<!ENTITY flashgotCustomEntries "مدخلات مخصصة">
+<!ENTITY flashgotDigGallery "معرض دِج">
+<!ENTITY flashgotOverwrite "الكتابة الاستبدالية">
+<!ENTITY flashgotMedia "تعدد وسائط فلاش غت">
+<!ENTITY flashgotShowReleaseNotes "أظهار ملاحظات الإصدار عند التحديث">
+<!ENTITY flashgotUninstall "ازالة">
+<!ENTITY flashgotClear.label "مسح">
+<!ENTITY flashgotClear.accesskey "م">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

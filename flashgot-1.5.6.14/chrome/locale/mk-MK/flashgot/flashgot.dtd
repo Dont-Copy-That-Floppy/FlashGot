@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Врска">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Избор">
+<!ENTITY flashgotSel.accesskey "G">
+<!ENTITY flashgotAll "FlashGot Сите">
+<!ENTITY flashgotAll.accesskey "С">
+<!ENTITY flashgotTabs "FlashGot Јазичиња">
+<!ENTITY flashgotTabs.accesskey "ч">
+<!ENTITY flashgotOptions "FlashGot Опции">
+<!ENTITY includeImages.label "Вклучи ги сликите пронајдени на моменталната страница">
+<!ENTITY hideDisabledCmds.label "Скриј ги Оневозможените Команди">
+<!ENTITY flashgotBuildGallery "Изгради Галерија…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Изгради Галерија">
+<!ENTITY flashgotGBVariableURLs "Променливи URL-а">
+<!ENTITY flashgotGBSample "Променливите опсези се изразени во форма [почеток-крај;чекор] или [име на_функцијата(…)],на пример:">
+<!ENTITY flashgotGBPreview "Преглед:">
+<!ENTITY flashgotGBContent "Содржина:">
+<!ENTITY flashgotGBReferrer "Референтна URL:">
+<!ENTITY flashgotGBSync "Синхронизирај ги опсезите">
+<!ENTITY flashgotGBRanges "Опсези">
+<!ENTITY flashgotGBExpressions "JavaScript Функции">
+<!ENTITY flashgotGeneral "Општо">
+<!ENTITY flashgotMenu "Мени">
+<!ENTITY flashgotDownloadManager "Менаџер за Симнувања">
+<!ENTITY flashgotMoreOpts "Повеќе Опции…">
+<!ENTITY flashgotExtensions "Екстензии на датотеката (на пр.jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "Додади">
+<!ENTITY flashgotRemove "Отстрани">
+<!ENTITY flashgotPrivacy "Приватност">
+<!ENTITY flashgotReferrer "Референт">
+<!ENTITY flashgotAutodetectReferrer "Испрати авто-детектирачка Референтна URL">
+<!ENTITY flashgotFakeReferrer "Секогаш користија оваа Референтна URL:">
+<!ENTITY flashgotSendCookies "Испрати Колачиња">
+<!ENTITY flashgotAdvanced "Напредно">
+<!ENTITY flashgotBGProcessing "Обработи ги врските во позадина">
+<!ENTITY flashgotShowLog "Покажи го Дневникот…">
+<!ENTITY flashgotClearLog "Исчисти го Дневникот">
+<!ENTITY flashgotAbout "За FlashGot 1.5.6.14">
+<!ENTITY flashgotDMQuiet "Прескокни ги Потврдните Прашалници">
+<!ENTITY flashgotGetRightQuick "Користи togetright.exe секогаш кога е возможно">
+<!ENTITY flashgotAutostart "Автоматски стартувај ги симнувањата">
+<!ENTITY flashgotNoDMS "??? Не е пронајден Менаџер за Симнувања ???">
+<!ENTITY flashgotNoDMS.tip "Покажи ги поддржаните Менаџери за Симнувања">
+<!ENTITY flashgotGetRightOld "Стар GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Испрати кодирани URL-а">
+<!ENTITY flashgotEnable "Овозможи">
+<!ENTITY flashgotDisable "Оневозможи">
+<!ENTITY flashgotTmpDir "Привремен Директориум">
+<!ENTITY flashgotBrowse "Прелистај…">
+<!ENTITY flashgotReset "Ресетирај">
+<!ENTITY flashgotRebootChange "Оваа промена ќе настапи при следното покренување на прелистувачот">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = Без FlashGot">
+<!ENTITY flashgotDownloads "Симнувања">
+<!ENTITY flashgotInterceptAll "Пресретни ги сите симнувања">
+<!ENTITY flashgotLog "Дневник">
+<!ENTITY flashgotShowFilter "Покажи го Филтерот на Дијалогот">
+<!ENTITY flashgotFilter "Филтер">
+<!ENTITY flashgotHost "Сервер">
+<!ENTITY flashgotRegExp "Регуларен Израз">
+<!ENTITY flashgotGlob "Општа Образец">
+<!ENTITY flashgotSelAll "Избери ги Сите">
+<!ENTITY flashgotSelInv "Инвертирај го Изборот">
+<!ENTITY flashgotSelect "Избери">
+<!ENTITY flashgotUnselect "Одизбери">
+<!ENTITY hideIcons "Скриј ги Иконите">
+<!ENTITY nestedMenu "Компактирај го контекстното мени (користи подмени ако е потребно)">
+<!ENTITY flashgotExecutable "Патека на извршната датотека:">
+<!ENTITY flashgotArguments "Шаблон на аргументи на командната линија:">
+<!ENTITY flashgotAutodetect "Автоматско откривање на Менаџер за Симнувања">
+<!ENTITY flashgotDetect "Детектирај Сега">
+<!ENTITY flashgotPlaceHolders "Резервирани места">
+<!ENTITY flashgotQuoteWarn1 "Вие не можете да користите наводници во границите на шаблонот на аргументи.">
+<!ENTITY flashgotQuoteWarn2 "Ако ви се потребни, размислете да напишите командна скрипта.">
+<!ENTITY flashgotBadInstall "Битна компонента на FlashGot недостига или е оштетена. Ве молиме реинсталирајте го FlashGot.">
+<!ENTITY flashgotWellGetPath "WellGet патека:">
+<!ENTITY flashgotExtFilter "Примени филтер на датотеката на екстензијата истотака и за група на симнувања">
+<!ENTITY flashgotHTTPAuth "HTTP Проверување на автентичноста">
+<!ENTITY flashgotAppearance "Изглед">
+<!ENTITY flashgotDownloadDropdown "Прикажи го FlashGot паѓачкото мени внатре во стандардниот дијалог за симнување">
+<!ENTITY flashgotVisitHomepage "Посетете ја интернет страницата на екстензијата">
+<!ENTITY flashgotShownInContextMenu "Покажи во контекстното мени">
+<!ENTITY flashgotCustomEntries "Сопствени Елементи">
+<!ENTITY flashgotDigGallery "Пребарај Галерија">
+<!ENTITY flashgotOverwrite "Запиши врз">
+<!ENTITY flashgotMedia "FlashGot Медиум">
+<!ENTITY flashgotUninstall "Одинсталирај">
+<!ENTITY flashgotClear.label "Исчисти">
+<!ENTITY flashgotClear.accesskey "и">
+<!ENTITY flashgotShowReleaseNotes "Прикажи ги белешките за изданието при надградба">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

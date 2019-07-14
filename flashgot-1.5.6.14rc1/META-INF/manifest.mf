@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hRJwns1YdVL6ie5Q77Kz7A==
+SHA1-Digest: HPKFoOKZCel2AVIH6GoOvw2ffOY=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rljIjqaf3b/KnLFp5VlbOQ==
+SHA1-Digest: NQvIvN+FxzuRO54TUv6/ksMxcgI=
+
+Name: FlashGot_License.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: B41iWwCoRIp1qiKtG4CiSw==
+SHA1-Digest: hVuTFtcfnK60d7JsKf4ell2qbXo=
+
+Name: GPL.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /a/Gkapft/jiqelSH+93Gw==
+SHA1-Digest: HkktDXw+pcQm0470ZxX7bjD5mI4=
+
+Name: install.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kPhn467YlM/maJvtgLCKPQ==
+SHA1-Digest: HyUTNbZlk1ZAlgfYlkaQh1LzJT4=
+
+Name: chrome/flashgot.jar
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eMVKEL5aclEF3vKigJZPmw==
+SHA1-Digest: SyyqsRK4OPurGz9SEAjHrxs0EXk=
+
+Name: components/flashgotService.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7MSLjMM7TMsx7MtVTOeCHw==
+SHA1-Digest: VFAPBaM7xMc0ep6JARklnGA6kEM=
+
+Name: defaults/preferences/flashgot.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4BHNSZ+BaZ7GmiADjDUwKw==
+SHA1-Digest: KOu3ERmdGL+fmZgNl5J4BqiR8GI=
+

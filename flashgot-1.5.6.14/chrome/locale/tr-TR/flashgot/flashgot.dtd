@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "Bağlantıyı FlashGot ile indir">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "Seçilenleri FlashGot ile indir">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "Hepsini FlashGot ile indir">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Sekmeleri">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot Ayarları">
+<!ENTITY includeImages.label "Sayfada bulunan resimleri de indir">
+<!ENTITY hideDisabledCmds.label "Pasif komutları gizle">
+<!ENTITY flashgotBuildGallery "Galeri oluştur…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Galeri oluştur">
+<!ENTITY flashgotGBVariableURLs "Değişken URL&apos;ler">
+<!ENTITY flashgotGBSample "Değişken aralıkları [başlangıç-bitiş;artış] veya [fonksiyon ismi(…)] şeklinde ifade edilir, Mesela:">
+<!ENTITY flashgotGBPreview "Ön İzleme:">
+<!ENTITY flashgotGBContent "İçerik:">
+<!ENTITY flashgotGBReferrer "Yönlendiren URL:">
+<!ENTITY flashgotGBSync "Aralıkları Sekronize et">
+<!ENTITY flashgotGBRanges "Aralıklar">
+<!ENTITY flashgotGBExpressions "JavaScript Fonksiyonları">
+<!ENTITY flashgotGeneral "Genel">
+<!ENTITY flashgotMenu "Menü">
+<!ENTITY flashgotDownloadManager "İndirme Yöneticisi">
+<!ENTITY flashgotMoreOpts "Diğer Ayarlar…">
+<!ENTITY flashgotExtensions "Dosya uzantıları">
+<!ENTITY flashgotAdd "Ekle">
+<!ENTITY flashgotRemove "Sil">
+<!ENTITY flashgotPrivacy "Gizlilik">
+<!ENTITY flashgotReferrer "Yönlendiren">
+<!ENTITY flashgotAutodetectReferrer "Otomatik algılanan yönlendirilen URL yi yolla">
+<!ENTITY flashgotFakeReferrer "Herzaman bu yönlendiren URL yi kullan:">
+<!ENTITY flashgotSendCookies "Çerez yolla">
+<!ENTITY flashgotAdvanced "Gelişmiş">
+<!ENTITY flashgotBGProcessing "Bağlantıyı arkaplanda işle">
+<!ENTITY flashgotShowLog "Kayıtları Göster…">
+<!ENTITY flashgotClearLog "Kayıtları Temizle">
+<!ENTITY flashgotAbout "FlashGot 1.5.6.14 Hakkında">
+<!ENTITY flashgotDMQuiet "Onaylama sorgularını atla">
+<!ENTITY flashgotGetRightQuick "Münkün olduğunda togetright.exe dosyasını kullan">
+<!ENTITY flashgotAutostart "İndirmeleri Otomatik Başlat">
+<!ENTITY flashgotNoDMS "??? İndirme Yöneticisi Bulunamadı ???">
+<!ENTITY flashgotNoDMS.tip "Desteklenen İndirme yöneticilerini görüntüle">
+<!ENTITY flashgotGetRightOld "Eski GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Şifrelenmiş URL leri yolla">
+<!ENTITY flashgotEnable "Etkinleştir">
+<!ENTITY flashgotDisable "Pasifleştir">
+<!ENTITY flashgotTmpDir "Geçici Dizin">
+<!ENTITY flashgotBrowse "Gözat…">
+<!ENTITY flashgotReset "Yeniden Başlat">
+<!ENTITY flashgotRebootChange "Değişiklik tarayıcı yeniden başlatıldıktan sonra geçerli olacak">
+<!ENTITY flashgotAltClick "Alt+Tıklama = FlashGot ile indir">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Tıklama = FlashGot kullanma">
+<!ENTITY flashgotDownloads "İndirilenler">
+<!ENTITY flashgotInterceptAll "Tüm İndirmeleri FlashGot ile Yap">
+<!ENTITY flashgotLog "Kayıt">
+<!ENTITY flashgotShowFilter "Filtreleme menüsünü göster">
+<!ENTITY flashgotFilter "Filtre">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Düzenli İfade">
+<!ENTITY flashgotGlob "Glob Deseni">
+<!ENTITY flashgotSelAll "Tümünü seç">
+<!ENTITY flashgotSelInv "Diğerlerini seç">
+<!ENTITY flashgotSelect "Seç">
+<!ENTITY flashgotUnselect "Seçimi iptal et">
+<!ENTITY hideIcons "Simgeleri gizle">
+<!ENTITY nestedMenu "Uzayan işlev menüsü (gerektiğinde alt menüleri kullan)">
+<!ENTITY flashgotExecutable "Çalıştırılabilir dosya:">
+<!ENTITY flashgotArguments "Şablonlar:">
+<!ENTITY flashgotAutodetect "Otomatik indirme yöneticisi algıla">
+<!ENTITY flashgotDetect "Şimdi Algıla">
+<!ENTITY flashgotPlaceHolders "Yertutucular">
+<!ENTITY flashgotQuoteWarn1 "Şablonlar içinde alıntı kullanamazsınız.">
+<!ENTITY flashgotQuoteWarn2 "Eğer gerek duyuyorsanız, bir yığın script yazmayı hesaba katın.">
+<!ENTITY flashgotBadInstall "FlasGot un önemli bir bileşeni eksik. Lütfen FlashGot u yeniden yükleyin.">
+<!ENTITY flashgotWellGetPath "WellGet dizini:">
+<!ENTITY flashgotExtFilter "Sırayla indirmek için dosya uzantı süzgeçlerini de uygula">
+<!ENTITY flashgotHTTPAuth "HTTP Kimlik Doğrulama">
+<!ENTITY flashgotAppearance "Görünüm">
+<!ENTITY flashgotDownloadDropdown "FlashGot açılır kutusunu varsayılan indirme bölümünde göster">
+<!ENTITY flashgotVisitHomepage "Eklenti sayfasına git">
+<!ENTITY flashgotShownInContextMenu "Sağ tık menüsünde göster">
+<!ENTITY flashgotCustomEntries "Özel Tanımlar">
+<!ENTITY flashgotDigGallery "Dig Galeri">
+<!ENTITY flashgotOverwrite "Üzerine Yaz">
+<!ENTITY flashgotMedia "FlashGot Ortamı">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

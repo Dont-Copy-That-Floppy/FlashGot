@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot ლინკი">
+<!ENTITY flashgotLink.accesskey "ფ">
+<!ENTITY flashgotSel "FlashGot ამორჩევა">
+<!ENTITY flashgotSel.accesskey "გ">
+<!ENTITY flashgotAll "FlashGot ყველა">
+<!ENTITY flashgotAll.accesskey "ა">
+<!ENTITY flashgotTabs "FlashGot Tabs">
+<!ENTITY flashgotTabs.accesskey "ბ">
+<!ENTITY flashgotOptions "ინსტრუმენტები">
+<!ENTITY includeImages.label "გვერდზე ნავოვნი სურათების ჩასმა">
+<!ENTITY hideDisabledCmds.label "გათიშული ბრძანებების დამალვა">
+<!ENTITY flashgotBuildGallery "გალერიის შექმნა…">
+<!ENTITY flashgotBuildGallery.title "FlashGot - გალერიის შექმნა">
+<!ENTITY flashgotGBVariableURLs "ცვალებადი URL_ები">
+<!ENTITY flashgotGBSample "Variable ranges are expressed in the form [start-end;step] or [function_name(…)], for instance:">
+<!ENTITY flashgotGBPreview "დათვალიერება:">
+<!ENTITY flashgotGBContent "შემადგენლობა:">
+<!ENTITY flashgotGBReferrer "რეფერერის URL:">
+<!ENTITY flashgotGBSync "სინქრონიზაცია">
+<!ENTITY flashgotGBRanges "მანძილები">
+<!ENTITY flashgotGBExpressions "JavaScript ფუნქციები">
+<!ENTITY flashgotGeneral "ზოგადი">
+<!ENTITY flashgotMenu "მენიუ">
+<!ENTITY flashgotDownloadManager "გადმოწერის მენეჯერი">
+<!ENTITY flashgotMoreOpts "დამატებითი ოფთიონები">
+<!ENTITY flashgotExtensions "ფაილის გაფართოება (მაგალითად jpg, mpg, mp3…)">
+<!ENTITY flashgotAdd "დამატება">
+<!ENTITY flashgotRemove "წაშლა">
+<!ENTITY flashgotPrivacy "განცალკევება">
+<!ENTITY flashgotReferrer "რეფერერი">
+<!ENTITY flashgotAutodetectReferrer "აუტომატურად აღმოჩენილი რეფერერის URL_ს გაგზავნა">
+<!ENTITY flashgotFakeReferrer "ყოველთვის გამოიყენე შემდეგი რეფერერ URL:">
+<!ENTITY flashgotSendCookies "Cookies გაგზავნა">
+<!ENTITY flashgotAdvanced "დამატებითი">
+<!ENTITY flashgotBGProcessing "ლინკების შესრულება უკანა ფონზე">
+<!ENTITY flashgotShowLog "ლოგის ნახვა…">
+<!ENTITY flashgotClearLog "ლოგის გასუფთავება">
+<!ENTITY flashgotAbout "FlashGot 1.5.6.14_ის შესახებ">
+<!ENTITY flashgotDMQuiet "დამოწმების გამოტოვება">
+<!ENTITY flashgotGetRightQuick "გამოიყენე togetright.exe როცა შესაძლებელია">
+<!ENTITY flashgotAutostart "გადმოწერის ავტომატურად დაწყება">
+<!ENTITY flashgotNoDMS "გადმოწერის მენეჯერი ნაპოვნი ვერ იქნა">
+<!ENTITY flashgotNoDMS.tip "ნებადართული გადმოწერის მენეჯერები">
+<!ENTITY flashgotGetRightOld "ძველი GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "დაშიფრული URL_ს გაგზავნა">
+<!ENTITY flashgotEnable "ჩართვა">
+<!ENTITY flashgotDisable "გათიშვა">
+<!ENTITY flashgotTmpDir "დროებითი დირექტორია">
+<!ENTITY flashgotBrowse "Browse">
+<!ENTITY flashgotReset "ხელახლა">
+<!ENTITY flashgotRebootChange "This change will take effect on next browser startup">
+<!ENTITY flashgotAltClick "Alt+Click = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Click = NO FlashGot">
+<!ENTITY flashgotDownloads "Downloads">
+<!ENTITY flashgotInterceptAll "Intercept all downloads">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Show Filter Dialog">
+<!ENTITY flashgotFilter "Filter">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Regular Expression">
+<!ENTITY flashgotGlob "Glob Pattern">
+<!ENTITY flashgotSelAll "Select All">
+<!ENTITY flashgotSelInv "Invert Selection">
+<!ENTITY flashgotSelect "Select">
+<!ENTITY flashgotUnselect "Deselect">
+<!ENTITY hideIcons "Hide Icons">
+<!ENTITY nestedMenu "Compact context menu (use submenu if needed)">
+<!ENTITY flashgotExecutable "Executable path:">
+<!ENTITY flashgotArguments "Command line arguments template:">
+<!ENTITY flashgotAutodetect "Automatic download manager detection">
+<!ENTITY flashgotDetect "Detect Now">
+<!ENTITY flashgotPlaceHolders "Placeholders">
+<!ENTITY flashgotQuoteWarn1 "You cannot use quotes within the arguments template.">
+<!ENTITY flashgotQuoteWarn2 "If you need them, consider writing a batch script.">
+<!ENTITY flashgotBadInstall "A core FlashGot component is missing or corrupted. Please reinstall FlashGot.">
+<!ENTITY flashgotWellGetPath "WellGet path:">
+<!ENTITY flashgotExtFilter "Apply file extension filter to batch downloads too">
+<!ENTITY flashgotHTTPAuth "HTTP Authentication">
+<!ENTITY flashgotAppearance "Appearance">
+<!ENTITY flashgotDownloadDropdown "Show FlashGot drop-down inside the default download dialog">
+<!ENTITY flashgotVisitHomepage "Visit extension home page">
+<!ENTITY flashgotShownInContextMenu "Shown in context menu">
+<!ENTITY flashgotCustomEntries "Custom Entries">
+<!ENTITY flashgotDigGallery "Dig Gallery">
+<!ENTITY flashgotOverwrite "Overwrite">
+<!ENTITY flashgotMedia "FlashGot Media">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotShowReleaseNotes "Display the release notes on update">
+<!ENTITY flashgotUninstall "Uninstall">
+<!ENTITY flashgotClear.label "Clear">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">

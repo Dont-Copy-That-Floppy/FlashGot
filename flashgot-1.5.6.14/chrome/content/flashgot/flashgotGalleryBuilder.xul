@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+
+    FlashGot - a Firefox extension for external download managers integration
+    Copyright (C) 2004-2013 Giorgio Maone - g.maone@informaction.com
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+***** END LICENSE BLOCK ***** -->
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://flashgot/locale/flashgot.dtd">
+
+<dialog id="flashgotGalleryBuilder" 
+  onload="gFlashGotGB.onload()"
+  ondialogaccept="gFlashGotGB.build()"
+  title="&flashgotBuildGallery.title;"
+	buttons="accept,cancel"
+  minwidth="400"
+  minheight="400"
+  persist="screenX screenY width height"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="flashgotCommon.js"/>
+  <script type="application/x-javascript" src="flashgotGalleryBuilder.js"/>
+  <commandset>
+    <command id="cmd_synchronizeContent" oncommand="gFlashGotGB.synchronizeContent()" />
+    <command id="cmd_synchronizePreview" oncommand="gFlashGotGB.synchronizePreview()" />
+  </commandset>
+  <tabbox flex="1">
+  <tabs id="mainTabs">
+    <tab id="flashgotGB-url-tab" label="&flashgotGBVariableURLs;"/>
+    <tab id="flashgotGB-expr-tab" label="&flashgotGBExpressions;" />
+  </tabs>
+    <tabpanels flex="1">
+      <tabpanel flex="1">
+        <vbox flex="1">
+          <vbox>
+            <description>&flashgotGBSample;</description>
+            <description style="font-weight: bold">http://www.xyz.com/gal[080-090;10]/img[1-2].jpg</description>
+            <description style="font-weight: bold">http://www.xyz.com/gal[myfunc([1-100])].mpg</description>
+            <grid>
+              <columns>
+                <column/>
+                <column flex="1"/>
+              </columns>
+              <rows>
+                <row>
+                  <label control="flashgotGB-preview-text" value="&flashgotGBPreview;" width="60px" />
+                  <textbox id="flashgotGB-preview-text" 
+                    type="autocomplete" autocompletesearch="history,form-history" 
+                    maxlength="300" 
+                    onchange="gFlashGotGB.validateURLs()"
+                    />
+                </row>
+                <row>
+                  <spacer />
+                  <hbox align="center">
+                        <button style="min-width: 0px" image="chrome://global/skin/arrow/arrow-dn-sharp.gif"
+                          command="cmd_synchronizeContent" />         
+                        <button style="min-width: 0px" image="chrome://global/skin/arrow/arrow-up-sharp.gif"
+                          command="cmd_synchronizePreview" />
+                         <label value="&flashgotGBSync;"/>
+                         <spacer flex="1" />
+                  </hbox>
+                </row>
+                <row>
+                  <label control="flashgotGB-content-text" value="&flashgotGBContent;" width="60px" />
+                  <textbox id="flashgotGB-content-text"
+                    type="autocomplete" autocompletesearch="history,form-history" 
+                    maxlength="300"
+                    onchange="gFlashGotGB.validateURLs()"  
+                     />
+                </row>
+              </rows>
+            </grid>
+        
+          </vbox>
+          <vbox style="padding: 0px; margin: 0px;" flex="1">
+        
+              <tree id="flashgotGB-urlsTable" aclass="inset" seltype="single"
+                 hidecolumnpicker="true"
+                 height="136px"
+                 minheight="52px"
+                 flex="1"
+                 onselect="event.target.view.selectionChanged()">
+                
+              <treecols>
+                <treecol id="previewCol" label="&flashgotGBPreview;" flex="1" primary="true" />
+                <splitter class="tree-splitter" />
+                <treecol id="contentCol" label="&flashgotGBContent;" flex="1" primary="true" />
+              </treecols>
+              <treechildren flex="1"/>
+            </tree>
+              
+              
+          
+            <splitter style="background: transparent; margin: 0px; border-width: 0px" /> 
+           
+           <iframe id="flashgotGB-urls-preview"  src="about:blank" 
+            style="border: 1px solid ThreeDDarkShadow"
+            height="136px"
+            minheight="60px"
+            flex="1"
+            />
+           
+          </vbox>  
+          <separator />
+           <vbox >
+           <hbox flex="1">
+           <label control="flashgotGB-referrer-text" value="&flashgotGBReferrer;" />
+              <textbox id="flashgotGB-referrer-text" 
+                type="autocomplete" autocompletesearch="history,form-history"  
+                maxlength="255" flex="1" />
+            </hbox>
+           </vbox>
+        </vbox>
+      </tabpanel>
+      <tabpanel flex="1">
+       <hbox style="margin: 0px; padding: 0px"  flex="1" >
+        <listbox id="flashgotGB-expr-list" seltype="single" 
+          onselect="gFlashGotGB.exprSelected()" flex="1" 
+          style="margin: 0px"
+          />
+        
+       <splitter style="background: transparent; margin: 0px; border-width: 0px" /> 
+          
+        <vbox flex="2" style="margin: 0px; padding: 0px" >
+          <description id="flashgotGB-expr-des" value="function fx( /* array */ arguments ) {" />
+          <description style="white-space: nowrap;" >// arguments.length = args number, arguments[0] = 1st arg, ...</description>  
+          <textbox id="flashgotGB-expr-text" 
+            flex="1"
+            multiline="true" 
+            onchange="gFlashGotGB.exprChanged()"
+            onkeypress="gFlashGotGB.exprChanged()"
+            onkeydown="gFlashGotGB.exprChanged()"
+            onkeyup="gFlashGotGB.exprChanged()"
+            style="background: white; color: red; font-family: monospace;"
+            wrap="off"
+            />
+          <description>}</description>
+          
+       
+          <textbox id="flashgotGB-expr-error-text" 
+            multiline="true"
+            rows="3" readonly="true"
+            style="background: white; color: red"
+           />
+        </vbox>
+      </hbox>
+      </tabpanel>
+    </tabpanels>
+  </tabbox>
+</dialog>

@@ -1,0 +1,107 @@
+<!ENTITY flashgotLink "FlashGot Link">
+<!ENTITY flashgotLink.accesskey "F">
+<!ENTITY flashgotSel "FlashGot Valg">
+<!ENTITY flashgotSel.accesskey "S">
+<!ENTITY flashgotAll "FlashGot Alle">
+<!ENTITY flashgotAll.accesskey "A">
+<!ENTITY flashgotTabs "FlashGot Tabs">
+<!ENTITY flashgotTabs.accesskey "T">
+<!ENTITY flashgotOptions "FlashGot Præferencer">
+<!ENTITY includeImages.label "Inkluder billeder på denne side">
+<!ENTITY hideDisabledCmds.label "Fjern fravalgte muligheder">
+<!ENTITY flashgotBuildGallery "Opbyg virtuelt galleri">
+<!ENTITY flashgotBuildGallery.title "FlashGot - Virtuelt galleri">
+<!ENTITY flashgotGBVariableURLs "Variable URL'er">
+<!ENTITY flashgotGBSample "Variable muligheder skrives således [start-slut;step] eller [funktion_navn(...)]. For eksempel:">
+<!ENTITY flashgotGBPreview "Miniature:">
+<!ENTITY flashgotGBContent "Indhold:">
+<!ENTITY flashgotGBReferrer "Oprindelig (Referrer) URL:">
+<!ENTITY flashgotGBSync "Synkroniser muligheder">
+<!ENTITY flashgotGBRanges "Muligheder">
+<!ENTITY flashgotGBExpressions "JavaScript funktioner">
+<!ENTITY flashgotGeneral "Generelt">
+<!ENTITY flashgotMenu "Menu">
+<!ENTITY flashgotDownloadManager "Download Manager">
+<!ENTITY flashgotMoreOpts "Flere muligheder...">
+<!ENTITY flashgotExtensions "Filtypenavne">
+<!ENTITY flashgotAdd "Tilføj">
+<!ENTITY flashgotRemove "Fjern">
+<!ENTITY flashgotPrivacy "Privatliv">
+<!ENTITY flashgotReferrer "Refererende URL">
+<!ENTITY flashgotAutodetectReferrer "Send autogenkendt refererende URL">
+<!ENTITY flashgotFakeReferrer "Brug altid denne refererende URL:">
+<!ENTITY flashgotSendCookies "Send Cookies">
+<!ENTITY flashgotAdvanced "Avanceret">
+<!ENTITY flashgotBGProcessing "Udfør links i baggrunden">
+<!ENTITY flashgotShowLog "Vis log">
+<!ENTITY flashgotClearLog "Ryd log">
+<!ENTITY flashgotAbout "Om FlashGot 1.5.6.14rc1">
+<!ENTITY flashgotDMQuiet "Spring bekræftelser over">
+<!ENTITY flashgotGetRightQuick "Brug togetright.exe når det er muligt">
+<!ENTITY flashgotAutostart "Autostart downloads">
+<!ENTITY flashgotNoDMS "??? INGEN DOWNLOAD MANAGER FUNDET ???">
+<!ENTITY flashgotNoDMS.tip "Show supported Download Managers">
+<!ENTITY flashgotGetRightOld "Gammel GetRight ( &lt;= 5.2b )">
+<!ENTITY flashgotEncodeURLs "Send encodet URLs">
+<!ENTITY flashgotEnable "Aktiver">
+<!ENTITY flashgotDisable "Deaktiver">
+<!ENTITY flashgotTmpDir "Midlertidig mappe">
+<!ENTITY flashgotBrowse "Gennemse">
+<!ENTITY flashgotReset "Reset">
+<!ENTITY flashgotRebootChange "Denne ændring vil træde i kraft når FireFox genstartes">
+<!ENTITY flashgotAltClick "Alt+Klik = FlashGot">
+<!ENTITY flashgotBypassCombo "Alt+Shift+Klik = INGEN FlashGot">
+<!ENTITY flashgotDownloads "Downloads">
+<!ENTITY flashgotInterceptAll "Opfang alle downloads">
+<!ENTITY flashgotLog "Log">
+<!ENTITY flashgotShowFilter "Vis filterdialog">
+<!ENTITY flashgotFilter "Filter">
+<!ENTITY flashgotHost "Host">
+<!ENTITY flashgotRegExp "Regulært udtryk">
+<!ENTITY flashgotGlob "Glob mønster">
+<!ENTITY flashgotSelAll "Vælg alle">
+<!ENTITY flashgotSelInv "Inverter valg">
+<!ENTITY flashgotSelect "vælg">
+<!ENTITY flashgotUnselect "Fravælg">
+<!ENTITY hideIcons "Skjul ikoner">
+<!ENTITY nestedMenu "Kompakt kontekstmenu (brug undermenu hvis nødvendigt)">
+<!ENTITY flashgotExecutable "Eksekverbar sti:">
+<!ENTITY flashgotArguments "Kommandolinje argument-skabelon:">
+<!ENTITY flashgotAutodetect "Automatisk download manager detektion">
+<!ENTITY flashgotDetect "Detekter Nu">
+<!ENTITY flashgotPlaceHolders "Stedfortrædere">
+<!ENTITY flashgotQuoteWarn1 "Der kan ikke bruges citationstegn i argument-templaten.">
+<!ENTITY flashgotQuoteWarn2 "Overvej at skrive et batch script, hvis du skal bruge dem.">
+<!ENTITY flashgotBadInstall "En kernekomponenet til FlashGot mangler eller er ødelagt. Geninstaller venligst FalshGot.">
+<!ENTITY flashgotWellGetPath "WellGet sti:">
+<!ENTITY flashgotExtFilter "Benyt også fil-extension filter til batch downloads">
+<!ENTITY flashgotHTTPAuth "HTTP Autentifikation">
+<!ENTITY flashgotAppearance "Udseende">
+<!ENTITY flashgotDownloadDropdown "Vis FlashGot drop-down inden i standard download dialogen">
+<!ENTITY flashgotVisitHomepage "Besøg idvidelsens hjemmeside">
+<!ENTITY flashgotShownInContextMenu "Vist i kontekstmenu">
+<!ENTITY flashgotCustomEntries "Brugerdefineret indtastninger">
+<!ENTITY flashgotDigGallery "Dig galleri">
+<!ENTITY flashgotOverwrite "Overskriv">
+<!ENTITY flashgotMedia "FlashGot Medier">
+<!ENTITY flashgotShowReleaseNotes "Vis udgivelsesnoter ved opdatering">
+<!ENTITY flashgotUninstall "Afinstaller">
+<!ENTITY flashgotClear.label "Ryd">
+<!ENTITY flashgotClear.accesskey "c">
+<!ENTITY flashgotBrowse.accesskey "b">
+<!ENTITY flashgotGesture "[Middle Button Drag Down] gesture starts FlashGot downloads">
+<!ENTITY flashgotSelAll.accesskey "a">
+<!ENTITY flashgotSelInv.accesskey "I">
+<!ENTITY flashgotURL "Address">
+<!ENTITY flashgotFileName "Name">
+<!ENTITY flashgotFileType "Type">
+<!ENTITY flashgotDestinationFolder "Destination folder">
+<!ENTITY flashgotDestinationFolder.accesskey "d">
+<!ENTITY flashgotFilter.accesskey "f">
+<!ENTITY flashgotAllChoosen "Choose all the items by default">
+<!ENTITY flashgotAllChoosen.accesskey "c">
+<!ENTITY flashgotShowToolbarButton "Show toolbar button">
+<!ENTITY flashgot.media.formats "Available formats">
+<!ENTITY flashgot.media.refresh_signature_func.label "Refresh signature">
+<!ENTITY flashgot.media.refresh_signature_func.tooltiptext "Try to refresh the signature decoding function">
+<!ENTITY flashgot.media.formats.dash "DASH (separate audio and video tracks)">
